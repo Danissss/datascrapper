@@ -1,0 +1,34 @@
+standardized: 'dearomatize'
+inchikey: 'inchikey:AuxNone,Woff,SAbs'
+formats:
+  smiles: 'smiles:-a'
+  inchi: 'inchi:AuxNone,Woff,SAbs'
+  mol_text: 'mol:-a'
+  pdb_text: 'pdb:-a'
+properties:
+  logp: 'logp()'
+  pka: "pka('acidic', '2')"
+  pka_strongest_acidic: "acidicpKa('1')"
+  pka_strongest_basic: "basicpKa('1')"
+  acceptor_count: 'acceptorCount()'
+  donor_count: 'donorCount()'
+  atom_count: 'atomCount()'
+  rotatable_bond_count: 'rotatableBondCount()'
+  polar_surface_area: 'PSA()'
+  refractivity: 'refrac()'
+  average_polarizability: 'avgPol()'
+  iupac: 'name()'
+  traditional_iupac: 'traditionalName()'
+  formal_charge: 'formalCharge()'
+  number_of_rings: 'ringCount()'
+  physiological_charge: "formalCharge(majorMicrospecies('7'))"
+  rule_of_five: '(mass() <= 500) && (logP() <= 5) && (donorCount() <= 5) && (acceptorCount() <= 10)'
+  bioavailability: '(mass() <= 500) + (logP() <= 5) + (donorCount() <= 5) + (acceptorCount() <= 10) + (rotatableBondCount() <= 10) + (PSA() <= 200) + (fusedAromaticRingCount() <= 5) >= 6'
+  ghose_filter: '(mass() >= 160) && (mass() <= 480) && (atomCount() >= 20) && (atomCount() <= 70) && (logP() >= -0.4) && (logP() <= 5.6) && (refractivity() >= 40) && (refractivity() <= 130)'
+  veber_rule: '(rotatableBondCount() <= 10) && (PSA() <= 40)'
+  mddr_like_rule: '(ringCount() >= 3) && ( (bondCount() - rotatableBondCount()) >= 18 ) && (rotatableBondCount() >= 6)'
+images:
+  structure_thumb: 'base64:png:-a,maxscale50,w130,h130,#00ffffff,transbg'
+  structure_full: 'base64:png:-a,maxscale80,w500,h500,#00ffffff,transbg'
+  svg_thumb: 'base64:svg:-a,-H,w140,h140,#00ffffff,transbg'
+  svg_full: 'base64:svg:-a,-H,maxscale80,w500,h500,#00ffffff,transbg'

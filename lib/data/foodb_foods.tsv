@@ -1,0 +1,888 @@
+1	Angelica	Angelica keiskei
+2	Savoy cabbage	Brassica oleracea var. sabauda
+3	Silver linden	Tilia argentea
+4	Kiwi	Actinidia chinensis
+5	Allium (Onion)	Allium
+6	Garden onion	Allium cepa
+7	Leek	Allium porrum
+8	Garlic	Allium sativum
+9	Chives	Allium schoenoprasum
+10	Lemon verbena	Aloysia triphylla
+11	Cashew nut	Anacardium occidentale
+12	Pineapple	Ananas comosus
+13	Dill	Anethum graveolens
+14	Custard apple	Annona reticulata
+15	Wild celery	Apium graveolens
+16	Peanut	Arachis hypogaea
+17	Burdock	Arctium lappa
+18	Horseradish	Armoracia rusticana
+19	Tarragon	Artemisia dracunculus
+20	Mugwort	Artemisia vulgaris
+21	Asparagus	Asparagus officinalis
+22	Oat	Avena sativa
+23	Star fruit	Averrhoa carambola
+24	Brazil nut	Bertholletia excelsa
+25	Common beet	Beta vulgaris
+26	Borage	Borago officinalis
+27	Chinese mustard	Brassica juncea
+28	Swede	Brassica napus
+29	Rape	Brassica napus var. napus
+30	Common cabbage	Brassica oleracea
+31	Cauliflower	Brassica oleracea var. botrytis
+32	Brussel sprouts	Brassica oleracea var. gemmifera
+33	Kohlrabi	Brassica oleracea var. gongylodes
+34	Broccoli	Brassica oleracea var. italica
+35	Chinese cabbage	Brassica rapa
+36	Turnip	Brassica rapa var. rapa
+37	Pigeon pea	Cajanus cajan
+38	Tea	Camellia sinensis
+39	Capers	Capparis spinosa
+40	Pepper (C. annuum)	Capsicum annuum
+41	Papaya	Carica papaya
+42	Safflower	Carthamus tinctorius
+43	Caraway	Carum carvi
+44	Pecan nut	Carya illinoinensis
+45	Chestnut	Castanea
+46	Roman camomile	Chamaemelum nobile
+47	Chickpea	Cicer arietinum
+48	Endive	Cichorium endivia
+49	Chicory	Cichorium intybus
+50	Chinese cinnamon	Cinnamomum aromaticum
+51	Ceylon cinnamon	Cinnamomum verum
+52	Watermelon	Citrullus lanatus
+53	Lime	Citrus aurantiifolia
+54	Lemon	Citrus limon
+55	Pummelo	Citrus maxima
+56	Mandarin orange (Clementine, Tangerine)	Citrus reticulata
+57	Sweet orange	Citrus sinensis
+58	Coffee	Coffea
+59	Arabica coffee	Coffea arabica
+60	Robusta coffee	Coffea canephora
+61	Coriander	Coriandrum sativum
+62	Common hazelnut	Corylus avellana
+63	Saffron	Crocus sativus
+64	Muskmelon	Cucumis melo
+65	Cucumber	Cucumis sativus
+66	Cucurbita (Gourd)	Cucurbita
+67	Cumin	Cuminum cyminum
+68	Turmeric	Curcuma longa
+69	Quince	Cydonia oblonga
+70	Lemon grass	Cymbopogon citratus
+71	Globe artichoke	Cynara scolymus
+72	Carrot	Daucus carota
+73	Japanese persimmon	Diospyros kaki
+74	Cardamom	Elettaria cardamomum
+75	Black crowberry	Empetrum nigrum
+76	Loquat	Eriobotrya japonica
+77	Rocket salad (ssp.)	Eruca vesicaria ssp. sativa
+78	Wax apple	Eugenia
+79	Common buckwheat	Fagopyrum esculentum
+80	Tartary buckwheat	Fagopyrum tataricum
+81	Fig	Ficus carica
+82	Fennel	Foeniculum vulgare
+83	Strawberry	Fragaria X ananassa
+84	Black huckleberry	Gaylussacia baccata
+85	Soy bean	Glycine max
+86	Sunflower	Helianthus annuus
+87	Sea-buckthornberry	Hippophae rhamnoides
+88	Barley	Hordeum vulgare
+89	Hyssop	Hyssopus officinalis
+90	Star anise	Illicium verum
+91	Swamp cabbage	Ipomoea aquatica
+92	Sweet potato	Ipomoea batatas
+93	Black walnut	Juglans nigra
+94	Common walnut	Juglans regia
+95	Lettuce	Lactuca sativa
+96	Grass pea	Lathyrus sativus
+97	Sweet bay	Laurus nobilis
+98	Lentils	Lens culinaris
+99	Garden cress	Lepidium sativum
+100	Lovage	Levisticum officinale
+101	Flaxseed	Linum usitatissimum
+102	Mexican oregano	Lippia graveolens
+103	Lichee	Litchi chinensis
+104	Lupine	Lupinus
+105	Apple	Malus pumila
+106	Mango	Mangifera indica
+107	German camomile	Matricaria recutita
+108	Lemon balm	Melissa officinalis
+109	Mentha (Mint)	Mentha
+110	Orange mint	Mentha aquatica
+111	Cornmint	Mentha arvensis
+112	Spearmint	Mentha spicata
+113	Peppermint	Mentha X piperita
+114	Medlar	Mespilus germanica
+115	Bitter gourd	Momordica charantia
+116	Mulberry	Morus
+117	Black mulberry	Morus nigra
+118	Nutmeg	Myristica fragrans
+119	Sweet basil	Ocimum basilicum
+120	Evening primrose	Oenothera biennis
+121	Olive	Olea europaea
+122	Sweet marjoram	Origanum majorana
+123	Pot marjoram	Origanum onites
+124	Common oregano	Origanum vulgare
+125	Rice	Oryza sativa
+126	Millet	Panicum miliaceum
+127	Poppy	Papaver
+128	Passion fruit	Passiflora edulis
+129	Parsnip	Pastinaca sativa
+130	Avocado	Persea americana
+131	Parsley	Petroselinum crispum
+132	Scarlet bean	Phaseolus coccineus
+133	Lima bean	Phaseolus lunatus
+134	Common bean	Phaseolus vulgaris
+135	Date	Phoenix dactylifera
+136	Black chokeberry	Photinia melanocarpa
+137	Anise	Pimpinella anisum
+138	Pine nut	Pinus
+139	Pepper (Spice)	Piper nigrum
+140	Pistachio	Pistacia vera
+141	Common pea	Pisum sativum
+142	Purslane	Portulaca oleracea
+143	Prunus (Cherry, Plum)	Prunus
+144	Apricot	Prunus armeniaca
+145	Sweet cherry	Prunus avium
+146	Sour cherry	Prunus cerasus
+147	European plum	Prunus domestica
+148	Almond	Prunus dulcis
+149	Peach	Prunus persica
+150	Guava	Psidium guajava
+151	Pomegranate	Punica granatum
+152	Pear	Pyrus communis
+153	Radish	Raphanus sativus
+154	Garden rhubarb	Rheum rhabarbarum
+155	Blackcurrant	Ribes nigrum
+156	Redcurrant	Ribes rubrum
+157	Gooseberry	Ribes uva-crispa
+158	Watercress	Rorippa nasturtium-aquaticum
+159	Rosemary	Rosmarinus officinalis
+160	Rubus (Blackberry, Raspberry)	Rubus
+161	Cloudberry	Rubus chamaemorus
+162	Red raspberry	Rubus idaeus
+163	Black raspberry	Rubus occidentalis
+164	Sorrel	Rumex acetosa
+165	Common sage	Salvia officinalis
+166	Black elderberry	Sambucus nigra
+167	Summer savory	Satureja hortensis
+168	Winter savory	Satureja montana
+169	Rye	Secale cereale
+170	Sesame	Sesamum orientale
+171	Garden tomato	Solanum lycopersicum
+172	Cherry tomato	Solanum lycopersicum var. cerasiforme
+173	Garden tomato (var.)	Solanum lycopersicum var. lycopersicum
+174	Eggplant	Solanum melongena
+175	Potato	Solanum tuberosum
+176	Rowanberry	Sorbus aucuparia
+177	Sorghum	Sorghum bicolor
+178	Spinach	Spinacia oleracea
+179	Cloves	Syzygium aromaticum
+180	Tamarind	Tamarindus indica
+181	Dandelion	Taraxacum officinale
+182	Cocoa bean	Theobroma cacao
+183	Common thyme	Thymus vulgaris
+184	Linden	Tilia
+185	Small-leaf linden	Tilia cordata
+186	Fenugreek	Trigonella foenum-graecum
+187	Common wheat	Triticum aestivum
+188	Vaccinium (Blueberry, Cranberry, Huckleberry)	Vaccinium
+189	Lowbush blueberry	Vaccinium angustifolium
+190	Sparkleberry	Vaccinium arboreum
+191	Highbush blueberry	Vaccinium corymbosum
+192	American cranberry	Vaccinium macrocarpon
+193	Bilberry	Vaccinium myrtillus
+194	Lingonberry	Vaccinium vitis-idaea
+195	Vanilla	Vanilla
+196	Common verbena	Verbena officinalis
+197	Broad bean	Vicia faba
+198	Adzuki bean	Vigna angularis
+199	Gram bean	Vigna mungo
+200	Mung bean	Vigna radiata
+201	Climbing bean	Vigna umbellata
+202	Cowpea	Vigna unguiculata
+203	Muscadine grape	Vitis rotundifolia
+204	Common grape	Vitis vinifera
+205	Corn	Zea mays
+206	Ginger	Zingiber officinale
+207	Arctic blackberry	Rubus arcticus
+208	Banana	Musa acuminata
+209	Bayberry	Myrica
+210	Elliott's blueberry	Vaccinium elliottii
+211	Canada blueberry	Vaccinium myrtilloides
+212	Bog bilberry	Vaccinium uliginosum
+213	Buffalo currant	Ribes aureum var. villosum
+214	Celeriac	Apium graveolens var. rapaceum
+215	Celery stalks	Apium graveolens var. dulce
+216	Chinese chives	Allium tuberosum
+217	European cranberry	Vaccinium oxycoccos
+218	Deerberry	Vaccinium stamineum
+219	Ginseng	Panax
+220	Cascade huckleberry	Vaccinium deliciosum
+221	Oval-leaf huckleberry	Vaccinium ovalifolium
+222	Evergreen huckleberry	Vaccinium ovatum
+223	Red huckleberry	Vaccinium parvifolium
+224	Longan	Dimocarpus longan
+225	Macadamia nut (M. tetraphylla)	Macadamia tetraphylla
+226	Garden onion (var.)	Allium cepa var. cepa
+227	Summer grape	Vitis aestivalis
+228	Fox grape	Vitis labrusca
+229	Nectarine	Prunus persica var. nucipersica
+230	Peach (var.)	Prunus persica var. persica
+231	Pepper (C. baccatum)	Capsicum baccatum var. baccatum
+232	Pepper (C. chinense)	Capsicum chinense
+233	Pepper (Capsicum)	Capsicum
+234	Rambutan	Nephelium lappaceum
+235	Red rice	Oryza rufipogon
+236	Annual wild rice	Zizania aquatica
+237	Swiss chard	Beta vulgaris ssp. cicla
+238	Lemon thyme	Thymus pulegioides
+239	Tronchuda cabbage	Brassica oleracea var. costata
+240	Japanese walnut	Juglans ailanthifolia
+241	Welsh onion	Allium fistulosum
+242	Hard wheat	Triticum durum
+243	Shallot	Allium ascalonicum
+244	Rocket salad	Eruca vesicaria
+245	Carrot (ssp.)	Daucus carota ssp. sativus
+246	Triticale	X Triticosecale rimpaui
+247	Black cabbage	Brassica oleracea var. viridis
+248	Half-highbush blueberry	Vaccinium angustifolium X Vaccinium corymbosum
+249	Celery leaves	Apium graveolens var. secalinum
+250	Chicory leaves	Cichorium intybus var. foliosum
+251	Komatsuna	Brassica rapa var. perviridis
+252	Pak choy	Brassica rapa var. chinensis
+253	Napa cabbage	Brassica rapa var. pekinensis
+254	Chicory roots	Cichorium intybus var. sativum
+255	Grapefruit/Pummelo hybrid	Citrus paradisi X Citrus maxima
+256	Grapefruit	Citrus X paradisi
+257	Jostaberry	Ribes × nidigrolaria
+258	Kai-lan	Brassica oleracea var. alboglabra
+259	Italian oregano	Origanum X majoricum
+260	Oxheart cabbage	Brassica oleracea var. conica
+261	Daikon radish	Raphanus sativus var. longipinnatus
+262	Black radish	Raphanus sativus var. niger
+263	Radish (var.)	Raphanus sativus var. sativus
+264	Red beetroot	Beta vulgaris var. rubra
+265	Sweet rowanberry	Grataegosorbus mitschurinii
+266	Pineappple sage	Salvia elegans
+267	Skunk currant	Ribes glandulosum
+268	Beer	NULL
+269	Other bread	NULL
+270	Breakfast cereal	NULL
+272	Other soy product	NULL
+273	Other cereal product	NULL
+274	Pasta	NULL
+275	Biscuit	NULL
+276	Sourdough	NULL
+277	Spirit	NULL
+278	Fortified wine	NULL
+279	Other alcoholic beverage	NULL
+280	Abalone	Haliotis
+281	Abiyuch	Crateva religiosa
+282	Acerola	Malpighia emarginata
+283	Acorn	Quercus
+284	Winter squash	Cucurbita maxima
+285	Agar	Eucheuma
+286	Red king crab	Paralithodes camtschaticus
+287	Alfalfa	Medicago sativa
+288	Allspice	Pimenta dioica
+289	Amaranth	Amaranthus
+290	Arrowhead	Sagittaria latifolia
+291	Arrowroot	Maranta arundinacea
+292	Asian pear	Pyrus pyrifolia
+293	Atlantic herring	Clupea harengus harengus
+294	Atlantic mackerel	Scomber scombrus
+295	Painted comber	Serranus scriba
+296	Atlantic pollock	Pollachius pollachius
+297	Atlantic wolffish	Anarhichas lupus
+298	Bamboo shoots	Phyllostachys edulis
+299	Striped bass	Morone saxatilis
+300	Beaver	Castor canadensis
+301	Beech nut	Fagus
+302	Beluga whale	Delphinapterus leucas
+303	Bison	Bison bison
+304	Black bear	Ursus americanus
+305	Alaska blackfish	Dallia pectoralis
+306	Blue crab	Callinectes sapidus
+307	Blue mussel	Mytilus edulis
+308	Northern bluefin tuna	Thunnus thynnus
+309	Bluefish	Pomatomus saltatrix
+310	Wild boar	Sus scrofa
+311	Bowhead whale	Balaena mysticetus
+312	Breadfruit	Artocarpus altilis
+313	Breadnut tree seed	Brosimum alicastrum
+314	Rapini	Brassica ruvo
+315	Brown bear	Ursus arctos
+316	Buffalo	Bubalus bubalis
+317	Burbot	Lota lota
+318	Giant butterbur	Petasites japonicus
+319	American butterfish	Peprilus triacanthus
+320	Butternut	Juglans cinerea
+321	Butternut squash	Cucurbita moschata
+322	Calabash	Lagenaria siceraria
+323	Cardoon	Cynara cardunculus
+324	Caribou	Rangifer tarandus
+325	Natal plum	Carissa macrocarpa
+326	Carob	Ceratonia siliqua
+327	Common carp	Cyprinus carpio
+328	Cassava	Manihot esculenta
+329	Channel catfish	Ictalurus punctatus
+330	Chayote	Sechium edule
+331	Cherimoya	Annona cherimola
+332	Chervil	Anthriscus cerefolium
+333	Chia	Salvia hispanica
+334	Chicken (Cock, Hen, Rooster)	Gallus gallus
+335	Chinese broccoli	Brassica alboglabra
+336	Chinese chestnut	Castanea mollissima
+337	Chinese water chestnut	Eleocharis dulcis
+338	Garland chrysanthemum	Chrysanthemum coronarium
+339	Cisco	Coregonus artedi
+340	Nuttall cockle	Clinocardium nuttallii
+341	Coconut	Cocos nucifera
+342	Pacific cod	Gadus macrocephalus
+343	Atlantic cod	Gadus morhua
+344	Common octopus	Octopus vulgaris
+345	Corn salad	Valerianella locusta
+346	Cottonseed	Gossypium
+347	Catjang pea	Vigna unguiculata ssp. cylindrica
+348	Malus (Crab apple)	Malus
+349	Squashberry	Viburnum edule
+350	Atlantic croaker	Micropogonias undulatus
+351	Cusk	Brosme brosme
+352	Cuttlefish	Sepiidae
+353	Mule deer	Odocoileus
+354	Devilfish	Myoxocephalus
+355	Dock	Rumex
+356	Dolphin fish	Coryphaena hippurus
+357	Freshwater drum	Aplodinotus grunniens
+358	Mallard duck	Anas platyrhynchos
+359	Dungeness crab	Cancer magister
+360	Durian	Durio zibethinus
+361	Eastern oyster	Crassostrea virginica
+362	Freshwater eel	Anguilla
+363	Elderberry	Sambucus
+364	Elk	Cervus canadensis
+365	Emu	Dromaius novaehollandiae
+366	Oregon yampah	Perideridia oregana
+367	European anchovy	Engraulis encrasicolus
+368	European chestnut	Castanea sativa
+369	Turbot	Scophthalmus maximus
+370	Fireweed	Chamerion angustifolium
+371	Florida pompano	Trachinotus carolinus
+372	Ginkgo nuts	Ginkgo biloba
+373	Greylag goose	Anser anser
+374	Grape	Vitis
+375	Greenland halibut/turbot	Reinhardtius hippoglossoides
+376	Groundcherry	Physalis
+377	Grouper	Epinephelus
+378	Guinea hen	Numida meleagris
+379	Haddock	Melanogrammus aeglefinus
+380	Hippoglossus (Common halibut)	Hippoglossus
+381	Hazelnut	Corylus
+382	Hickory nut	Carya
+383	Horse	Equus caballus
+384	Horseradish tree	Moringa oleifera
+385	Alaska blueberry	Vaccinium alaskaense
+386	Hyacinth bean	Lablab purpureus
+387	Irish moss	Chondrus crispus
+388	Pacific jack mackerel	Trachurus symmetricus
+389	Jackfruit	Artocarpus heterophyllus
+390	Japanese chestnut	Castanea crenata
+391	Java plum	Syzygium cumini
+392	Jerusalem artichoke	Helianthus tuberosus
+393	Jujube	Ziziphus zizyphus
+394	Jute	Corchorus olitorius
+395	Kale	Brassica napus var. pabularia
+396	Kelp	Laminaria
+397	King mackerel	Scomberomorus cavalla
+398	Kumquat	Fortunella
+399	Lambsquarters	Chenopodium album
+400	Leather chiton	Katharina tunicata
+401	Wild leek	Allium ampeloprasum
+402	Common ling	Molva molva
+403	Lingcod	Ophiodon elongatus
+404	American lobster	Homarus americanus
+405	Loganberry	Rubus loganobaccus
+406	Lotus	Nelumbo
+407	Sacred lotus	Nelumbo nucifera
+408	White lupine	Lupinus albus
+409	Malabar spinach	Basella alba
+410	Mammee apple	Mammea americana
+411	Purple mangosteen	Garcinia mangostana
+412	Alpine sweetvetch	Hedysarum alpinum
+413	Milkfish	Chanos chanos
+414	Monkfish	Lophius piscatorius
+415	Moose	Alces alces
+416	Moth bean	Vigna aconitifolia
+417	Mountain yam	Dioscorea pentaphylla
+418	Striped mullet	Mugil cephalus
+419	Muskrat	Ondatra zibethicus
+420	White mustard	Sinapis alba
+421	Mustard spinach	Brassica perviridis
+422	New Zealand spinach	Tetragonia tetragonioides
+423	Nopal	Opuntia cochenillifera
+424	Ocean pout	Zoarces americanus
+425	North Pacific giant octopus	Enteroctopus dofleini
+426	Ohelo berry	Vaccinium reticulatum
+427	Okra	Abelmoschus esculentus
+428	Tunicate	Tunicata
+429	Opossum	Didelphis virginiana
+430	Ostrich	Struthio camelus
+431	Spotted seal	Phoca largha
+432	Pacific herring	Clupea pallasii
+433	Pacific oyster	Crassostrea gigas
+434	Pacific rockfish	Sebastes
+435	Velvet duck	Melanitta fusca
+436	Pepper (C. frutescens)	Capsicum annuum var. annuum
+437	Common persimmon	Diospyros virginiana
+438	Pheasant	Phasianus colchicus
+439	Northern pike	Esox lucius
+440	Pili nut	Canarium ovatum
+441	Colorado pinyon	Pinus edulis
+442	Pitanga	Eugenia uniflora
+443	Plains prickly pear	Opuntia macrorhiza
+444	French plantain	Musa X paradisiaca
+445	American pokeweed	Phytolacca americana
+446	Polar bear	Ursus maritimus
+447	Opium poppy	Papaver somniferum
+448	Prairie turnip	Pediomelum esculentum
+449	Prickly pear	Opuntia
+450	Quinoa	Chenopodium quinoa
+451	European rabbit	Oryctolagus
+452	Raccoon	Procyon lotor
+453	Rainbow smelt	Osmerus mordax
+454	Rainbow trout	Oncorhynchus mykiss
+455	Malabar plum	Syzygium jambos
+456	Rose hip	Rosa
+457	Roselle	Hibiscus sabdariffa
+458	Orange roughy	Hoplostethus atlanticus
+459	Sablefish	Anoplopoma fimbria
+460	Pink salmon	Oncorhynchus gorbuscha
+461	Chum salmon	Oncorhynchus keta
+462	Coho salmon	Oncorhynchus kisutch
+463	Sockeye salmon	Oncorhynchus nerka
+464	Chinook salmon	Oncorhynchus tshawytscha
+465	Atlantic salmon	Salmo salar
+466	Salmonberry	Rubus spectabilis
+467	Common salsify	Tragopogon porrifolius
+468	Sapodilla	Manilkara zapota
+469	Mamey sapote	Pouteria sapota
+470	Spanish mackerel	Scomberomorus maculatus
+471	Pacific sardine	Sardinops sagax
+472	Scallop	Pectinidae
+473	Scup	Stenotomus chrysops
+474	Sea cucumber	Parastichopus californicus
+475	Steller sea lion	Eumetopias jubatus
+476	Bearded seal	Erignathus barbatus
+477	Ringed seal	Pusa hispida
+478	Seatrout	Cynoscion
+479	Sesbania flower	Sesbania bispinosa
+480	American shad	Alosa sapidissima
+481	Shark	Squaliformes
+482	Sheefish	Stenodus leucichthys
+483	Sheep (Mutton, Lamb)	Ovis aries
+484	Sheepshead	Archosargus probatocephalus
+485	Hedge mustard	Sisymbrium
+486	Skipjack tuna	Katsuwonus pelamis
+487	Snapper	Lutjanidae
+488	Soursop	Annona muricata
+489	Spelt	Triticum spelta
+490	Spirulina	Spirulina
+491	Squab	Columba
+492	Squirrel	Sciuridae
+493	Strawberry guava	Psidium cattleianum
+494	Greater sturgeon	Acipenser
+495	White sucker	Catostomus commersonii
+496	Sugar apple	Annona squamosa
+497	Pumpkinseed sunfish	Lepomis gibbosus
+498	Swordfish	Xiphias gladius
+499	Taro	Colocasia esculenta
+500	Teff	Eragrostis tef
+501	Tilefish	Lopholatilus chamaeleonticeps
+502	Mexican groundcherry	Physalis philadelphica var. immaculata
+503	Towel gourd	Luffa aegyptiaca
+504	Salmonidae (Salmon, Trout)	Salmonidae
+505	Turkey	Meleagris gallopavo
+506	Cattle (Beef, Veal)	Bos taurus
+507	Walleye	Sander vitreus
+508	Alaska pollock	Theragra chalcogramma
+509	Wasabi	Wasabia japonica
+510	Wax gourd	Benincasa hispida
+511	Whelk	Buccinidae
+512	Coalfish pollock	Pollachius virens
+513	Broad whitefish	Coregonus nasus
+514	Whitefish	Coregonus
+515	Whiting	Merlangius merlangus
+516	Wild rice	Zizania
+517	Tea leaf willow	Salix pulchra
+518	Winged bean	Psophocarpus tetragonolobus
+519	Yam	Dioscorea
+520	Jicama	Pachyrhizus erosus
+521	Yautia	Xanthosoma sagittifolium
+522	Yellowfin tuna	Thunnus albacares
+523	Yellowtail amberjack	Seriola lalandi
+524	Pollock	Pollachius
+525	Albacore tuna	Thunnus alalunga
+526	Gadus (Common cod)	Gadus
+527	Atlantic halibut	Hippoglossus hippoglossus
+528	Pacific halibut	Hippoglossus stenolepis
+529	Pacific salmon	Oncorhynchus
+530	Smelt	Osmeridae
+531	Clupeinae (Herring, Sardine, Sprat)	Clupeinae
+532	Spiny lobster	Palinuridae
+533	Snow crab	Chionoecetes opilio
+534	Black-eyed pea	Vigna unguiculata ssp. unguiculata
+535	Deer	Cervidae
+536	Macadamia nut	Macadamia
+537	Percoidei (Bass and others)	Percoidei
+538	Perciformes (Perch-like fishes)	Perciformes
+539	Arctic ground squirrel	Urocitellus parryii
+540	Rabbit	Leporidae
+541	Domestic goat	Capra aegagrus hircus
+542	Beefalo	Bos taurus X Bison bison
+543	Antelope	Artiodactyla
+544	Bivalvia (Clam, Mussel, Oyster)	Bivalvia
+545	Squid	Teuthida
+546	Shrimp	Caridea
+547	Crayfish	Astacidea
+548	Flatfish	Pleuronectiformes
+549	Domestic pig (Piglet, Pork)	Sus scrofa domestica
+550	Walrus	Odobenus rosmarus
+551	Alaska wild rhubarb	Polygonum alpinum
+552	Oriental wheat	Triticum turanicum
+553	Yardlong bean	Vigna unguiculata ssp. sesquipedalis
+554	Great horned owl	Bubo virginianus
+555	Quail	Phasianidae
+556	Boysenberry	Rubus ursinus X idaeus
+557	Persian lime	Citrus latifolia
+558	Feijoa	Feijoa sellowiana
+559	Rowal	Pangium edule
+560	Jew's ear	Auricularia auricula-judae
+561	Common mushroom	Agaricus bisporus
+562	Shiitake	Lentinus edodes
+563	Purple laver	Porphyra laciniata
+564	Wakame	Undaria pinnatifida
+565	Enokitake	Flammulina velutipes
+566	Epazote	Dysphania ambrosioides
+567	Oyster mushroom	Pleurotus ostreatus
+568	Cloud ear fungus	Auricularia polytricha
+569	Maitake	Grifola frondosa
+570	Ostrich fern	Matteuccia struthiopteris
+571	Spot croaker	Leiostomus xanthurus
+572	Sourdock	Rumex articus
+573	Tinda	Citrullus lanatus var. fistulosus
+574	Atlantic menhaden	Brevoortia tyrannus
+575	Wheat	Triticum
+576	Common chokecherry	Prunus virginiana
+577	Agave	Agave
+578	Narrowleaf cattail	Typha angustifolia
+579	Jellyfish	Scyphozoa
+580	Anchovy	Engraulidae
+581	Blue whiting	Micromesistius poutassou
+582	Carp bream	Abramis brama
+583	Chanterelle	Cantharellus cibarius
+584	Sturgeon	Acipenseridae
+585	Charr	Salvelinus
+586	Cinnamon	Cinnamomum
+587	Crab	Brachyura
+588	Common dab	Limanda limanda
+589	Spiny dogfish	Squalus acanthias
+590	Anatidae (Duck, Goose, Swan)	Anatidae
+591	Anguilliformes (Eel)	Anguilliformes
+592	True frog	Ranidae
+593	Garfish	Belone belone
+594	Gadiformes (Cod, Hake)	Gadiformes
+595	Mountain hare	Lepus timidus
+596	Lake trout	Salvelinus namaycush
+597	Lemon sole	Microstomus kitt
+598	Clawed lobster	Nephropidae
+599	Lumpsucker	Cyclopteridae
+600	Scombridae (Bonito, Mackerel, Tuna)	Scombridae
+601	Marine mussel	Mytilidae
+602	Norway haddock	Sebastes viviparus
+603	Norway lobster	Nephrops norvegicus
+604	Norway pout	Trisopterus esmarkii
+605	Oil palm	Elaeis
+606	True oyster	Ostreidae
+607	Sago palm	Metroxylon sagu
+608	Persimmon	Diospyros
+609	Pikeperch	Sander lucioperca
+610	Pleuronectidae (Dab, Halibut, Plaice)	Pleuronectidae
+611	Rock ptarmigan	Lagopus muta
+612	Pacific ocean perch	Sebastes alutus
+613	Black salsify	Scorzonera hispanica
+614	True seal	Phocidae
+615	Red algae	Rhodophyta
+616	Kombu	Saccharina japonica
+617	Snail	Gastropoda
+618	True sole	Soleidae
+619	Catfish	Siluriformes
+620	Thistle	Cirsium
+621	Thunnus (Common tuna)	Thunnus
+622	Walnut	Juglans
+623	Cetacea (Dolphin, Porpoise, Whale)	Cetacea
+624	Columbidae (Dove, Pigeon)	Columbidae
+625	Conch	Strombidae
+626	Grape wine	NULL
+627	Berry wine	NULL
+628	Other wine	NULL
+629	Apple cider	NULL
+630	Liquor	NULL
+631	Cheese	NULL
+632	Milk (Cow)	NULL
+633	Eggs	NULL
+634	Yogurt	NULL
+638	Bean	NULL
+639	Vodka	NULL
+640	Whisky	NULL
+641	Ice cream	NULL
+642	Gin	NULL
+643	Honey	NULL
+644	Liquorice	NULL
+645	Vinegar	NULL
+646	Rum	NULL
+647	Port wine	NULL
+648	Vermouth	NULL
+649	Sherry	NULL
+650	Madeira wine	NULL
+651	Nougat	NULL
+653	Toffee	NULL
+654	Cake	NULL
+655	Pizza	NULL
+656	Ymer	NULL
+657	Other snack food	NULL
+659	Crisp bread	NULL
+660	Pastry	NULL
+661	Dragée	NULL
+662	Chewing gum	NULL
+663	Marzipan	NULL
+664	Salad dressing	NULL
+665	Sauce	NULL
+666	Salt	NULL
+667	Butter	NULL
+668	Butter substitute	NULL
+669	Cream	NULL
+670	Sugar	NULL
+671	Sausage	NULL
+672	Meatball	NULL
+673	Mustard	NULL
+674	Pate	NULL
+676	Sugar substitute	NULL
+677	Meat bouillon	NULL
+678	Other meat product	NULL
+679	Whey	NULL
+680	Casein	NULL
+681	Fruit preserve	NULL
+682	Leavening agent	NULL
+683	Marshmallow	NULL
+684	Gelatin	NULL
+685	Water	NULL
+686	Other fish product	NULL
+687	Milk (Human)	NULL
+689	Other beverage	NULL
+690	Baby food	NULL
+691	Dumpling	NULL
+692	Soup	NULL
+693	Other vegetable product	NULL
+694	Unclassified food or beverage	NULL
+695	Syrup	NULL
+696	Tallow	NULL
+697	Remoulade	NULL
+698	Chocolate spread	NULL
+699	Fruit gum	NULL
+700	Curry powder	NULL
+701	Other candy	NULL
+702	Meringue	NULL
+703	Lard	NULL
+704	Other animal fat	NULL
+705	Other cocoa product	NULL
+706	Cocoa butter	NULL
+707	Cocoa powder	NULL
+708	Cocoa liquor	NULL
+709	Chocolate	NULL
+710	Hot chocolate	NULL
+711	Dried milk	NULL
+712	Milk (Other mammals)	NULL
+713	Kefir	NULL
+714	Buttermilk	NULL
+715	Other fermented milk	NULL
+716	Soy sauce	NULL
+717	Miso	NULL
+718	Tofu	NULL
+721	Zwieback	NULL
+722	Roe	NULL
+723	Cichlidae (Tilapia)	Cichlidae
+724	Icing	NULL
+725	Snack bar	NULL
+726	Green turtle	Chelonia mydas
+727	Energy drink	NULL
+728	Burrito	NULL
+729	Hamburger	NULL
+730	Baked beans	NULL
+731	Chili	NULL
+732	Taco	NULL
+733	Tortilla	NULL
+734	Nachos	NULL
+735	Processed cheese	NULL
+736	Salad	NULL
+737	Cream substitute	NULL
+738	Dulce de leche	NULL
+739	Topping	NULL
+740	Sweet custard	NULL
+742	Egg roll	NULL
+743	Heart of palm	NULL
+744	Popcorn	NULL
+745	Potato chip	NULL
+746	Tortilla chip	NULL
+747	Corn chip	NULL
+748	Hibiscus tea	Hibiscus sabbariffa
+749	Stew	NULL
+750	Gelatin dessert	NULL
+751	Junket	NULL
+752	Falafel	NULL
+753	Frybread	NULL
+754	Other frozen dessert	NULL
+755	Lasagna	NULL
+756	Morchella (Morel)	Morchellaceae
+757	Pancake	NULL
+758	Pectin	NULL
+759	Pudding	NULL
+760	Waffle	NULL
+761	Soy milk	NULL
+762	Meatloaf	NULL
+763	Sake	NULL
+764	Cocktail	NULL
+765	Couscous	NULL
+766	Bulgur	NULL
+767	Coffee substitute	NULL
+768	Coffee mocha	NULL
+769	Chimichanga	NULL
+770	Semolina	NULL
+771	Tapioca pearl	NULL
+772	Tostada	NULL
+773	Quesadilla	NULL
+774	Baked potato	NULL
+775	Hot dog	NULL
+776	Spread	NULL
+777	Enchilada	NULL
+778	Egg substitute	NULL
+779	Nutritional drink	NULL
+780	Other sandwich	NULL
+781	Ketchup	NULL
+782	Breakfast sandwich	NULL
+783	Adobo	NULL
+784	Macaroni and cheese	NULL
+785	Butterfat	NULL
+786	Horned melon	Cucumis metuliferus
+787	Hushpuppy	NULL
+788	Fruit juice	NULL
+789	Relish	NULL
+790	Other fruit product	NULL
+791	Fruit salad	NULL
+792	Soy yogurt	NULL
+793	Vegetarian food	NULL
+794	Veggie burger	NULL
+795	Cold cut	NULL
+796	Mixed nuts	NULL
+797	Canola	NULL
+798	Babassu palm	Attalea speciosa
+799	Cupuaçu	Theobroma grandiflorum
+800	Shea tree	Vitellaria paradoxa
+801	Oil-seed Camellia	Camellia oleifera
+802	Ucuhuba	Virola surinamensis
+803	Phyllo dough	NULL
+804	Cooking oil	NULL
+805	Pie crust	NULL
+806	Pie filling	NULL
+807	Pie	NULL
+808	Shortening	NULL
+809	Soy cream	NULL
+810	Ice cream cone	NULL
+811	Molasses	NULL
+812	Cracker	NULL
+813	Nance	Byrsonima crassifolia
+814	Naranjilla	Solanum quitoense
+815	Natto	NULL
+816	Ravioli	NULL
+817	Scrapple	NULL
+818	Other pasta dish	NULL
+819	Succotash	NULL
+820	Tamale	NULL
+822	Rice cake	NULL
+823	Tree fern	Cyathea
+824	Evaporated milk	NULL
+825	Flour	NULL
+826	Akutaq	NULL
+828	Dough	NULL
+829	Pita bread	NULL
+830	Focaccia	NULL
+831	Bagel	NULL
+832	Other bread product	NULL
+834	Piki bread	NULL
+835	French toast	NULL
+836	Wheat bread	NULL
+837	Rye bread	NULL
+838	Oat bread	NULL
+839	Potato bread	NULL
+840	Cornbread	NULL
+841	Corn grits	NULL
+842	Multigrain bread	NULL
+843	Rice bread	NULL
+844	Pan dulce	NULL
+845	Raisin bread	NULL
+846	Wonton wrapper	NULL
+848	Trail mix	NULL
+849	Greenthread tea	Thelesperma
+850	Fruit-flavor drink	NULL
+851	Vegetable juice	NULL
+852	Horchata	NULL
+853	Soft drink	NULL
+854	Frozen yogurt	NULL
+855	Milkshake	NULL
+856	Chocolate mousse	NULL
+857	Dripping	NULL
+858	Pupusa	NULL
+859	Empanada	NULL
+860	Arepa	NULL
+861	Ascidians	Ascidiacea
+862	Gefilte fish	NULL
+863	Yellow pond-lily	Nuphar lutea
+864	Fish burger	NULL
+865	Other dish	NULL
+866	Pot pie	NULL
+867	Stuffing	NULL
+868	Edible shell	NULL
+869	Fudge	NULL
+870	Candy bar	NULL
+871	Condensed milk	NULL
+872	Margarine	NULL
+873	Margarine-like spread	NULL
+874	Hummus	NULL
+876	Potato puffs	NULL
+877	Potato gratin	NULL
+878	Milk substitute	NULL
+879	Pepper (C. pubescens)	Capsicum pubescens
+880	Soft-necked garlic	Allium sativum L. var. sativum
+881	Cabbage	Brassica oleracea var. capitata
+882	Chinese bayberry	Myrica rubra
+883	Mushrooms	NULL
+884	Alcoholic beverages	NULL
+885	Onion-family vegetables	NULL
+886	Pomes	NULL
+887	Brassicas	NULL
+888	Cereals and cereal products	NULL
+889	Citrus	NULL
+890	Cocoa and cocoa products	NULL
+891	Coffee and coffee products	NULL
+892	Crustaceans	NULL
+893	Milk and milk products	NULL
+894	Fats and oils	NULL
+896	Fishes	NULL
+897	Herbs and Spices	NULL
+898	Pulses	NULL
+899	Animal foods	NULL
+900	Mollusks	NULL
+901	Nuts	NULL
+902	Beverages	NULL
+903	Fruits	NULL
+904	Green vegetables	NULL
+905	Root vegetables	NULL

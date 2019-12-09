@@ -1,0 +1,214 @@
+require_relative "./lipid_model"
+
+class Sphingolipid <  LipidModel
+
+	def initialize(classe="sphingolipid", abbrev, schain1)
+		@classe="sphingolipid"
+		@abbrev=abbrev
+		@schain1=schain1
+		@definition=String.new
+		@smiles=String.new
+		@total_chains=([@schain1]).length
+		@total_chains_uniq=([@schain1].uniq).length
+		@name=''
+		@biofunction=[]
+		@cellular_location=[]
+		@metabolic_enzymes=[]
+		@origin=[]
+		@biofluid_location=[]
+		@tissue_location=[]
+		@pathways=[]
+		@general_references=[]
+		@transporters=[]
+		@physiological_charge=0
+		@charge=0
+	end
+
+	attr_reader :classe,:abbrev,:schain1,:schain2,:definition,:smiles,:name,:biofunction,:cellular_location,:metabolic_enzymes,:origin,:biofluid_location,:tissue_location,:pathways,:general_references,:transporters,:application,:physiological_charge,:charge
+	attr_writer :abbrev,:schain1,:schain2,:definition,:smiles,:name,:biofunction,:cellular_location,:metabolic_enzymes,:origin,:biofluid_location,:tissue_location,:pathways,:general_references,:transporters,:application,:physiological_charge,:charge
+		
+	# builds a cardiolipin structure represented in SMILES format	
+	def build_sphingolipid
+
+		type=abbrev.split("(")[0]
+		
+		
+
+		if type=="d18:0"
+			@classe="dihydrosphingosine"
+			head=$head_groups['d18:0'][0]
+
+		elsif type=="t18:0"
+			@classe="phytosphingosine"
+			head=$head_groups['t18:0'][0]
+
+		elsif type=="d18:1[4E]"
+			@classe="sphingosine"
+			head=$head_groups['d18:1[4E]'][0]
+
+		elsif type=="d18:1[8E]"
+			@classe="E-sphing-8-enine"
+			head=$head_groups['d18:1[8E]'][0]
+
+		elsif type=="d18:1[8Z]"
+			@classe="Z-sphing-8-enine"
+			head=$head_groups['d18:1[8Z]'][0]
+
+		elsif type=="t18:1[8E]"
+			@classe="E-4-hydroxysphing-8-enine"
+			head=$head_groups['t18:1[8E]'][0]
+
+		elsif type=="t18:1[8Z]"
+			@classe="Z-4-hydroxysphing-8-enine"
+			head=$head_groups['t18:1[8Z]'][0]
+
+		elsif type=="d18:2[4E,8E]"
+			@classe="(4E,8E)-sphing-4,8-dienine"
+			head=$head_groups['d18:2[4E,8E]'][0]
+
+		elsif type=="d18:2[4E,8Z]"
+			@classe="(4E,8Z)-sphing-4,8-dienine"
+			head=$head_groups['d18:2[4E,8Z]'][0]
+
+		elsif type=="CB"
+			@classe="cerebrosides"
+			head=$head_groups['CB'][0]
+
+		elsif type=="GIPC"
+			@classe="glucosylinositolphosphoceramide"
+			head=$head_groups['GIPC'][0]
+
+		elsif type=="d18:0P"
+			@classe="dihydrosphingosinephosphate"
+			head=$head_groups['d18:0P'][0]
+
+
+
+
+		else
+			$stderr.puts "Unknown chain #{type}."
+		end
+		begin
+			@smiles=head.gsub('R1',$chains[@schain1][1]).gsub('()','')
+		rescue
+			if not $chains.keys.include?(@schain1)
+				$stderr.puts "#{@schain1} not included"
+			end
+			
+		end
+
+	end
+
+	# automatically generates a structural description for the given object
+	def generate_definition
+
+		st=Array.new
+		
+		if schain1!="0:0"
+			if $chains[@schain1][0][0]!="(" and $chains[@schain1][0][-1]!=")"
+				st<<"#{$chains[@schain1][0]}(R1)"
+			elsif $chains[@schain1][0][0]=="(" and $chains[@schain1][0][-1]==")"
+				st<<"#{$chains[@schain1][0][1...-1]}(R1)"
+			end
+		end
+
+		if @total_chains_uniq==1
+
+			if @classe=="dihydrosphingosine"
+				@definition="#{@abbrev} is a dihydrosphingosine. A dihydrosphingosine is a biosynthetic precursor of sphingosine. Inhibitor of protein kinase C (PKC). Blocks phospholipases A2 (PLA2) and the D-sphingosine precursor. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain.It has the molecular formula C18H39NO2 and is a colorless solid. Medicinally, safingol has demonstrated promising anticancer potential as a modulator of multi-drug resistance and as an inducer of necrosis. "
+			elsif @classe=="phytosphingosine"
+				@definition="#{@abbrev} is a phytosphingosine.Phytosphingosine is a phospholipid. Phospholipids are a class of lipids and a major component of all biological membranes; sphingolipid metabolites, such as sphingosine and ceramide, are highly bioactive compounds and are involved in diverse cell processes, including cell-cell interaction, cell proliferation, differentiation, and apoptosis. Phytosphingosine is also one of the most widely distributed natural sphingoid bases, which is abundant in fungi and plants, and also found in animals including humans. Phytosphingosine is structurally similar to sphingosine; phytosphingosine possesses a hydroxyl group at C-4 of the sphingoid long-chain base. The physiological roles of phytosphingosine are largely unknown. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="sphingosine"
+				@definition="#{@abbrev} is a sphingosine.Sphingosine (2-amino-4-octadecene-1,3-diol) is an 18-carbon amino alcohol with an unsaturated hydrocarbon chain, which forms a primary part of sphingolipids, a class of cell membrane lipids that include sphingomyelin, an important phospholipid.#{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="E-sphing-8-enine"
+				@definition="#{@abbrev} is an E-sphing-8-enine.The predominant long-chain base in animal ceramides is sphingosine, which is only present in trace amount in plant ceramides. In contrast, sphinganine, 4-hydroxysphinganine, and 4-hydroxy-8-sphingenine are the prevalent long-chain bases in plants. The acyl chain of plant ceramides contains alpha-hydroxylated very long chain fatty acids. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="Z-sphing-8-enine"
+				@definition="#{@abbrev} is an Z-sphing-8-enine. In plants, there is commonly a mixture of ceramides with the double bond in the cis and trans configuration at position 8 in the sphingenine. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="E-4-hydroxysphing-8-enine"
+				@definition="#{@abbrev} is an E-4-hydroxysphing-8-enine. It's a cationic sphingoid that is the conjugate acid of 4-hydroxysphing-8-enine, obtained by protonation of the primary amino function; major species at pH 7.3.#{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="Z-4-hydroxysphing-8-enine"
+				@definition="#{@abbrev} is an Z-4-hydroxysphing-8-enine. It's a cationic sphingoid that is the conjugate acid of 4-hydroxysphing-8-enine, obtained by protonation of the primary amino function; major species at pH 7.3.#{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="(4E,8E)-sphing-4,8-dienine"
+				@definition="#{@abbrev} is a (4E,8E)-sphing-4,8-dienine.Its one of the LCB backbones of sphyngolipids in plants. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="(4E,8Z)-sphing-4,8-dienine"
+				@definition="#{@abbrev} is a (4E,8Z)-sphing-4,8-dienine. Its one of the LCB backbones of sphyngolipids in plants. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="cerebrosides"
+				@definition="#{@abbrev} is a cerebrosides. Cerebrosides is the common name for a group of glycosphingolipids called monoglycosylceramides which are important components in animal muscle and nerve cell membranes.#{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain. Glucosylceramide is found at low levels in animal cells such as the spleen, erythrocytes, and nervous tissues, especially neurons. Glucosylceramide is a major constituent of skin lipids, where it is essential for lamellar body formation in the stratum corneum and to maintain the water permeability barrier of the skin. Glucosylceramide is the only glycosphingolipid common to plants, fungi and animals. It is usually considered to be the principal glycosphingolipid in plants. It is a major component of the outer layer of the plasma membrane."
+			elsif @classe=="glucosylinositolphosphoceramide"
+				@definition="#{@abbrev} is a glucosylinositolphosphoceramide. Glycosyl Inositol Phospho Ceramides (GIPCs), glycosylCERamide (gluCER) and ceramide accounted for ca. 64%, 34% and 2%, respectively, of total sphingolipids in Arabidopsis. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+			elsif @classe=="dihydrosphingosinephosphate"
+				@definition="#{@abbrev} is a dihydrosphingosinephosphate.Sphingosine-1-phosphate (S1P) is a signaling sphingolipid, also known as lysosphingolipid. It is also referred to as a bioactive lipid mediator. #{abbrev}, in particular, consists of one #{st[0].gsub('(R1)','').gsub('(R2)','')} chain."
+
+			#else
+				#@definition="#{@abbrev} belongs to the family of #{@classe}s, which are #{$lipid_class_definitions[@classe+"s"][0]} #{@abbrev} is made up of one #{st[0]}."
+			
+			end
+		
+		
+			#@definition="#{@abbrev} belongs to the family of #{@classe}s, which are #{$lipid_class_definitions[@classe+"s"][0]} #{@abbrev} is made up of one #{st[0]}, and one #{st[1]}."
+			
+		end
+
+	end
+
+	def annotate
+		type=abbrev.split("(")[0]
+		
+		if type=="PS"
+			@biofunction=["Membrane component","Energy source","Cell signaling"]
+			@cellular_location=["Membrane"] #http://lipidlibrary.aocs.org/lipids/ps/index.htm
+			@metabolic_enzymes=["O15496","P49619","P23743","Q16760","Q9Y6T7","P17252","Q9Y2Q0","O15162","P48651","Q8WTV0","Q9H2A7","Q9UG56","Q6NYC1","Q9BVG9","Q3SYC2","O00443","O15357","Q8N3E9","Q9NY59","Q9NRY7","Q9NRY6","Q9NRQ2","A0PG75","Q53H76","O95810","B1AKM7","P46100","Q99829","O95741","Q15642","Q5T0N5","Q96RU3","Q9NXE4","Q9NRX5","Q969G5","O76027","B2WTI4","B3KTQ2","Q7Z3D2","Q86VE9","Q9Y6U3"]
+			@origin=["Endogenous"]
+			@biofluid_location=["Blood"] #http://lipidlibrary.aocs.org/lipids/ps/index.htm
+			@tissue_location=["All Tissues"] #http://lipidlibrary.aocs.org/lipids/ps/index.htm
+			@pathways=["Phospholipid Biosynthesis:SMP00025"]
+			@general_references=["PMID: 21359215","http://lipidlibrary.aocs.org/lipids/ps/index.htm","http://www.lipidmaps.org/"]
+			@transporters=["P22307:8300590|17157249","Q6PCB7:12235169","Q9Y2Q0:16179347"]
+			@application=[]
+
+
+		else
+			$stderr.puts "Unknown chain #{type}."
+		end
+	end
+
+
+	# automatically generates a systematic name for the given object
+	def generate_name
+
+		prefixes=Hash.new
+		parts=Array.new
+		l=0
+		for k in [@schain1,@schain2]
+			l=l+1
+			if prefixes.keys.include?($chains[k][0])
+				prefixes[$chains[k][0]]<<l
+				#puts "Adding another for #{k} : #{l}"
+			else
+				prefixes[$chains[k][0]]=[l]
+				#puts "Adding first for #{k} : #{l}"
+			end
+		end
+		
+		for a in prefixes.keys
+			if a!=''
+				#puts a, prefixes[a].sort.join(','),prefixes[a].length
+				#puts $units_nr[prefixes[a].length.to_s]
+				if a[0]!="("
+					parts<<"#{prefixes[a].sort.join(',')}-#{$units_nr[prefixes[a].length.to_s]}#{a}"
+					#puts "#{prefixes[a].sort.join(',')}-#{$units_nr[prefixes[a].length.to_s]}#{a}"
+				elsif a[0]=="("  and prefixes[a].length==1
+					parts<<"#{prefixes[a].sort.join(',')}-#{a}"
+					#puts "#{prefixes[a].sort.join(',')}-#{$units_nr[prefixes[a].length.to_s]}-#{a}"
+				elsif a[0]=="("  and prefixes[a].length!=1
+					parts<<"#{prefixes[a].sort.join(',')}-#{$units_nr[prefixes[a].length.to_s]}-#{a}"
+					#puts "#{prefixes[a].sort.join(',')}-#{$units_nr[prefixes[a].length.to_s]}#{a}"				
+				end
+				
+			end
+		end
+		@name="#{parts.sort.join('-')}-#{$head_groups[@abbrev.split("(")[0]][3]}"
+	end
+
+
+end

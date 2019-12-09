@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metabolite>
+  <version>1.0</version>
+  <creation_date>2016-09-30 22:07:17 UTC</creation_date>
+  <update_date>2019-02-05 20:35:41 UTC</update_date>
+  <accession>BMDB00005</accession>
+  <secondary_accessions>
+  </secondary_accessions>
+  <name>2-Ketobutyric acid</name>
+  <description>2-Ketobutyric acid, also known as 2-ketobutyric acid or a-oxo-N-butyrate, belongs to the class of organic compounds known as short-chain keto acids and derivatives. These are keto acids with an alkyl chain the contains less than 6 carbon atoms. 2-Ketobutyric acid exists as a solid, very hydrophobic, practically insoluble (in water), and relatively neutral molecule. 2-Ketobutyric acid exists in all living species, ranging from bacteria to humans. 2-Ketobutyric acid participates in a number of enzymatic reactions, within cattle. In particular, 2-Ketobutyric acid can be biosynthesized from L-threonine; which is mediated by the enzyme L-serine dehydratase/l-threonine deaminase. In addition, 2-Ketobutyric acid and coenzyme A can be converted into propionyl-CoA through its interaction with the enzyme branched-chain alpha-keto dehydrogenase complex. In cattle, 2-ketobutyric acid is involved in the metabolic pathway called the threonine and 2-ketobutyric acid degradation pathway.</description>
+  <synonyms>
+    <synonym>2-Ketobutanoic acid</synonym>
+    <synonym>2-Oxobutyric acid</synonym>
+    <synonym>3-Methyl pyruvic acid</synonym>
+    <synonym>alpha-Ketobutyrate</synonym>
+    <synonym>alpha-Ketobutyric acid</synonym>
+    <synonym>alpha-oxo-N-Butyric acid</synonym>
+    <synonym>2-Oxobutyrate</synonym>
+    <synonym>2-Oxobutanoic acid</synonym>
+    <synonym>2-Ketobutanoate</synonym>
+    <synonym>3-Methyl pyruvate</synonym>
+    <synonym>a-Ketobutyrate</synonym>
+    <synonym>a-Ketobutyric acid</synonym>
+    <synonym>Α-ketobutyrate</synonym>
+    <synonym>Α-ketobutyric acid</synonym>
+    <synonym>a-oxo-N-Butyrate</synonym>
+    <synonym>a-oxo-N-Butyric acid</synonym>
+    <synonym>alpha-oxo-N-Butyrate</synonym>
+    <synonym>Α-oxo-N-butyrate</synonym>
+    <synonym>Α-oxo-N-butyric acid</synonym>
+    <synonym>2-Oxobutanoate</synonym>
+    <synonym>2-Ketobutyrate</synonym>
+    <synonym>2-oxo-Butanoate</synonym>
+    <synonym>2-oxo-Butanoic acid</synonym>
+    <synonym>2-oxo-Butyrate</synonym>
+    <synonym>2-oxo-Butyric acid</synonym>
+    <synonym>2-oxo-N-Butyrate</synonym>
+    <synonym>2-oxo-N-Butyric acid</synonym>
+    <synonym>3-Methylpyruvate</synonym>
+    <synonym>3-Methylpyruvic acid</synonym>
+    <synonym>a-Keto-N-butyrate</synonym>
+    <synonym>a-Keto-N-butyric acid</synonym>
+    <synonym>a-Oxobutyrate</synonym>
+    <synonym>a-Oxobutyric acid</synonym>
+    <synonym>alpha-Keto-N-butyrate</synonym>
+    <synonym>alpha-Keto-N-butyric acid</synonym>
+    <synonym>alpha-Ketobutric acid</synonym>
+    <synonym>alpha-Oxobutyrate</synonym>
+    <synonym>alpha-Oxobutyric acid</synonym>
+    <synonym>Methyl-pyruvate</synonym>
+    <synonym>Methyl-pyruvic acid</synonym>
+    <synonym>Propionyl-formate</synonym>
+    <synonym>Propionyl-formic acid</synonym>
+    <synonym>alpha-Ketobutyric acid, sodium salt</synonym>
+    <synonym>2-Ketobutyric acid</synonym>
+  </synonyms>
+  <chemical_formula>C4H6O3</chemical_formula>
+  <average_molecular_weight>102.0886</average_molecular_weight>
+  <monisotopic_moleculate_weight>102.031694058</monisotopic_moleculate_weight>
+  <iupac_name>2-oxobutanoic acid</iupac_name>
+  <traditional_iupac>2-oxobutanoic acid</traditional_iupac>
+  <cas_registry_number>600-18-0</cas_registry_number>
+  <smiles>CCC(=O)C(O)=O</smiles>
+  <inchi>InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)</inchi>
+  <inchikey>TYEYBOSBBBHJIV-UHFFFAOYSA-N</inchikey>
+  <taxonomy>
+    <description> belongs to the class of organic compounds known as short-chain keto acids and derivatives. These are keto acids with an alkyl chain the contains less than 6 carbon atoms.</description>
+    <kingdom>Organic compounds</kingdom>
+    <super_class>Organic acids and derivatives</super_class>
+    <class>Keto acids and derivatives</class>
+    <sub_class>Short-chain keto acids and derivatives</sub_class>
+    <direct_parent>Short-chain keto acids and derivatives</direct_parent>
+    <alternative_parents>
+      <alternative_parent>Alpha-hydroxy ketones</alternative_parent>
+      <alternative_parent>Alpha-keto acids and derivatives</alternative_parent>
+      <alternative_parent>Carboxylic acids</alternative_parent>
+      <alternative_parent>Hydrocarbon derivatives</alternative_parent>
+      <alternative_parent>Monocarboxylic acids and derivatives</alternative_parent>
+      <alternative_parent>Organic oxides</alternative_parent>
+    </alternative_parents>
+    <substituents>
+      <substituent>Aliphatic acyclic compound</substituent>
+      <substituent>Alpha-hydroxy ketone</substituent>
+      <substituent>Alpha-keto acid</substituent>
+      <substituent>Carbonyl group</substituent>
+      <substituent>Carboxylic acid</substituent>
+      <substituent>Carboxylic acid derivative</substituent>
+      <substituent>Hydrocarbon derivative</substituent>
+      <substituent>Ketone</substituent>
+      <substituent>Monocarboxylic acid or derivatives</substituent>
+      <substituent>Organic oxide</substituent>
+      <substituent>Organic oxygen compound</substituent>
+      <substituent>Organooxygen compound</substituent>
+      <substituent>Short-chain keto acid</substituent>
+    </substituents>
+    <molecular_framework>Aliphatic acyclic compounds</molecular_framework>
+    <external_descriptors>
+      <external_descriptor>2-oxo monocarboxylic acid</external_descriptor>
+      <external_descriptor>Oxo fatty acids</external_descriptor>
+      <external_descriptor>Oxo fatty acids</external_descriptor>
+      <external_descriptor>short-chain fatty acid</external_descriptor>
+    </external_descriptors>
+  </taxonomy>
+  <experimental_properties>
+    <state>Solid</state>
+    <property>
+      <kind>melting_point</kind>
+      <value>33 °C</value>
+      <source/>
+    </property>
+    <property>
+      <kind>water_solubility</kind>
+      <value>119 mg/mL</value>
+      <source/>
+    </property>
+  </experimental_properties>
+  <predicted_properties>
+    <property>
+      <kind>logp</kind>
+      <value>0.07</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logs</kind>
+      <value>-0.11</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logp</kind>
+      <value>0.77</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pka_strongest_acidic</kind>
+      <value>3.19</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pka_strongest_basic</kind>
+      <value>-9.7</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>iupac</kind>
+      <value>2-oxobutanoic acid</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>average_mass</kind>
+      <value>102.0886</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>mono_mass</kind>
+      <value>102.031694058</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>smiles</kind>
+      <value>CCC(=O)C(O)=O</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>formula</kind>
+      <value>C4H6O3</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>inchi</kind>
+      <value>InChI=1S/C4H6O3/c1-2-3(5)4(6)7/h2H2,1H3,(H,6,7)</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>inchikey</kind>
+      <value>TYEYBOSBBBHJIV-UHFFFAOYSA-N</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>polar_surface_area</kind>
+      <value>54.37</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>refractivity</kind>
+      <value>22.62</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>polarizability</kind>
+      <value>9.2</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>rotatable_bond_count</kind>
+      <value>2</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>acceptor_count</kind>
+      <value>3</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>donor_count</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>physiological_charge</kind>
+      <value>-1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>formal_charge</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>number_of_rings</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>bioavailability</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>rule_of_five</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>ghose_filter</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>veber_rule</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>mddr_like_rule</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+  </predicted_properties>
+  <pathways>
+    <pathway>
+      <name>Glycine and Serine Metabolism</name>
+      <smpdb_id>SMP0087245</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Homocysteine Degradation</name>
+      <smpdb_id>SMP0087201</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Methionine Metabolism</name>
+      <smpdb_id>SMP0087249</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Propanoate Metabolism</name>
+      <smpdb_id>SMP0087248</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Selenoamino Acid Metabolism</name>
+      <smpdb_id>SMP0087161</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Threonine and 2-Oxobutanoate Degradation</name>
+      <smpdb_id>SMP0087262</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+  </pathways>
+  <spectra>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>276</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>277</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>936</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>937</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>943</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>3474</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30041</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30042</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30433</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30434</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30943</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30944</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30945</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>31982</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>31983</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>37238</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrOneD</type>
+      <spectrum_id>1024</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrOneD</type>
+      <spectrum_id>4754</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrOneD</type>
+      <spectrum_id>4755</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>7</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>8</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>9</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>2522</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>20636</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>20637</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>20638</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>22187</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>22188</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>22189</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>439247</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrTwoD</type>
+      <spectrum_id>917</spectrum_id>
+    </spectrum>
+  </spectra>
+  <normal_concentrations>
+  </normal_concentrations>
+  <kegg_id>C00109</kegg_id>
+  <drugbank_id>DB04553</drugbank_id>
+  <foodb_id>FDB003359</foodb_id>
+  <pubchem_compound_id>58</pubchem_compound_id>
+  <chemspider_id>57</chemspider_id>
+  <pdbe_id/>
+  <chebi_id>30831</chebi_id>
+  <meta_cyc_id>2-OXOBUTANOATE</meta_cyc_id>
+  <knapsack_id>C00019675</knapsack_id>
+  <wikipedia_id>Alpha-Ketobutyric_acid</wikipedia_id>
+  <phenol_explorer_compound_id/>
+  <bigg_id>33889</bigg_id>
+  <metlin_id/>
+  <synthesis_reference/>
+  <general_references>
+  </general_references>
+  <protein_associations>
+    <protein>
+      <protein_accession>BMDBP00088</protein_accession>
+      <name>L-serine dehydratase</name>
+      <uniprot_id>Q0VCW4</uniprot_id>
+      <gene_name>SDS</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+    <protein>
+      <protein_accession>BMDBP00818</protein_accession>
+      <name>Cystathionine gamma-lyase</name>
+      <uniprot_id>Q58DW2</uniprot_id>
+      <gene_name>CTH</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+  </protein_associations>
+</metabolite>

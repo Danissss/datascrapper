@@ -1,0 +1,92 @@
+metabolite
+C4-dicarboxylate
+dicarboxylate
+cation
+siderophore
+Dipeptide
+(3-sn-phosphatidyl)-L-serine
+(3S)-3-hydroxyacyl-CoA
+(R)-NADHX
+(S)-2-hydroxy acid
+(S)-3-hydroxyacyl-CoA
+(S)-NADHX
+(d)CDP
+(d)CMP
+1,2-diacyl-sn-glycerol
+1,2-diacyl-sn-glycerol 3-diphosphate
+1,2-diacyl-sn-glycerol 3-phosphate
+1,2-diacylglycerol
+1-acyl-sn-glycerol 3-phosphate
+2'-deoxyribonucleoside diphosphate
+2'-deoxyribonucleoside triphosphate
+2,3-dehydroacyl-CoA
+2-oxo acid
+3(3-sn-phosphatidyl)-sn-glycerol 1-phosphate
+3-alpha-D-galactosyl-[lipopolysaccharide glucose]
+3-demethylubiquinone-n
+3-oxoacyl-CoA
+AH(2)
+Acyl-CoA
+CDP-diacylglycerol
+D-glucosyl-lipopolysaccharide
+Deoxynucleoside triphosphate
+N-acyl-D-glucosamine 6-phosphate
+N-acyl-D-mannosamine
+N-acyl-D-mannosamine 6-phosphate
+NAD(P)(+)
+NAD(P)H
+Nucleoside 2',3'-cyclic phosphate
+Nucleoside triphosphate
+O-(1-beta-acyl-2-acyl-sn-glycero-3-phospho)ethanolamine
+O-(2-acyl-sn-glycero-3-phospho)ethanolamine
+O-acetyl-ADP-ribose
+O-phospho-L(or D)-serine
+Phosphatidyl-L-serine
+Phosphatidylcholine
+Phosphatidylglycerol
+S-(2-hydroxyacyl)glutathione
+S-sulfanyl-acceptor
+Sugar phosphate
+Thioredoxin
+Trans-2,3-didehydroacyl-CoA
+UDP-sugar
+acyl-phosphate
+diphosphatidylglycerol
+nucleoside 3'-phosphate
+nucleoside diphosphate
+nucleoside monophosphate
+nucleoside triphosphate
+nucleoside
+oxidized donor
+phosphatidylglycerol
+phospholipid cyclopropane fatty acid
+phospholipid olefinic fatty acid
+polyamine
+ribonucleoside diphosphate
+ribonucleoside triphosphate
+sugar phosphate
+trans,trans-2,3,4,5-tetradehydroacyl-CoA
+trans-2(or 3)-enoyl-CoA
+ubiquinone-n
+a nucleoside diphosphate
+A phenol sulfate
+a phenol
+an alkane-alpha,omega-diamine
+an N-acetyldiamine
+a fatty acid anion
+acceptor
+reduced acceptor
+A beta-D-glucuronoside
+O-(2-acyl-sn-glycero-3-phospho)ethanolamine
+O-(1-beta-acyl-2-acyl-sn-glycero-3-phospho)ethanolamine
+an acid
+A 3'-ribonucleotide
+an all-trans-polyprenyl diphosphate
+a 6-acetyl-beta-d-galactoside
+2-methoxy-6-all-trans-polyprenyl-1,4-benzoquinol
+6-methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol
+3-(all-trans-polyprenyl)benzene-1,2-diol
+2-methoxy-6-(all-trans-polyprenyl)phenol
+an aldehyde
+a menaquinol
+semiquinone

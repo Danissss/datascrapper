@@ -1,0 +1,40 @@
+MFS-type
+Graves disease
+FXYD domain-containing ion
+Band 3 anion
+B(0,+)-type amino acid
+Retinal ATP-binding cassette
+Eukaryotic translation initiation factor 4E
+Solute
+Intraflagellar
+Protein
+Oligopeptide
+Histone
+Biopolymer
+Vesicle
+Formyl-L-methionyl peptide
+Peptide-L-methionine
+Peptidylproline (omega=180)
+acyl-holo-entB
+apo-EntB/F
+dhaL-ADP
+dhaL-ATP
+holo-EntB/F
+holo-entB
+membrane-derived-oligosaccharide 6-(glycerophospho)-D-glucose
+membrane-derived-oligosaccharide D-glucose
+methionyl peptide
+oxidized ferredoxin
+oxidized flavodoxin
+peptide-L-methionine (R)-S-oxide
+peptide-L-methionine (S)-S-oxide
+peptidylproline (omega=0)
+Thioredoxin
+flavodoxin semiquinone
+glutaredoxin
+glutaredoxin disulfide
+thioredoxin
+thioredoxin disulfide
+biotin-[carboxyl-carrier-protein]
+carboxy-biotin-[carboxyl-carrier-protein]
+cyclobutadipyrimidine (in dna)

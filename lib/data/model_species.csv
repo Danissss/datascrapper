@@ -1,0 +1,12 @@
+name,taxonomy_id,classification,singular_name,abbreviated_species,better_name,plural_better_name,decapitalized,PBNDC
+Homo sapiens,1,Eukaryote,Human,H. sapiens,Human,Humans,human, humans
+Escherichia coli,3,Prokaryote,E. coli,E. coli,E. coli,E. coli,E. coli, E.coli
+Arabidopsis thaliana,4,Eukaryote,Thale crass,A. thaliana,Arabidopsis,Arabidopsis,A. thaliana, Arabidopsis
+Bos taurus,5,Eukaryote,Cow,B. taurus,Cattle,Cattle,cattle,cattle
+Caenorhabditis elegans,6,Roundworm,C. elegans,C. elegans,C. elegans,C. elegans,C. elegans
+Drosophila melanogaster,10,Fruit fly,D. melanogaster,Drosophila,Drosophila,Drosophila,Drosophila
+Mus musculus,12,Eukaryote,Mouse,M. musculus,Mouse,Mice,mouse,mice
+Rattus norvegicus,17,Eukaryote,Rat,R. norvegicus,Rat,Rats,rat,rats
+Saccharomyces cerevisiae,18,Eukaryote,Yeast,S. cerevisiae,Yeast,Yeast,yeast,yeast
+Pseudomonas aeruginosa,23,Prokaryote,Pseudomonas,P. aeruginosa,Pseudomonas,Pseudomonas,Pseudomonas,Pseudomonas
+

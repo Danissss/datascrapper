@@ -1,0 +1,13 @@
+Phenmedipham	Yannick SMILES review Oct 2	CC1=CC(=CC=C1)NC(=O)OC2=CC=CC(=C2)NC(=O)OC		CAS:13684-63-4
+Desmedipham	Yannick SMILES review Oct 2	CCOC(=O)NC1=CC(=CC=C1)OC(=O)NC2=CC=CC=C2		CAS:13684-56-5
+3-(1-ethylpropyl)phenyl methylcarbamate	Yannick SMILES review Oct 2	[H]N(C)C(=O)OC1=CC(=CC=C1)C(CC)CC		CAS:672-04-8
+3-(1-methylbutyl)phenyl N-methylcarbamate	Yannick SMILES review Oct 2	[H]N(C)C(=O)OC1=CC(=CC=C1)C(C)CCC		CAS:2282-34-0
+dibenzylideneacetone	Yannick SMILES review Oct 2	O=C(/C=C/c1ccccc1)/C=C/c2ccccc2		CAS:538-58-9
+"22,23-dihydroavermectin B1a"	Yannick SMILES review Oct 2		"InChI=1S/C48H74O14/c1-11-25(2)43-28(5)17-18-47(62-43)23-34-20-33(61-47)16-15-27(4)42(26(3)13-12-14-32-24-55-45-40(49)29(6)19-35(46(51)58-34)48(32,45)52)59-39-22-37(54-10)44(31(8)57-39)60-38-21-36(53-9)41(50)30(7)56-38/h12-15,19,25-26,28,30-31,33-45,49-50,52H,11,16-18,20-24H2,1-10H3/b13-12+,27-15+,32-14+/t25-,26-,28-,30-,31-,33+,34-,35-,36-,37-,38-,39-,40+,41-,42-,43+,44-,45+,47+,48+/m0/s1"	
+"22,23-dihydroavermectin B1b"	Yannick SMILES review Oct 2		"InChI=1S/C47H72O14/c1-24(2)41-27(5)16-17-46(61-41)22-33-19-32(60-46)15-14-26(4)42(25(3)12-11-13-31-23-54-44-39(48)28(6)18-34(45(50)57-33)47(31,44)51)58-38-21-36(53-10)43(30(8)56-38)59-37-20-35(52-9)40(49)29(7)55-37/h11-14,18,24-25,27,29-30,32-44,48-49,51H,15-17,19-23H2,1-10H3/b12-11+,26-14+,31-13+/t25-,27-,29-,30-,32+,33-,34-,35-,36-,37-,38-,39+,40-,41+,42-,43-,44+,46+,47+/m0/s1"	
+Tritium	radioactive		InChI=1S/H2/h1H/i1+2T	
+Carbon-14	radioactive		InChI=1S/CH4/h1H4/i1+2	
+Sulfur-35	radioactive		InChI=1S/H2S/h1H2/i1+3	
+Bromine gas 	Wishart email Sep 27		InChI=1S/Br2/c1-2	
+Chlorine gas	Wishart email Sep 27		InChI=1S/Cl2/c1-2	
+Succinyl acetoacetate	IEM toxins Sep 21	CAS:65115-74-4	"InChI=1S/C8H10O6/c9-5(1-2-7(11)12)3-6(10)4-8(13)14/h1-4H2,(H,11,12)(H,13,14)"	CAS:65115-74-4

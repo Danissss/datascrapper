@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('wikipedia-client')
   gem.add_dependency('bio-isoelectric_point')
   gem.add_dependency('savon', '~> 2.5.1')
-  gem.add_dependency('nokogiri')
+  gem.add_dependency('nokogiri',">= 1.10.4")
   gem.add_dependency('require_all', '~> 1.3.1')
   gem.add_dependency('dalli', '~> 2.6.0')
   gem.add_dependency("libxml-ruby", "~> 2.7.0")

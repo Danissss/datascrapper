@@ -29,8 +29,6 @@
     
       return structure
     end
-  
-    def self.search_cache_by_name(name)
-    end
+    
   end
 end

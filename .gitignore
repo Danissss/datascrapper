@@ -2,11 +2,11 @@
 *.gem
 *.rbc
 *~
+# ignore JetBrains IDE stuff
 .idea/*
 .bundle
 .config
 .yardoc
-#Gemfile.lock
 InstalledFiles
 _yardoc
 coverage

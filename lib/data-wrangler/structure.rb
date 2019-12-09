@@ -42,9 +42,7 @@
       end
       result
     end
-  
-    def self.search_cache_by_name(name)
-    end
+
 
     def self.find_best_by_name(name)
       data = self.search_by_name(name)

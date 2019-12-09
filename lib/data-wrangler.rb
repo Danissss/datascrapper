@@ -12,11 +12,10 @@ require 'net/http'
 require 'dalli'
 require 'require_all'
 require 'xml'
-require 'synonym_cleaner'
 require 'parallel'
 require 'active_support/all'
 require 'httpclient'
-
+require_relative 'synonym_cleaner'
 require_all File.dirname(__FILE__) + '/data-wrangler/'
 
 # -*- coding: utf-8 -*- 

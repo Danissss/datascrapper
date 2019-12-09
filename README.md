@@ -2,44 +2,52 @@
 
 TODO: Write a gem description
 
-## Installation
+# File structure
+`lib` contains the ruby code 
+`rakelib` contains the all the rake task that you want to run
+`spec` contains unit test file. We use `rspec` in this project
+`ext` contains the c code (for extension)
 
-Add these lines to your application's Gemfile:
 
-    gem 'data-wrangler',   git: 'git@bitbucket.org:wishartlab/datawrangler.git'
-    gem 'wishart',         git: 'git@bitbucket.org:wishartlab/wishart'
-    gem 'synonym_cleaner', git: 'git@bitbucket.org:wishartlab/synonym-cleaner.git'
-    gem 'cite_this', git: "git@bitbucket.org:wishartlab/cite_this.git"
-    gem 'chemoSummarizer', git: "git@bitbucket.org:wishartlab/chemoSummarizer.git"
-    gem 'metbuilder',git: "git@bitbucket.org:wishartlab/metbuilder.git"
-    gem 'similarity-NS', git: "git@bitbucket.org:wishartlab/similarity-ns.git"
-    
 
-And then execute:
 
-    $ bundle install
+# Quick start
+## Collect data for compounds:
+Collect compound strutrue by name:
+`DataWrangler::Structure.find_best_by_name("L-Alanine")`
+Annotate compound by name:
+`DataWrangler::Annotate::Compound.best_by_name(name)`
 
-Alternatively you can install it yourself as:
-
-    $ git clone git@bitbucket.org:wishartlab/datawrangler.git
-    $ cd datawrangler
-    $ gem build data-wrangler.gem
-    $ gem install data-wrangler
-
-## Logic Map
-`lib/data-wrangler/tools/jchem.rb` require `lib/data-wrangler/configuration.rb`
-`lib/data-wrangler/configuration.rb` needs `lib/config/jchem.yml`
-DataWrangler::JChem::Convert is required by:
+Collect protein information by uniprot id Q49AK1
+`DataWrangler::Model::UniprotProtein.new("Q49AK1").annotate.to_xml`
+Collect list of protein info by list of uniprot_id
 ```
-lib/data-wrangler/annotate/compound.rb
-lib/data-wrangler/models/compound.rb
-lib/data-wrangler/models/compound_models/chembl_compound.rb
-lib/data-wrangler/models/compound_models/classyfire_compound.rb
-lib/data-wrangler/models/compound_models/kegg_compound.rb
-lib/data-wrangler/models/compound_models/molconvert_compound.rb
-lib/data-wrangler/models/compound_models/moldb_compound.rb
+ids = ["P29803","P68871","P69905","P03372"]
+DataWrangler::Uniprot.each_uniprot ids do |protein|
+  puts protein.to_xml
+end
 ```
-It sends API request to `http://jchem:test@jchem.wishartlab.com/jchem/rest-v0` with auth;
-And get back result as JSON format.
+Other functions related to protein
+```
+def self.protein_gene_name
+  DataWrangler::Annotate::Protein.by_gene_name ["ABCB1", "ABCB11", "ABCG2"], "9606" do |protein|
+    puts protein.to_xml
+  end
+
+end
+
+def self.transporter
+  puts DataWrangler::Model::UniprotProtein.new("P05023").to_xml
+end
+
+def self.predictive_transporter
+  p = DataWrangler::Model::UniprotProtein.new("P0AEP1")
+  p.predict_transporter
+  p.transports.each do |t|
+    t.annotate
+  end
+  puts p.to_xml
+end
+```
 
 

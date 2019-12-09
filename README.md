@@ -9,7 +9,9 @@ TODO: Write a gem description
 `ext` contains the c code (for extension)
 
 
-
+# Additional resources
+http://webbook.nist.gov/cgi/cbook.cgi?Name=alanine&Units=SI
+http://esc.syrres.com/interkow/webprop.exe?CAS=#{cas}
 
 # Quick start
 ## Collect data for compounds:

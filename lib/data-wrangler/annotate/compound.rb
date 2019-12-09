@@ -117,11 +117,6 @@
         if compound.identifiers.hmdb_id.present?
           compounds << DataWrangler::Model::VMHCompound.get_by_hmdb_id(compound.identifiers.hmdb_id)
         end
-
-        #if compound.classifications.empty? and !compound.structures.inchi.nil?
-         # compounds << DataWrangler::Model::ClassyFireCompound.get_by_inchi(compound.structures.inchi)
-        
-      #end
         
         if compound.basic_properties.empty? && compound.structures.smiles.present?
           compounds << only_calculate_properties(compound.structures.smiles)
@@ -154,11 +149,6 @@
             if resource == DataWrangler::Model::WikipediaCompound || resource == DataWrangler::Model::PolySearchCompound
               thread_compounds << Thread.new { resource.get_by_name(name) } if name.present?
             end
-            # compounds << resource.get_by_inchikey(inchikey)
-            # if resource.kind_of?(DataWrangler::Model::WikipediaCompound) || 
-            #     resource.kind_of?(DataWrangler::Model::PolySearchCompound)
-            #   compounds << resource.get_by_name(name) if name.present?
-            # end
           end
 
         end
@@ -276,9 +266,7 @@
           compound = DataWrangler::Model::CTSCompound.get_by_name(name)
           inchikey = compound.structures.inchikey
         end
-        #return compound if inchikey.nil?
-        #puts inchikey
-        #return inchi
+        
         self.by_inchikey_name(inchikey, name)
       end
 

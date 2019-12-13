@@ -76,8 +76,6 @@ module ChemoSummarizer
       def get_amount_word(diseases)
         amount_words = ['several', 'a few', 'a couple of', 'the']
         amount_word = amount_words[0] if diseases.length > 1
-        # amount_word = amount_words[1] if diseases.length == 3
-        # amount_word = amount_words[2] if diseases.length < 3
         amount_word = amount_words[3] if diseases.length == 1
         amount_word
       end

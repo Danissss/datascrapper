@@ -96,7 +96,6 @@ require 'csv'
         @structures.inchi = self.structures.inchikey = self.structures.std_inchikey = self.structures.std_inchi = nil
         self.structures.inchikey = JChem::Convert.inchi_to_inchikey(new_inchi)
         self.structures.std_inchi = JChem::Standardize.standardize_inchi(new_inchi)
-        #self.structures.std_inchikey = JChem::Convert.inchi_to_inchikey(self.structures.std_inchi)
         self.structures.smiles = JChem::Convert.inchi_to_smiles(new_inchi)
         self.identifiers.iupac_name = JChem::Convert.inchi_to_name(new_inchi)
         self.structures.inchi = new_inchi
@@ -281,13 +280,6 @@ require 'csv'
           self.structures.inchi = compound.structures.inchi if compound.structures.inchi.present?
           self.structures.inchikey = compound.structures.inchikey if compound.structures.inchikey.present?
           self.structures.smiles = compound.structures.smiles if compound.structures.smiles.present?
-          #self.properties.average_mass = compound.properties.average_mass if compound.properties.average_mass.present?
-          #self.properties.molecular_weight = compound.properties.molecular_weight if compound.properties.molecular_weight.present?
-          #self.properties.monoisotopic_mass = compound.properties.monoisotopic_mass if compound.properties.monoisotopic_mass.present?
-          #self.properties.nominal_mass = compound.properties.nominal_mass if compound.properties.nominal_mass.present?
-          #self.properties.alogp = compound.properties.alogp if compound.properties.alogp.present?
-          #self.properties.xlogp = compound.properties.xlogp if compound.properties.xlogp.present?
-          #self.properties.formula = compound.properties.formula if compound.properties.formula.present?
           compound.basic_properties.each do |basic_pr|
             if self.basic_properties.select{|property| property.type == basic_pr.type}.empty?
               self.basic_properties.push(basic_pr)
@@ -339,16 +331,14 @@ require 'csv'
 					self.identifiers.ymdb_id = compound.identifiers.ymdb_id if compound.identifiers.ymdb_id.present?
 					self.identifiers.ecmdb_id = compound.identifiers.ecmdb_id if compound.identifiers.ecmdb_id.present?
           self.identifiers.smpdb_id = compound.identifiers.smpdb_id if compound.identifiers.smpdb_id.present?
-					#self.descriptions.push(compound.descriptions.first) if compound.descriptions.any?
+
           if compound.descriptions.any?
             compound.descriptions.each do |des|
               self.descriptions.push(des)
             end
           end
-					#self.taxonomy = compound.taxonomy if compound.taxonomy.any?
 					self.pharmacology_profile = compound.pharmacology_profile if compound.pharmacology_profile.present?
 					self.toxicity_profile = compound.toxicity_profile if compound.toxicity_profile.present?
-					#self.spectra = Marshal.load(Marshal.dump(compound.spectra)) if !compound.spectra.empty?
 	        self.biofunctions = Marshal.load(Marshal.dump(compound.biofunctions)) if !compound.biofunctions.empty?
 	        self.concentrations = Marshal.load(Marshal.dump(compound.concentrations)) if !compound.concentrations.empty?
 		      self.diseases = Marshal.load(Marshal.dump(compound.diseases)) if !compound.diseases.empty?
@@ -496,7 +486,6 @@ require 'csv'
             when 'Wikipedia'  then wikipedia_syn.push(syn)
             when 'HMDB'       then hmdb_syn.push(syn)
             when 'MeSH'       then mesh_syn.push(syn)
-            #when 'MetbBuilder'then metbuilder_syn.push(syn)
           end
         end
         self.synonyms = []

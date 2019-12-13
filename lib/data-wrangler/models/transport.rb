@@ -150,19 +150,6 @@
     class TransportElement
       attr_accessor :stoichiometry, :text, :inchi, :database_id, :database, :from, :to
       
-      # def <=>(other)
-      #   if self.inchi && other.inchi
-      #     return self.inchi <=> other.inchi
-      #   elsif self.text && other.text
-      #     return self.text <=> other.text
-      #   elsif self.database && other.database && self.database != other.database
-      #     return self.database <=> other.database
-      #   elsif self.database_id && other.database_id
-      #     return self.database_id <=> other.database_id
-      #   else
-      #     return 0
-      #   end
-      # end
       def ==(other)
         (self.from == other.from && self.to == other.to) &&
         ((self.inchi && other.inchi && self.inchi == other.inchi) ||

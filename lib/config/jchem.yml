@@ -4,11 +4,11 @@ development:
   table: molecules
 
 test:
-  url: "http://jchem:test@jchem.wishartlab.com/jchem/rest-v0"
+  url: "http://jchem:QLhg2i6y@jchem.wishartlab.com/jchem/rest-v0"
   config: moldb
   table:
 
 production:
-  url: "http://jchem:test@jchem.wishartlab.com/jchem/rest-v0"
+  url: "http://jchem:QLhg2i6y@jchem.wishartlab.com/jchem/rest-v0"
   config: moldb
   table: molecules

@@ -32,8 +32,6 @@
       @auto_save_compounds = false
       @jchem_path = '/Applications/ChemAxon/JChem/bin'
       @jchem_url = 'http://jchem:QLhg2i6y@jchem.wishartlab.com/jchem/rest-v0'
-      # @max_threads = 8
-      # @thread_pool = Thread.pool(2,@max_threads
 
     end
 
@@ -45,11 +43,6 @@
       raise ArgumentError, "Not a Dalli::Client" if dc.nil? || dc.class != Dalli::Client
       @dalli_client = dc
     end
-    
-    # def max_threads=(num)
-    #   @thread_pool.resize(2,num)
-    #   @max_threads = num
-    # end
 
     def cache_dir=(dir)
       raise ArgumentError, "Not a Directory" if dir.nil? || !File.directory?(dir)

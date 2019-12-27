@@ -152,10 +152,6 @@ require 'csv'
         raise ArgumentError unless compound.is_a? Compound
         options[:include_synonyms] = true if options[:include_synonyms].nil?
 
-        #if self.identifiers.name.blank? or self.identifiers.name == UNKNOWN or self.identifiers.name == "Unknown"
-         # self.identifiers.name = SynonymCleaner.capitalize(compound.identifiers.name) if compound.identifiers.name.present?
-        #end
-
         if options[:include_synonyms]
           compound.synonyms.each { |syn| add_synonym_model(syn) }
         end
@@ -223,7 +219,6 @@ require 'csv'
 
       def send_chebi_annotations(compound)
         if compound.database == "ChEBI"
-          #self.ontologies = Marshal.load(Marshal.dump(compound.ontologies))
           compound.ontologies.each do |on|
             self.ontologies.push(on)
           end

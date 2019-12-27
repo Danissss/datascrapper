@@ -207,12 +207,13 @@
         tries = 0
         while !success and tries < 1
           begin
+            # call jchem server directly; don't go through moldb
             result_hash = JChem::Convert.get_properties(structure, additional_fields: STRUCTURE_PROPERTIES)
             STRUCTURE_PROPERTIES.each do |name, term|
               val = result_hash[name.to_sym]
               if term =~ /(<=|>=|\&\&)/ # JChem returns float for boolean terms
                 val = val.to_i unless val.nil?
-                result_hash[name.to_sym] = val
+                result_hash[name.to_sym] = val  # result_hash contain property_name:property_value
               end
             end
 
@@ -226,7 +227,6 @@
           rescue Exception => e
             puts e.message + "JCHEM Convert"
             tries += 1
-            
           end
         end
       end

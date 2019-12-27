@@ -147,49 +147,6 @@ class Sphingolipid <  LipidModel
 		end
 
 
-=begin	
-		#puts "1. " + head.to_s
-
-		# need to find the type of the headgroup; could be 'd'/'t'/'m', default is 'd'
-		# the difference between them is mentioned in the big comment above!
-		#group_type = @base_chain[0]
-		#if group_type != 'd'
-		#	head = $head_groups[group_type][type][0]
-		#end
-
-		base_chain = @base_chain.gsub(group_type,'').split(":")
-
-		# the default is 18-Carbon (18C), if not we need to remove/add Cs from/to the base chain (backbone)
-		if base_chain[0] != '18'
-			if ['16','17','19','20'].include?(base_chain[0])
-				difference = 18-base_chain[0].to_i
-				if difference > 0
-					head = head[difference..-1]
-				else
-					difference = difference*(-1)
-					head = "C"*difference + head
-				end
-			else
-				# maybe find a resource to give for user to check it out
-				puts "Unlike side chains, Sphingolipids' long-chain-base could only range from C16 to C20."
-				exit
-			end
-		end
-
-		#puts "2. " + head.to_s
-
-		# need to control for double bonds
-		if base_chain[1] != '0'
-			count_C = $chains[@base_chain][0].count("C")
-			#puts count_C
-			head = head.gsub(head[0..count_C-1], $chains[@base_chain][0])
-			#puts head
-		end
-		
-		#puts "3. " + head.to_s
-=end
-
-
 		# build the base and side chains onto the headgroup
 		begin
 			# base chain check for special headgroups

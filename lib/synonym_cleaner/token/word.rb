@@ -5,7 +5,7 @@ module SynonymCleaner
       # Only the first word will be set to
       # true
       def set_as_first_word
-        raise Exception::CannotBeSetAsFirstWord unless can_be_first_word?
+        raise Exception unless can_be_first_word?
         @first_word = true
         self
       end

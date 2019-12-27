@@ -63,13 +63,9 @@ def create_lipid(abbreviation)
 
   input_side_chains.each do |sc|
     $chains.each do |key, array|
-     # puts "key #{key}===sc #{sc}"
       if key.downcase == sc.downcase
         sc = key
         side_chains << sc
-      # else
-      #  $stderr.puts "WARNING chain '#{sc}' not found in MetBuilder library. Please add it and try again!"
-      #   exit
       end
     end
   end
@@ -84,7 +80,6 @@ def create_lipid(abbreviation)
       structure.build_cardiolipin
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
 
@@ -93,7 +88,6 @@ def create_lipid(abbreviation)
       structure.build_glycerolipid
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
     elsif head=='CE'
@@ -101,7 +95,6 @@ def create_lipid(abbreviation)
       structure.build_cholesteryl_ester
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
 
@@ -110,7 +103,6 @@ def create_lipid(abbreviation)
       structure.build_acyl_carnitine
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
 
@@ -119,7 +111,6 @@ def create_lipid(abbreviation)
       structure.build_acyl_glycine
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
 
@@ -145,7 +136,6 @@ def create_lipid(abbreviation)
       structure.build_glycerophospholipid
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       puts "There"
       return structure
@@ -157,12 +147,10 @@ def create_lipid(abbreviation)
       if head == "DHS1P"
         abbreviation = abbreviation.sub("DHS1P", "DHS-1-P")
       end
-      #structure = Sphingolipid.new("#{abbreviation.split('/')[0]})", side_chains[0], side_chains[1]) #side_chains[0] = base chain
       structure = Sphingolipid.new(abbreviation, side_chains[0], side_chains[1]) #side_chains[0] = base chain
       structure.build_sphingolipid
       structure.generate_definition
       structure.generate_name
-      #structure.annotate
       structure.synonyms
       return structure
 
@@ -230,13 +218,6 @@ def generate_sdf_file(structures,options)
   structures.each do |structure|
     title = structure.abbrev
 
-    #sdf_output.puts(title)
-      #if structure.name.nil?
-      #  structure.abbrev
-      #else
-      #  "#{structure.name}\t#{structure.abbrev}"
-      #end
-
     sdf_string = convert_smiles_to_sdf_string(structure.smiles, title)
     #sdf_string << "\n><systematic name>\n#{structure.name}\n\n$$$$\n\n"
 
@@ -286,12 +267,10 @@ if __FILE__==$0
     opt :af, "abbreviation file", type: :string
     opt :wdef, "display structural description of the compound", default: false #a flag --wdef
     opt :name, "display the systematic name of the compound", default: false #a flag --name
-    #opt :winkey, "display the inchikey of the compound", default: false #a flag --winkey
     opt :wsyn, "display synonyms for compound given", default: false # a flag --wsyn
     opt :osmi, "destination file for SMILES outputs", type: :string, default: nil # string --osmi <s>
     opt :osdf, "destination file for SDF outputs", type: :string, default: nil # string --osdf <s>
     opt :ocml, "destination file for CML output with pretty structures", type: :string, default: nil
-    #opt :organism, "name of the organism",:type=>:string, :default=>"homo sapiens" # string --organism <s>
     opt :d, "add detailed information, e.g.: cellular location, biofunction, and metabolic enzymes",:default=>false #a flag -d
   end
 

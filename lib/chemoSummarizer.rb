@@ -14,6 +14,7 @@ require 'htmlentities'
 require 'crack'
 require 'similarity'
 require 'kmeans-clusterer'
+require 'gsl'
 # require_relative requires the code/lib from local instead of gem
 require_relative 'summary/summary'
 require_relative 'summary/introduction'
@@ -33,6 +34,9 @@ require_relative 'summary/models/basic_model'
 require_relative 'summary/models/compoundHTML'
 require_relative 'summary/other_submodels/summary' 
 require_relative 'summary/other_submodels/html_stuff'
+require_relative 'summary/document'
+require_relative 'summary/corpus'
+require_relative 'summary/term_document_matrix'
 
 
 module ChemoSummarizer
@@ -59,7 +63,6 @@ module ChemoSummarizer
 
 
   def self.get_metbuilder_description(compound,species)
-    #compound.identifiers.name = SynonymCleaner.capitalize(compound.identifiers.name)
     model = Metbuilder::Describe::Compound.new(compound)
     hash = model.write
     description = hash.text

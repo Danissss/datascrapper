@@ -1,7 +1,5 @@
 require 'builder'
 require 'json'
-require 'chemoSummarizer'
-require 'metbuilder'
 require 'csv'
 
 # -*- coding: utf-8 -*- 

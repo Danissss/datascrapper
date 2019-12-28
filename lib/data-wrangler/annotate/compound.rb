@@ -80,12 +80,14 @@ module DataWrangler
         # get cs descriptions (cs descriptions depends on all the information the compound class collected)
         # return compound object (not array)
         first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
+        puts first_childs.inspect
         first_childs.each do |resource|
-          next unless resource.respond_to?(:get_by_inchikey)
+          if resource.respond_to?(:get_by_inchikey)
           # for those have the method get_by_inchikey, it will call moldb api and get json file
           # then get desired stuff from the returned data from json format
           # that's why PathBankCompound inherient Compound not moldb_compound
-          thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
+            thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
+          end
           # thread_compounds << resource.get_by_inchikey(inchikey)
         end
 
@@ -93,6 +95,7 @@ module DataWrangler
           th.join
           compounds << th.value
         end
+
         compound = Model::Compound.merge(compounds)
 
         if !compound.identifiers.name.nil? and compound.identifiers.name != "Unknown"
@@ -140,13 +143,15 @@ module DataWrangler
         thread_compounds = []
         name = name.strip if !name.nil?
         if !inchikey.nil?
-        first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
-        first_childs.each do |resource|
-          next unless resource.respond_to?(:get_by_inchikey)
-          thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
-          if resource == DataWrangler::Model::WikipediaCompound || resource == DataWrangler::Model::PolySearchCompound
-            if name.present?
-              thread_compounds << Thread.new { resource.get_by_name(name) }
+          first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
+          first_childs.each do |resource|
+            if resource.respond_to?(:get_by_inchikey)
+              thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
+              if resource == DataWrangler::Model::WikipediaCompound || resource == DataWrangler::Model::PolySearchCompound
+                if name.present?
+                  thread_compounds << Thread.new { resource.get_by_name(name) }
+                end
+              end
             end
           end
         end

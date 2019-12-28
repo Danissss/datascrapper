@@ -2,6 +2,12 @@ require 'spec_helper'
 
 describe DataWrangler::Annotate do
   context "Search L-alanine" do
+    it "Test the by_inchikey" do
+      c = DataWrangler::Annotate::Compound.by_name("BRMWTNUJHUMWMS-LURJTMIESA-N")
+      puts c
+    end
+
+
     it "should annotate L-alanine" do
       c = DataWrangler::Annotate::Compound.by_name("L-alanine")
       c.identifiers.name.should eq("L-alanine")
@@ -96,17 +102,4 @@ describe DataWrangler::Annotate do
       c.identifiers.name.should eq("aspirin")
     end
   end
-
-
-
-
-
-
-  # Need to find out why this shouldn't pass since there are no fucking comments
-  # context "Search p-hydroxyclonidine" do
-  #   it "should not find p-hydroxyclonidine" do
-  #     c = DataWrangler::Annotate::Compound.best_by_name("p-hydroxyclonidine")
-  #     c.should be_nil
-  #   end
-  # end
 end

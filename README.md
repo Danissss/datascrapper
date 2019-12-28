@@ -52,4 +52,62 @@ def self.predictive_transporter
 end
 ```
 
+# How to run quick test?
+This will execute the main method
+`ruby lib/data-wrangler.rb`
+However, please write the actual unit test.
+
+
+Run the function inside the module (doesn't work...)
+```
+class TestClass
+    def self.test_function(someVar)
+        puts "I got the following variable: " + someVar
+    end
+end
+```
+
+`ruby -r "./test.rb" -e "TestClass.test_function 'hi'"`
+
+```
+class TestClass
+    def test_function(someVar)
+        puts "I got the following variable: " + someVar
+    end
+end
+```
+
+`ruby -r "./test.rb" -e "TestClass.new.test_function 'hi'"`
+https://stackoverflow.com/questions/10316495/call-ruby-function-from-command-line
+
+man ruby:
+`-r library     Causes Ruby to load the library using require. `
+
+`ruby -r "lib/data-wrangler.rb" -e "DataWrangler::Annotate::Compound.by_inchikey 'BRMWTNUJHUMWMS-LURJTMIESA-N'"`
+
+
+Run rspec
+e.g.
+`rspec path/to/spec/file.rb`
+`rspec path/to/spec:<line number>` for particular line of test
+```
+1: 
+2: it "should be awesome" do
+3:   foo = 3
+4:   foo.should eq(3)
+5: end
+6:
+
+run as rspec spec/models/foo_spec.rb:2
+```
+For data-wrangler:
+`rspec spec/annotate_spec.rb:5`
+
+
+
+
+
+
+
+
 

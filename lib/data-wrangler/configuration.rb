@@ -63,7 +63,7 @@
 
     def standardizer_config
       return @standardizer_config if @standardizer_config.present?
-      @standardizer_config = "<?xml version="1.0" encoding="UTF-8"?>
+      @standardizer_config = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
                               <StandardizerConfiguration>
                                 <Actions>
                                   <Neutralize ID=\"Neutralize\"/>

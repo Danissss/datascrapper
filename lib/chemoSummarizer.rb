@@ -57,7 +57,6 @@ module ChemoSummarizer
       description = model.write
       descriptions["#{species.taxonomy_id}"] = description
     end
-    puts descriptions
     descriptions
   end
 

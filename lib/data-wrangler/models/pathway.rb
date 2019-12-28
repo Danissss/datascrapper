@@ -51,10 +51,7 @@
         merged = false
         pathways.each do |p|
           if pathway == p
-            # puts pathway.to_xml
-            # puts p.to_xml
             p.merge(pathway)
-            # puts p.to_xml
             merged = true
             break
           end
@@ -64,8 +61,6 @@
         
         pathways
       end
-      
-      
     end
   end
 end

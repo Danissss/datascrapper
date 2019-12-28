@@ -196,5 +196,3 @@
     end
   end
 end
-class TransportFormatUnknown < StandardError  
-end

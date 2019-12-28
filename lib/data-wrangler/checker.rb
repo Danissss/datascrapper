@@ -47,7 +47,7 @@
             compound = Model::ChebiCompound.new(options[:chebi_id])
             compound.inchi
             compound.save
-          rescue ChebiCompoundNotFound
+          rescue Exception
             compound = nil
           end
         end

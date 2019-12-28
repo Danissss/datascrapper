@@ -186,6 +186,3 @@
     end
   end
 end
-
-class ClassyFireCompoundNotFound < StandardError  
-end

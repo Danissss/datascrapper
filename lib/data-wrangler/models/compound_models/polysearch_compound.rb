@@ -219,6 +219,3 @@
     end
   end
 end
-
-class PolySearchCompoundNotFound < StandardError  
-end

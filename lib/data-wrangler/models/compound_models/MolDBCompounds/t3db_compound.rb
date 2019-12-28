@@ -153,6 +153,3 @@
     end
   end
 end
-
-class T3DBCompoundNotFound < StandardError  
-end

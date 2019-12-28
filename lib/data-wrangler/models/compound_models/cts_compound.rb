@@ -189,6 +189,3 @@
     end
   end
 end
-
-class CTSCompoundNotFound < StandardError  
-end

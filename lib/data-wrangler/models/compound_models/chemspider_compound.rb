@@ -14,7 +14,6 @@
       end
 
       def parse
-        #cs_basic_property_terms = ["monoisotopic_mass", "nominal_mass", "alogp", "xlogp"]
 
         return self if DataWrangler.configuration.chemspider_token.blank?
  
@@ -120,7 +119,6 @@
         begin
           data = Nokogiri::XML(open("http://www.chemspider.com/Search.asmx/SimpleSearch?query=#{URI::encode(name)}&token=#{DataWrangler.configuration.chemspider_token}"))
         rescue Exception => e
-          $stderr.puts "WARNING 'Chemspider.get_compounds_by_name' #{e.message} #{e.backtrace}"
           return compounds
         end
         

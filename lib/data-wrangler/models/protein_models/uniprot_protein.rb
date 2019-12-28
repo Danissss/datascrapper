@@ -10,7 +10,6 @@
           self.parse(xml)
         rescue Exception => e
           puts "WARNING: UniprotProtein, #{e.message}"
-          throw UniprotParseError, "Error getting or parsing #{id}"
         end
 
 
@@ -99,7 +98,7 @@
             rescue ReactionFormatUnknown => e
               begin
                 self.add_transport(TextTransport.new(text,self.uniprot_id,"Uniprot"))
-              rescue TransportFormatUnknown => f
+              rescue Exception => f
                 $stderr.puts "WARNING: could not process reaction/transport #{text} with message #{e.message} #{f.message}"
               end
             end
@@ -427,6 +426,4 @@
 
     end
   end
-end
-class UniprotParseError < StandardError
 end

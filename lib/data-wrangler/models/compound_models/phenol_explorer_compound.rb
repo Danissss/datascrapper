@@ -4,7 +4,6 @@
     class PhenolExplorerCompound < Model::Compound
       SOURCE = "PhenolExplorer"
       COMPOUND_DATA_PATH = File.expand_path('../../../../data/phenol_compounds.tsv',__FILE__)
-      #PROTEIN_DATA_PATH = File.expand_path('../../../../data/ymdb_proteins.tsv',__FILE__)
 
       def initialize(phenol_id = "UNKNOWN")
         super(phenol_id, SOURCE)
@@ -101,7 +100,4 @@
       end
     end
   end
-end
-
-class PhenolExplorerCompoundNotFound < StandardError  
 end

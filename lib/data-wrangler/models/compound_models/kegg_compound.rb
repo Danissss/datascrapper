@@ -241,5 +241,3 @@
     end
   end
 end
-class KeggCompoundNotFound < StandardError
-end

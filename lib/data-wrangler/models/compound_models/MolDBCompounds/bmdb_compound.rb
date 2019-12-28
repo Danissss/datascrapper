@@ -338,6 +338,3 @@
     end
   end
 end
-
-class BMDBCompoundNotFound < StandardError  
-end

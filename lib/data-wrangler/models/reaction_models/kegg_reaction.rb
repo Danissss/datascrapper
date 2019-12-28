@@ -46,7 +46,6 @@
 		e.database_id = $3
 		e.database = "kegg"
 		raise ReactionKeggGlycan if e.database_id =~ /^G\d+$/
-		# c = DataWrangler::Model::KeggCompound.new(e.database_id)
 		c = DataWrangler::Model::KeggCompound.get_by_id(e.database_id)
 		if c
 		  e.text = c.name

@@ -232,6 +232,3 @@
     end
   end
 end
-
-class FooDBCompoundNotFound < StandardError  
-end

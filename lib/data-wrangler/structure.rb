@@ -15,9 +15,10 @@
 
       result = Hash.new
 
-      [Model::ChebiCompound, Model::KeggCompound, Model::KeggDrug, 
-       Model::ChemspiderCompound, Model::PubchemCompound, 
-       Model::MolconvertCompound].each do |resource|
+      compound_model = [Model::ChebiCompound, Model::KeggCompound, Model::KeggDrug, 
+                        Model::ChemspiderCompound, Model::PubchemCompound, Model::MolconvertCompound]
+
+      compound_model.each do |resource|
         compounds = resource.get_by_name(name)
 				if !compounds.kind_of?(Array)
 					compounds = [compounds]

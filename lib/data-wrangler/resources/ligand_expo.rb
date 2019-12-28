@@ -31,7 +31,6 @@
     end
     def self.get_het_id_by_inchikey(inchikey)
       CSV.foreach('data/ligand_expo.csv', :headers=>true, :header_converters=>:symbol) do |row|
-        # puts "#{row[:inchikey]} #{inchikey} #{row[:het_id]}"
         if row[:inchikey].to_s == inchikey.to_s
           return row[:het_id]
         end

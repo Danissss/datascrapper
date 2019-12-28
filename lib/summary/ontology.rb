@@ -157,12 +157,11 @@ module ChemoSummarizer
             sleep 3
           end
         end
-
-        #raise ChebiCompoundNotFound, "ChebiCompoundNotFound #{@chebi_id}" if response.nil?
+        
         return self if response.nil?
 
         result = response.to_hash[:get_complete_entity_response][:return]
-        #raise ChebiCompoundNotFound, "ChebiCompoundNotFound #{@chebi_id}" if result.nil?
+
         return self if result.nil?
         ontology.definition= result[:definition]
       end

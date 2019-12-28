@@ -5,8 +5,6 @@
       SOURCE = "MolDB"
       COMPOUND_API_PATH = "http://moldb.wishartlab.com/molecules/"
       STRUCTURE_API_PATH = "http://moldb.wishartlab.com/structures/"
-      #COMPOUND_DATA_PATH = File.expand_path('../../../../data/ecmdb_compounds.tsv',__FILE__)
-      #PROTEIN_DATA_PATH = File.expand_path('../../../../data/ecmdb_proteins.tsv',__FILE__)
 
       def initialize(moldb_id = "UNKNOWN")
         super(moldb_id, SOURCE)
@@ -393,7 +391,4 @@
 
     end
   end
-end
-
-class MolDBCompoundNotFound < StandardError  
 end

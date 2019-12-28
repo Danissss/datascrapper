@@ -60,6 +60,8 @@ module Metbuilder
 
   module GetSynonyms
     class Compound
+      # title is a local variable. They only exists within its scope (current block)
+      # @title is an instance variable - and is available to all methods within the class.
       def initialize(compound)
         @compound = compound
         @compound_name = compound.identifiers.name

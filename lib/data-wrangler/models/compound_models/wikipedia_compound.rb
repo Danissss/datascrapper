@@ -187,31 +187,6 @@
           desc_model = DataModel.new(summary, SOURCE, 'Description')
           self.descriptions.push(desc_model)
         end
-
-
-
-        # #puts page.text.split(".")
-        # descriptions_snippits = page.text.split(".\n")
-        # #puts descriptions_snippits.to_s
-        # descriptions_snippits.map! do |snip|
-        #   snip = snip.gsub("\n", "")
-        #   snip = snip.gsub("\"", "'")
-        # end
-        # #puts descriptions_snippits.to_s
-        # descriptions_snippits.map! do |desc|
-        #   desc = desc.gsub(/^==.+==/, '')
-        #   snippits_in_snippits = desc.split(". ")
-        #   snippits_in_snippits.each do |sn|
-        #     if sn.downcase.include? "listed above" or sn.downcase.include? "listed below" or sn.downcase.include? "shown above" or sn.downcase.include? "shown below" or sn.downcase.include? "shown here"
-        #       snippits_in_snippits.reject! {|s| s == sn}
-        #     end
-        #   end
-        #   desc = snippits_in_snippits.join(". ")
-        #   if !desc.empty? and !desc.include? "==" and desc.length > 100
-        #     desc_model = DataModel.new(desc, SOURCE, 'Description')
-        #     self.descriptions.push(desc_model)
-        #   end
-        # end
       end
 
       def parse(page = nil, title = nil, links= nil)
@@ -219,14 +194,6 @@
         data = page.split("\n")
         return self if data.nil?
         data.each do |datum|
-          # if /^\'\'\'/.match(datum) or /^A \'\'\'/.mcleatch(datum)
-          #   description = parse_wiki_markup(datum)
-          #   #if self.descriptions.empty? and !description.nil? and description.length > 15
-          #   if !description.nil? and description.length > 20
-          #     desc_model = DataModel.new(description, SOURCE, 'Description')
-          #     self.descriptions.push(desc_model)
-          #   end
-          # end
           self.identifiers.cas = parse_cas_id(datum)
           self.structures.inchi = parse_inchi(datum)
           self.properties.melting_point = parse_melting_point(datum)
@@ -245,5 +212,3 @@
   end
 end
 
-class WikipediaCompoundNotFound < StandardError  
-end

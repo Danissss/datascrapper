@@ -421,6 +421,3 @@
     end
   end
 end
-
-class HMDBCompoundNotFound < StandardError  
-end

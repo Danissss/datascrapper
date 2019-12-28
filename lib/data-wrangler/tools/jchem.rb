@@ -118,7 +118,6 @@ require 'rest_client'
           mrv = RestClient.post path, options.to_json, content_type: :json
           DataWrangler::JChem::Convert.to_inchi(mrv)
         rescue Exception => e
-          #puts e
           $stderr.puts "Error : #{e.message} #{e.backtrace}"
         end
       end

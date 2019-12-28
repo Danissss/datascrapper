@@ -12,10 +12,8 @@
 
       def parse
         self.gene_name = get_content(data,"/uniprot/entry/gene/name[@type='primary']")
-    
         self.organism = get_content(data,"/uniprot/entry/organism/name[@type='scientific']")
         self.taxon_id = get_attribute(data,"/uniprot/entry/organism/dbReference[@type='NCBI Taxonomy']",'id').to_i
-    
       end
 
     end

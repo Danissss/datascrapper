@@ -57,9 +57,7 @@
         tries = 0
         while !success && tries < 1
   	      begin
-  	        #open("https://www.ebi.ac.uk/unichem/rest/src_compound_id/"+src_id+"/"+i.to_s) {|f| @data = JSON.load(f.read)}
   	        compound = self.new
-  	  
   	        open("https://www.ebi.ac.uk/unichem/rest/structure/"+src_id+"/"+i.to_s) {|f| @data = JSON.load(f.read)}
   	        values.push("standardinchi:"+@data[0]["standardinchi"])
   	        values.push("standardinchikey:"+@data[0]["standardinchikey"])
@@ -93,7 +91,4 @@
       end
     end
   end
-end
-
-class UniChemCompoundNotFound < StandardError  
 end

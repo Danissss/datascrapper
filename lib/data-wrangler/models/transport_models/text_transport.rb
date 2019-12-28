@@ -33,8 +33,6 @@
               end
             end
           end
-        else
-          raise TransportFormatUnknown
         end
       end
       

@@ -210,5 +210,4 @@
   end
 end
 
-class ECMDBCompoundNotFound < StandardError  
-end
+

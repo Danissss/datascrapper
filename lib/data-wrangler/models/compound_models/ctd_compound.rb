@@ -109,6 +109,3 @@
     end
   end
 end
-
-class CTDCompoundNotFound < StandardError  
-end

@@ -109,6 +109,3 @@
     end
   end
 end
-
-class KeggDrugNotFound < StandardError  
-end

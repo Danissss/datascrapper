@@ -208,6 +208,3 @@
     end
   end
 end
-
-class YMDBCompoundNotFound < StandardError  
-end

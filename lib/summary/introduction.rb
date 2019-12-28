@@ -41,7 +41,6 @@ module ChemoSummarizer
         if desc.strip[-1] != "."
           desc = desc + "."
         end
-        desc = replace_synonyms(desc)
         return desc.force_encoding("UTF-8")
       end
 
@@ -132,13 +131,11 @@ module ChemoSummarizer
             $stderr.puts "WARNING ChemoSummarizer Corpus Error #{e.message}"
           end
         end
-        #third_types.map!{|sentence| [sentence.id, sim_sentence_group(sentence)]}
         third_types= temp_types
         final_types = wishart_types
         third_types.each do |id,values|
           values = values.reject{|value| value[1] > 0.1}
           next if values.empty?
-          #print @corpus.documents.select{|doc| doc.id == id}.first.content
           highest_value = values.sort_by{|v| v[1]}.reverse[0]
           if highest_value[1] > 0.05  && final_types.include?(highest_value[0])
             index = final_types.index(highest_value[0]) + 1
@@ -179,11 +176,6 @@ module ChemoSummarizer
              tries += 1
           end
         end
-        # kmeans.clusters.each do |cluster|
-        #puts  cluster.id.to_s + '. ' +
-        #        cluster.points.map(&:label).join(", ") + "\t" +
-        #         cluster.centroid.to_s
-        #end
         return kmeans
       end
 
@@ -283,16 +275,7 @@ module ChemoSummarizer
           description_list.delete(desc) if desc[0] == "("
           desc.gsub!("PHYSICAL DESCRIPTION: ", "")
           desc.gsub!("PHYSICAL DESCRIPTION:", "")
-          #no_compound = true
-          #@compound.synonyms.each do |syn|
-            #if desc.downcase.include? syn.downcase && (desc.downcase[0..1] != "it")
-            #  no_compound = false
-           # end
-          #end
-          #no_compound = false if (!no_compound) && (desc.downcase.include? @compound.identifiers.name.downcase)
-          #description_list.delete(desc) if no_compound
         end
-        #puts description_list
         description_list
       end
 
@@ -321,17 +304,6 @@ module ChemoSummarizer
         while description.include? "  "
           description.gsub!("  ", " ")
         end
-        description
-      end
-
-      def replace_synonyms(description)
-        #up = upcaseTerm(@compound.identifiers.name)
-        #down = downcaseTerm(@compound.identifiers.name)
-        #compound.synonyms.each do |syn|
-        #  syn = syn.name
-        #  description.gsub!(upcaseTerm(syn),up)
-        #  description.gsub!(downcaseTerm(syn),down)
-        #end
         description
       end
      

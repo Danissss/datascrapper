@@ -232,7 +232,3 @@
     end
   end
 end
-
-class DrugBankCompoundNotFound < StandardError
-end
-

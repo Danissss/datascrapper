@@ -597,6 +597,7 @@ require 'csv'
 
       def get_CS_descriptions
        place_missing_species
+       # defination => def self.get_descriptions(compound)
        descriptions = ChemoSummarizer.get_descriptions(self)
        self.cs_descriptions = descriptions
       end

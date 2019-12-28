@@ -227,6 +227,3 @@
     end
   end
 end
-
-class ChebiCompoundNotFound < StandardError  
-end

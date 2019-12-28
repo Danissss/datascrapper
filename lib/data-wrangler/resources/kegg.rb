@@ -9,9 +9,7 @@
         open("http://rest.kegg.jp/list/compound").each_line do |line|
           if line =~ /^cpd:(C\d+)/
             kegg_id = $1
-            # puts "Building Kegg (#{kegg_id})"
             c = Model::KeggCompound.get_by_id(kegg_id)
-            # c.has_valid_structure?
             next unless c
             c.save
             yield c if block
@@ -25,9 +23,7 @@
         open("http://rest.kegg.jp/list/drug").each_line do |line|
           if line =~ /^dr:(D\d+)/
             kegg_id = $1
-            # puts "Building Kegg (#{kegg_id})"
             c = Model::KeggDrug.get_by_id(kegg_id)
-            # c.has_valid_structure?
             c.save
             yield c if block
             c.terminate

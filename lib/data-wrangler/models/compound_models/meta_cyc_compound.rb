@@ -154,6 +154,3 @@
     end
   end
 end
-
-class MetaCycCompoundNotFound < StandardError
-end

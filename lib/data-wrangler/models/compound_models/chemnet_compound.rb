@@ -53,6 +53,3 @@
     end
   end
 end
-
-class ChemnetCompoundNotFound < StandardError  
-end

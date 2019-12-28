@@ -173,11 +173,7 @@ require 'csv'
 				send_lipidmap_annotations(compound)
         send_pubchem_annotations(compound)
         add_state
-        GC.start
-        # Send chemspider compound as well (4.7.0)
-        #send_chemspider_annotations(compound)
-
-
+        
         self
       end
 

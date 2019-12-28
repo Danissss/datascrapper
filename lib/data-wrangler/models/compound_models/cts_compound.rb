@@ -120,8 +120,7 @@
         while !success and tries < 1
           begin
             encoded_url = CAS_TO_INCHI+CGI::escape(cas)+"?scoring=biological"
-            #URI.parse(encoded_url)
-           #encoded_url.gsub("[","%5B").gsub("]","%5D")
+
             open(encoded_url) { |f| @data = JSON.load(f.read) }
             # create a new unichem compound and push results into it for merging
             # into main compound object returned by data-wrangler

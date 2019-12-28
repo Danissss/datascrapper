@@ -34,18 +34,15 @@
         attr_accessor :attributes
         
         def initialize(text)
-          # puts text
           @attributes = Hash.new
           
           lines = text.split("\n")
-          # puts lines.length
           raise if !(lines.shift =~ /\[Term\]/)
           
           lines.each do |line|
             if line =~ /^(.*?): (.*)/
               id = $1
               data = $2
-              # puts "#{$1} => #{$2}"
               if @attributes[id]
                 @attributes[id].push data
               else

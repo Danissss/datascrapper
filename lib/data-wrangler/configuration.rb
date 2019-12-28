@@ -63,10 +63,12 @@
 
     def standardizer_config
       return @standardizer_config if @standardizer_config.present?
-      path = File.expand_path("../../config/standardizer.xml", __FILE__)
-      File.open(path) do |f|
-        @standardizer_config = f.read
-      end
+      @standardizer_config = "<?xml version="1.0" encoding="UTF-8"?>
+                              <StandardizerConfiguration>
+                                <Actions>
+                                  <Neutralize ID=\"Neutralize\"/>
+                                </Actions>
+                              </StandardizerConfiguration>"
     end
   end
 end

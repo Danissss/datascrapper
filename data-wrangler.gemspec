@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "data-wrangler"
   gem.require_paths = ["lib"]
-  gem.version       = DataWrangler::VERSION
+  gem.version       = "4.8.0.4"
 
   gem.add_dependency('bio')
   gem.add_dependency('wikipedia-client')

@@ -4,6 +4,7 @@
     include DataWrangler::Annotate::Compound
     include DataWrangler::Annotate::Protein
     
+    # by_inchikey_name; by_inchi_name; etc. are from DataWrangler::Annotate::Compound
     def self.compound(name:nil, inchikey:nil, inchi:nil, smiles:nil)
       unless [name, inchikey, inchi, smiles].detect { |e| e.present? }
         raise 'No valid input found'
@@ -24,8 +25,8 @@
       end
     end
 
+    # TODO
     def self.protein()
-      #  TODO
     end
   end
 end

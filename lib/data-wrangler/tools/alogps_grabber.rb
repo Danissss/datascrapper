@@ -24,8 +24,8 @@ module AlogpsGrabber
   class AlogpsResult
     require 'rexml/document'
     
-    # REQUIRED_ELEMENTS = [ 'INPUTDATA', 'SMILES', 'LOGP', 'LOGPERR', 'LOGS' ]
-    attr_accessor :input_data, :smiles, :logp, :logp_error, :logs, :logs_error, :solubility, :solubility_units
+    attr_accessor :input_data, :smiles, :logp, :logp_error, 
+                :logs, :logs_error, :solubility, :solubility_units
     
     def process_xml_result(xml)
       doc = REXML::Document.new(xml)

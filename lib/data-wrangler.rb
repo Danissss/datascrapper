@@ -29,6 +29,7 @@ require_all File.dirname(__FILE__) + '/data-wrangler/'
   end
   
   module Annotate
+    # autoload the compound annotation and protein annotation module
     autoload :Compound, 'data-wrangler/annotate/compound'
     autoload :Protein, 'data-wrangler/annotate/protein'
   end

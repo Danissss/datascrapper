@@ -53,8 +53,7 @@ require 'rest_client'
       end
 
       def self.get_properties(structure, included_fields:[], additional_fields:{})
-        #included = included_fields.clone.concat(['cd_id', 'cd_structure']).uniq
-        
+
         additional = ActiveSupport::HashWithIndifferentAccess.new
         additional_fields = ActiveSupport::HashWithIndifferentAccess.new(additional_fields)
 

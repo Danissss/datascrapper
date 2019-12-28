@@ -219,25 +219,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       # final call
       def self.annotate_by_inchikey(inchikey)
         compounds = []

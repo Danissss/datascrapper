@@ -7,7 +7,6 @@
       result[:chebi] = Model::ChebiCompound.get_by_name(name)
       result[:kegg] = Model::KeggCompound.get_by_name(name)
       result[:chemspider] = Model::ChemspiderCompound.get_by_name(name)
-      #result[:pubchem] = Model::PubchemCompound.get_by_name(name)
       result[:molconvert] = Model::MolconvertCompound.get_by_name(name)
       identifier = Hash.new
       result.each do |db,r|
@@ -23,7 +22,6 @@
         end
       end
       return identifier
-      # result
     end
 
     def self.search_by_inchikey(inchikey)

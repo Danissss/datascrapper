@@ -64,11 +64,27 @@ module DataWrangler
       def self.annotate_by_inchikey(inchikey)
         compounds = []
         thread_compounds = []
+        # reference for descendants in ruby: https://apidock.com/rails/Class/descendants
+        # get all possible compound model class (Compound.descendants - MolDBCompound.descendants)
+        # check if the class has the method get_by_inchikey (resource.respond_to?(:get_by_inchikey))
+        # search by inchikey resource.get_by_inchikey(inchikey) in thread mode (really stupid: you multi-thread the annotation and multi-thread this simply stuff?)
+        # merge the compound object; will do annotation such as get synonym, classyfire class, other site annotation
+        # get another round of compound e.g. PolySearch, Wikipedia, WMH, properties
+        # merge again
+        # get iupac name if there is no common name exist
+        # get synonyms
+        # get pubchem citation (any relevant publication based on the compound name) i.e. if the name is iupac, less likely it will find any reference
+        # get spectra
+        # get species
+        # get cs descriptions (cs descriptions depends on all the information the compound class collected)
+        # return compound object (not array)
         first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
         first_childs.each do |resource|
           next unless resource.respond_to?(:get_by_inchikey)
           thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
+          # thread_compounds << resource.get_by_inchikey(inchikey)
         end
+
         thread_compounds.each do |th|
           th.join
           compounds << th.value
@@ -87,14 +103,19 @@ module DataWrangler
         if compound.basic_properties.empty? && compound.structures.smiles.present?
           compounds << only_calculate_properties(compound.structures.smiles)
         end
+
         compound = Model::Compound.merge(compounds)
-        compound.identifiers.name = JChem::Convert.inchi_to_name(compound.structures.inchi) if compound.identifiers.name.nil? or compound.identifiers.name == "UNKNOWN"
+        if compound.identifiers.name.nil? or compound.identifiers.name == "UNKNOWN"
+          compound.identifiers.name = JChem::Convert.inchi_to_name(compound.structures.inchi)
+        end
+
         compound.pick_reliable_syn(compound.identifiers.name)
       
         compound.getPubMedCitations("#{compound.identifiers.name}{[Title/Abstract]")
         if compound.identifiers.name != compound.identifiers.iupac_name               #need to get threaded
           compound.getPubMedCitations("#{compound.identifiers.iupac_name}{[Title/Abstract]")
         end
+
         compound.getSpectra
         compound.get_MetBuilder_synonyms
         compound.place_missing_species
@@ -142,7 +163,7 @@ module DataWrangler
         compound.getSpectra                                         # get spectra
         compound.get_MetBuilder_synonyms                            # get metbuilder synonyms (what?)
         compound.place_missing_species                              # get species (what?)
-        compound.get_CS_descriptions()                              # get chem description
+        compound.get_CS_descriptions                                # get chem description
         compound
       end
 

@@ -496,7 +496,6 @@ require 'csv'
 
         hmdb_syn.each { |s| add_synonym(s.name, "HMDB") }
         mesh_syn.each { |s| add_synonym(s.name, "MeSH") }
-        #metbuilder_syn.each { |s| add_synonym(s.name, "MetBuilder") }
       end
 
       def discard_improper_syn(syn)
@@ -563,10 +562,11 @@ require 'csv'
       def self.merge(compounds, options = {})
         return Compound.new if compounds.blank?
         raise ArgumentError unless compounds.is_a? Enumerable
+        # reference for class.inject: https://apidock.com/ruby/Enumerable/inject 
+        # At the end of the process, inject returns the accumulator, 
+        # which in this case is the sum of all the values in the array, or 10.
         compounds.inject(Compound.new) do |aggregate, compound|
-          merge_options = {}
-          #merge_options[:include_synonyms] = false if compound.is_a?(Model::PubchemCompound)
-          aggregate.merge(compound, merge_options)
+          aggregate.merge(compound, {})
         end
       end
 
@@ -592,10 +592,9 @@ require 'csv'
       end
 
       def get_CS_descriptions
-       place_missing_species
+       # place_missing_species # this shouldn't be called since it's called before get_CS_descriptions is called
        # defination => def self.get_descriptions(compound)
-       descriptions = ChemoSummarizer.get_descriptions(self)
-       self.cs_descriptions = descriptions
+       self.cs_descriptions = ChemoSummarizer.get_descriptions(self)
       end
 
       def get_species

@@ -1,5 +1,4 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/data-wrangler/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Xuan Cao"]

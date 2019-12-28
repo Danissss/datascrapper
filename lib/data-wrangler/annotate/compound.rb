@@ -36,6 +36,7 @@ module DataWrangler
         self.by_inchikey_name(inchikey, name)
       end
 
+      # annotate_by_name will proxy to annotate_by_inchikey_name
       def self.annotate_by_name(name)
         name = name.strip
         if known = Resource::Compound.find(name)
@@ -81,6 +82,9 @@ module DataWrangler
         first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
         first_childs.each do |resource|
           next unless resource.respond_to?(:get_by_inchikey)
+          # for those have the method get_by_inchikey, it will call moldb api and get json file
+          # then get desired stuff from the returned data from json format
+          # that's why PathBankCompound inherient Compound not moldb_compound
           thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
           # thread_compounds << resource.get_by_inchikey(inchikey)
         end
@@ -105,8 +109,10 @@ module DataWrangler
         end
 
         compound = Model::Compound.merge(compounds)
+
         if compound.identifiers.name.nil? or compound.identifiers.name == "UNKNOWN"
           compound.identifiers.name = JChem::Convert.inchi_to_name(compound.structures.inchi)
+          compound.identifiers.iupac_name = compound.identifiers.name
         end
 
         compound.pick_reliable_syn(compound.identifiers.name)
@@ -126,18 +132,21 @@ module DataWrangler
       # final call
       # initialize Model::Compound (the one with so many attributes (as array))
       # get each stuff one at time
+      # still depends on inchikey
+      # inchikey and name have to present at same time, otherwise, just call annotate_by_inchikey(inchikey)
       def self.annotate_by_inchikey_name(inchikey, name)
-        return Model::Compound.new if inchikey.nil?
+        return Model::Compound.new if inchikey.nil? or name.nil?
         compounds = []
         thread_compounds = []
         name = name.strip if !name.nil?
         if !inchikey.nil?
         first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
         first_childs.each do |resource|
-            next unless resource.respond_to?(:get_by_inchikey)
-            thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
-            if resource == DataWrangler::Model::WikipediaCompound || resource == DataWrangler::Model::PolySearchCompound
-              thread_compounds << Thread.new { resource.get_by_name(name) } if name.present?
+          next unless resource.respond_to?(:get_by_inchikey)
+          thread_compounds << Thread.new { resource.get_by_inchikey(inchikey) }
+          if resource == DataWrangler::Model::WikipediaCompound || resource == DataWrangler::Model::PolySearchCompound
+            if name.present?
+              thread_compounds << Thread.new { resource.get_by_name(name) }
             end
           end
         end
@@ -154,10 +163,10 @@ module DataWrangler
         end
       
         compound = Model::Compound.merge(compounds)
-        # Before picking reliable synonyms from CHEBI and synonym generator, change the
-        # name to the assigned name so that name is not duplicated
-        compound.identifiers.name = JChem::Convert.inchi_to_name(compound.structures.inchi) if compound.identifiers.name.nil? or compound.identifiers.name == "UNKNOWN"
-        compound.identifiers.name = name if name.present?
+
+        compound.identifiers.iupac_name = JChem::Convert.inchi_to_name(compound.structures.inchi)
+        compound.identifiers.name = name
+
         compound.pick_reliable_syn(name)                            # get synonyms
         compound.getPubMedCitations("#{name}{[Title/Abstract]")     # get all related citation
         compound.getSpectra                                         # get spectra

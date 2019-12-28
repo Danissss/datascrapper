@@ -77,9 +77,6 @@
 							@spectra.push(model)
 						end
 					 end
-				      #top = find_best_spectra(result) 
-						 #@spectra.spectrum_id = top["splash"] if top["splash"].present?
-					 #parse_spectrum(top["spectrum"])
 				 rescue Exception => e
 				    $stderr.puts "WARNING #{SOURCE}.get_by_inchikey #{e.message} #{e.backtrace}"
 				 end

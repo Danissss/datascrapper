@@ -6,7 +6,7 @@
       COMPOUND_DATA_PATH = File.expand_path('../../../../data/foodb_compounds.tsv',__FILE__)
       FOOD_DATA_PATH = File.expand_path('../../../../data/foodb_foods.tsv',__FILE__)
       STRUCTURE_API_PATH = "http://moldb.wishartlab.com/structures/"
-
+      # | $                | A global variable in ruby
       $animal_foods = ["Beaver","Bison","Black bear","Wild boar","Brown bear","Buffalo","Caribou","Chicken (Cock, Hen, Rooster)",
         "Mule deer","Mallard duck","Elk","Emu","Greylag goose","Guinea hen","Horse","Moose","Muskrat","Opossum","Ostrich",
         "Velvet duck","Pheasant","Polar bear","European rabbit","Raccoon","Sheep (Mutton, Lamb)","Squab","Squirrel","Turkey",
@@ -203,7 +203,38 @@
         end
         return Compound.new if data.nil?
         foodb_compound = self.new
-
+        # data = "{"id":"XFNJVJPLKCPIBV-UHFFFAOYSA-N","database_registrations":[{"id":"FDB005274","resource":"foodb"},
+        # {"id":"YMDB00042","resource":"YMDB"},{"id":"87","resource":"Specdb"},{"id":"SPECDB000004","resource":"Specdb"},
+        # {"id":"HMDB0060172","resource":"hmdb"},{"id":"13D","resource":"DrugBank Experimental"},
+        # {"id":"PW_C000002","resource":"pathbank"},{"id":"BMDB00002","resource":"bmdb"},
+        # {"id":"PMC058666","resource":"phytomap"},{"id":"PMC175861","resource":"phytomap"},
+        # {"id":"FDB031131","resource":"foodb"},{"id":"M2MDB004407","resource":"M2MDB"},
+        # {"id":"CHEM009287","resource":"chemdb"},{"id":"LMDB00002","resource":"LMDB"},
+        # {"id":"HMDB0000002","resource":"hmdb"},{"id":"NP0000843","resource":"NP-MRD"}],
+        # "tags":[],"structure":"\n  Mrv1652305261923522D          \n\n  5  4  0  0  0  0            
+        # 999 V2000\n    1.2375   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    
+        # 2.0625   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    0.8250    0.0000    
+        # 0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4750   -1.4289    0.0000 N   
+        # 0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  
+        # 0  0  0  0  0  0  0\n  2  1  1  0  0  0  0\n  3  1  1  0  0  0  0\n  4  2  1  0  0  0  
+        # 0\n  5  3  1  0  0  0  0\nM  END\n","original_structure":"\n  Mrv1652305201900392D          
+        # \n\n  5  4  0  0  0  0            999 V2000\n    1.2375   -0.7145    0.0000 C   0  0  0  0  
+        # 0  0  0  0  0  0  0  0\n    2.0625   -0.7145    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    
+        # 0.8250    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0\n    2.4750   -1.4289    0.0000 N  
+        # 0  0  0  0  0  0  0  0  0  0  0  0\n    0.0000    0.0000    0.0000 N   0  0  0  0  0  0  0  0  0  0  
+        # 0  0\n  2  1  1  0  0  0  0\n  3  1  1  0  0  0  0\n  4  2  1  0  0  0  0\n  5  3  1  0  0  0  0\nM  
+        # END\n","properties_updated_at":"2019-05-26T21:52:20.000Z",
+        # "structure_created_at":"2010-08-10T15:18:19.000Z","structure_updated_at":"2019-10-22T14:58:41.000Z",
+        # "smiles":"NCCCN","inchi":"InChI=1S/C3H10N2/c4-2-1-3-5/h1-5H2",
+        # "inchikey":"XFNJVJPLKCPIBV-UHFFFAOYSA-N","formula":"C3H10N2",
+        # "iupac":"propane-1,3-diamine","traditional_iupac":"α,ω-propanediamine",
+        # "alogps_solubility":"4.37e+02 g/l","alogps_logp":"-1.41","alogps_logs":"0.77",
+        # "average_mass":"74.1249","mono_mass":"74.08439833","pka":null,"pka_strongest_acidic":null,
+        # "pka_strongest_basic":"10.169241483553524","logp":"-1.362482935","acceptor_count":"2",
+        # "donor_count":"2","rotatable_bond_count":"2","polar_surface_area":"52.04","refractivity":"22.734",
+        # "polarizability":"9.059383875573538","formal_charge":"0","physiological_charge":"2",
+        # "number_of_rings":"0","rule_of_five":"1","bioavailability":"1","ghose_filter":"0",
+        # "veber_rule":"0","mddr_like_rule":"0"}"
         data["database_registrations"].each do |dr|
           if dr["resource"] == "foodb"
             foodb_compound = self.get_by_id(dr["id"])

@@ -8,8 +8,6 @@ require 'csv'
  module DataWrangler
   module Model
     class Compound
-      include DataWrangler::Models::Compound::Output::Csv
-      include DataWrangler::Models::Compound::Output::Json
 
       SOURCE = 'Compound'.freeze
 

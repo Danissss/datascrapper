@@ -1,4 +1,5 @@
 require_relative 'chemo_summary'
+require_relative 'corpus'
 module ChemoSummarizer
   module Summary
     class Introduction < ChemoSummary
@@ -16,7 +17,7 @@ module ChemoSummarizer
         @compound = compound
         @introduction_string = ""
         @best_desc = ""
-        @corpus = Similarity::Corpus.new
+        @corpus = ChemoSummarizer::Summary::Corpus.new
         @species= species
         @third_party_descriptions = []
       end

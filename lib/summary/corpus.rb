@@ -1,7 +1,6 @@
 module ChemoSummarizer
   module Summary
-    # Corpus = 语料库
-    class Corpus
+    class Corpus #语料库
       attr_reader :terms, :documents
 
       def initialize

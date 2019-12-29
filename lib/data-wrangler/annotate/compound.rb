@@ -80,7 +80,10 @@ module DataWrangler
         # get cs descriptions (cs descriptions depends on all the information the compound class collected)
         # return compound object (not array)
         first_childs = DataWrangler::Model::Compound.descendants - DataWrangler::Model::MolDBCompound.descendants
-        puts first_childs.inspect
+        puts "============================================="
+        puts "================first_childs================="
+        puts "============================================="
+
         first_childs.each do |resource|
           if resource.respond_to?(:get_by_inchikey)
           # for those have the method get_by_inchikey, it will call moldb api and get json file
@@ -90,19 +93,31 @@ module DataWrangler
           end
           # thread_compounds << resource.get_by_inchikey(inchikey)
         end
-
+        puts "============================================="
+        puts "================join threads================="
+        puts "============================================="
         thread_compounds.each do |th|
           th.join
           compounds << th.value
         end
 
+        puts "============================================="
+        puts "================merge compounds=============="
+        puts "============================================="
         compound = Model::Compound.merge(compounds)
 
+
+        puts "============================================="
+        puts "================PolySearch&Wiki=============="
+        puts "============================================="
         if !compound.identifiers.name.nil? and compound.identifiers.name != "Unknown"
           compounds << DataWrangler::Model::PolySearchCompound.get_by_name(compound.identifiers.name)
           compounds << DataWrangler::Model::WikipediaCompound.get_by_name(compound.identifiers.name)
         end
 
+        puts "============================================="
+        puts "================VMHCompound=================="
+        puts "============================================="
         if compound.identifiers.hmdb_id.present?
           compounds << DataWrangler::Model::VMHCompound.get_by_hmdb_id(compound.identifiers.hmdb_id)
         end
@@ -111,6 +126,9 @@ module DataWrangler
           compounds << only_calculate_properties(compound.structures.smiles)
         end
 
+        puts "============================================="
+        puts "================2nd merge===================="
+        puts "============================================="
         compound = Model::Compound.merge(compounds)
 
         if compound.identifiers.name.nil? or compound.identifiers.name == "UNKNOWN"
@@ -118,13 +136,24 @@ module DataWrangler
           compound.identifiers.iupac_name = compound.identifiers.name
         end
 
+
+        puts "============================================="
+        puts "=============pick_reliable_syn==============="
+        puts "============================================="
         compound.pick_reliable_syn(compound.identifiers.name)
-      
+        
+
+        puts "============================================="
+        puts "=============pubchem citation================"
+        puts "============================================="
         compound.getPubMedCitations("#{compound.identifiers.name}{[Title/Abstract]")
         if compound.identifiers.name != compound.identifiers.iupac_name               #need to get threaded
           compound.getPubMedCitations("#{compound.identifiers.iupac_name}{[Title/Abstract]")
         end
 
+        puts "============================================="
+        puts "=============spectra========================="
+        puts "============================================="
         compound.getSpectra
         compound.get_MetBuilder_synonyms
         compound.place_missing_species

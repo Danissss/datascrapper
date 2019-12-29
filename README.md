@@ -103,6 +103,9 @@ run as rspec spec/models/foo_spec.rb:2
 For data-wrangler:
 `rspec spec/annotate_spec.rb:5`
 
+For chemoSummarizer
+`rspec spec/annotate_spec.rb:10`
+
 
 
 

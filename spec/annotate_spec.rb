@@ -3,9 +3,13 @@ require 'spec_helper'
 describe DataWrangler::Annotate do
   context "Search L-alanine" do
     it "Test the by_inchikey" do
-      c = DataWrangler::Annotate::Compound.by_name("BRMWTNUJHUMWMS-LURJTMIESA-N")
+      c = DataWrangler::Annotate::Compound.by_inchikey("BRMWTNUJHUMWMS-LURJTMIESA-N")
       puts c
     end
+
+    # it "Test chemosummarizer" do
+    #   c = ChemoSummarizer.get_descriptions()
+    # end
 
 
     it "should annotate L-alanine" do

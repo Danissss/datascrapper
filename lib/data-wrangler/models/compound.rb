@@ -1,6 +1,7 @@
 require 'builder'
 require 'json'
 require 'csv'
+require_relative '../../chemoSummarizer'
 
 # -*- coding: utf-8 -*- 
  module DataWrangler
@@ -330,7 +331,8 @@ require 'csv'
 	        self.concentrations = Marshal.load(Marshal.dump(compound.concentrations)) if !compound.concentrations.empty?
 		      self.diseases = Marshal.load(Marshal.dump(compound.diseases)) if !compound.diseases.empty?
 		      compound.pathways.each { |pathway| self.pathways.push(pathway) }
-          self.pathbank_pathways = Marshal.load(Marshal.dump(compound.pathbank_pathways))
+          # The marshaling library converts collections of Ruby objects into a byte stream, allowing them to be stored outside the currently active script.
+          # self.pathbank_pathways = Marshal.load(Marshal.dump(compound.pathbank_pathways))
           self.species = Marshal.load(Marshal.dump(compound.species)) if !compound.species.empty?
 		      self.tissue_locations = Marshal.load(Marshal.dump(compound.tissue_locations)) if !compound.tissue_locations.empty?
 		      self.biofluid_locations = Marshal.load(Marshal.dump(compound.biofluid_locations)) if !compound.biofluid_locations.empty?

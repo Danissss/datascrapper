@@ -563,6 +563,12 @@ require_relative '../../chemoSummarizer'
         # reference for class.inject: https://apidock.com/ruby/Enumerable/inject 
         # At the end of the process, inject returns the accumulator, 
         # which in this case is the sum of all the values in the array, or 10.
+        # defaulting our accumulator to an empty Compound (Compound.new)
+        # then populating it each time the block executes.
+        # whatever we return as the last line of the block, result of the block will be stored back in the accumulator.
+        # item is the compound (Compound class)
+        # aggregate represents the empty Compound.new
+        # merge compound will make the last merged compound overwrite the previous statement unless clearfied  
         compounds.inject(Compound.new) do |aggregate, compound|
           aggregate.merge(compound, {})
         end

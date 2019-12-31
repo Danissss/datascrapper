@@ -11,9 +11,9 @@ require_relative '../../chemoSummarizer'
       SOURCE = 'Compound'.freeze
       UNKNOWN = 'UNKNOWN'.freeze
 
-      attr_accessor :date, :identifiers, :structures, :proteins, :references, :diseases,
+      attr_accessor :compound_name, :iupac_name, :date, :identifiers, :structures, :proteins, 
                     :concentrations, :pathways, :tissue_locations, :cellular_locations,
-                    :biofluid_locations, :spectra, :properties,
+                    :biofluid_locations, :spectra, :properties, :references, :diseases,
                     :biofunctions, :origins, :synonyms, :ontologies, :classifications,
                     :health_effects, :adverse_effects, :protein_targets, :descriptions,
                     :pharmacology_actions, :kegg_brite_classes, :reactions,
@@ -24,6 +24,8 @@ require_relative '../../chemoSummarizer'
 
 
       def initialize
+        @compound_name = Array.new
+        @iupac_name = String.new
         @identifiers = Hash.new                #=>
         @structures = Hash.new                 #=>{inchikey: ..., inchi:..., }
         @properties = Hash.new                 #=>{logp: ..., logd:..., }
@@ -74,6 +76,7 @@ require_relative '../../chemoSummarizer'
       # to call the get_xxx function, create function and call the c-written module
       def self.annotate_by_inchikey(inchikey)
         inchi = covert_inchikey_to_structure(inchikey)
+        
         self.identifiers = get_identifiers(inchikey)
         self.structures = get_structures(inchi)
         self.properties = get_properties(inchi)
@@ -117,11 +120,23 @@ require_relative '../../chemoSummarizer'
         self.species = get_associated_species               # related species?
       end
 
-      def self.annotate_by_inchikey_and_name(inchikey,name)
-
+      def self.annotate_by_inchikey_and_name(inchikey,compound_name)
+        annotate_by_inchikey(inchikey)
+        self.citations(compound_name)
       end
 
-      def self.annotate_by_inchi()
+      def self.annotate_by_inchi(inchi)
+        annotate_by_inchikey(JChem::Convert.inchi_to_inchikey(inchi))
+      end
+
+      # return json
+      def get_identifiers(inchikey)
+        result = Scrapper::GetIdentifier(inchikey) 
+        return JSON.parse(result)
+      end
+
+
+
 
       def structure_convert(new_inchi)
         @structures.inchi = self.structures.inchikey = self.structures.std_inchikey = self.structures.std_inchi = nil

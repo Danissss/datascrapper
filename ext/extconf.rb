@@ -1,2 +1,2 @@
 require "mkmf"
-create_makefile "extension"
+create_makefile "scrapper"

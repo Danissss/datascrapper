@@ -109,6 +109,66 @@ For chemoSummarizer
 
 # Test C extension RUBY
 https://silverhammermba.github.io/emberb/c/ RUBY C API
+use the gem rake-compiler (https://github.com/rake-compiler/rake-compiler)
+or manually compile the code like
+```
+// Rakefile
+# run as rake compile 
+# will compile the c extension code
+task :compile do
+  puts "Compiling extension"
+  `cd ext && make clean`
+  `cd ext && ruby extconf.rb`
+  `cd ext && make`
+  puts "Done"
+end
+```
+
+After compile the c code successfully, you will get binary file (`.so` or `.bundle`)
+require the file in the ruby file like 
+`require "your_c_lib.bundle"`
+
+Run the test
+```
+require 'spec_helper'
+require 'data-scrapper'  # require this to reference DataScrapper::Annotate::Compound
+
+describe DataScrapper::Annotate do
+  context "Testing the c extension" do
+    
+    it "Test the c code" do
+      c = DataScrapper::Annotate::Compound.by_inchikey("BRMWTNUJHUMWMS-LURJTMIESA-N")
+      puts c
+    end
+
+  end
+end
+```
+Then call the rspec like usual.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

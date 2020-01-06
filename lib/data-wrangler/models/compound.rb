@@ -8,7 +8,7 @@ require_relative '../../chemoSummarizer'
   module Model
     class Compound
 
-      SOURCE = 'Compound'.freeze
+      # SOURCE = 'Compound'.freeze
 
       ANNOTATORS = { chembl_id: ChemblCompound, kegg_id: KeggCompound,
                      kegg_drug_id: KeggDrug, chemspider_id: ChemspiderCompound,

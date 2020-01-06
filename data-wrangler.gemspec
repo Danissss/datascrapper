@@ -37,7 +37,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('similarity')
   gem.add_dependency('awesome_print')
   gem.add_dependency('guard-rspec')
-  gem.add_dependency('trollop')
+  gem.add_dependency('optimist')
   gem.add_dependency('gsl')
   gem.add_dependency('sqlite3','~> 1.3', '>= 1.3.11')
   gem.add_dependency('kmeans-clusterer')
@@ -48,7 +48,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('faker')
   gem.add_dependency('progress_bar')
   gem.add_dependency('rb-gsl', '>=1.16.0')
-  gem.add_development_dependency('rspec','~> 2.5')
+  gem.add_development_dependency('rspec')
   gem.add_development_dependency('rake')
   gem.add_development_dependency('pry')
   gem.add_development_dependency('awesome_print')
@@ -59,6 +59,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rb-fsevent')
   gem.add_development_dependency('rb-fchange')
   gem.add_development_dependency('terminal-notifier-guard')
+  gem.add_development_dependency('rake-compiler')
   
 end
 

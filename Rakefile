@@ -2,16 +2,14 @@
 require 'bundler/setup'
 Bundler.setup(:default, :development)
 require "bundler/gem_tasks"
-# require "rake/testtask"
+require 'rake/extensiontask'
 require "rspec/core/rake_task"
-
-require "./test/demo_protein"
-require "./test/demo_compound"
-require "./test/demo"
 
 # require "./test/demo_sbml"
 
 RSpec::Core::RakeTask.new(:spec)
+Rake::ExtensionTask.new('scrapper')
+
 
 task :default => :spec
 

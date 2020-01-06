@@ -26,7 +26,7 @@
 
 
 require "rubygems"
-require 'trollop'
+require 'optimist'
 
 require_relative 'chains'
 require_relative 'cardiolipin'

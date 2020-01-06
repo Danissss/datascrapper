@@ -107,6 +107,9 @@ For chemoSummarizer
 `rspec spec/annotate_spec.rb:10`
 
 
+# Test C extension RUBY
+https://silverhammermba.github.io/emberb/c/ RUBY C API
+
 
 
 

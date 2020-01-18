@@ -10,9 +10,9 @@ Gem::Specification.new do |gem|
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "data-wrangler"
+  gem.name          = "data-scrapper"
   gem.require_paths = ["lib"]
-  gem.version       = "4.8.0.4"
+  gem.version       = "1.0.0.1"
 
   gem.add_dependency('bio')
   gem.add_dependency('wikipedia-client')
@@ -39,7 +39,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency('guard-rspec')
   gem.add_dependency('optimist')
   gem.add_dependency('gsl')
-  gem.add_dependency('sqlite3','~> 1.3', '>= 1.3.11')
   gem.add_dependency('kmeans-clusterer')
   gem.add_dependency('scalpel')
   gem.add_dependency('pragmatic_segmenter')

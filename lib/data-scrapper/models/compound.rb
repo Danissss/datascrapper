@@ -1,10 +1,5 @@
-require 'builder'
-require 'json'
-require 'csv'
-require_relative '../../chemoSummarizer'
-
 # -*- coding: utf-8 -*- 
- module DataScrapper
+module DataScrapper
   module Model
     class Compound
 
@@ -70,8 +65,7 @@ require_relative '../../chemoSummarizer'
         @date = Date.today.to_s
       end
 
-      # Why annotate by inchikey is most important?
-      # because most database server use inchikey as their lookup method
+      # Annotate by inchikey because most database server use inchikey as their lookup method
       # but you need get inchi or smiles or mol structure for jchem to calculate image, properties, etc.
       # to call the get_xxx function, create function and call the c-written module
       def self.annotate_by_inchikey(inchikey)
@@ -83,7 +77,6 @@ require_relative '../../chemoSummarizer'
         self.spectra = get_spectra(inchikey)
         # self.cs_descriptions = ChemoSummarizer::Summary::Introduction.new(inchi).write # get cs_description after get everything
         self.image = get_image(inchi)
-        # self.citations = get_citation(compound_name)
         self.proteins = get_proteins
         self.reactions = get_reactions
         self.references = get_references
@@ -128,7 +121,7 @@ require_relative '../../chemoSummarizer'
       def self.annotate_by_inchi(inchi)
         annotate_by_inchikey(JChem::Convert.inchi_to_inchikey(inchi))
       end
-      
+
     end
   end
 end

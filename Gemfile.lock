@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    data-wrangler (4.8.0.4)
+    data-scrapper (1.0.0.1)
       activesupport (>= 3.0.0)
       awesome_print
       bio
@@ -19,7 +19,7 @@ PATH
       libxml-ruby (~> 2.7.0)
       mechanize (~> 2.7, >= 2.7.4)
       minitest (~> 5.8.1)
-      nokogiri (>= 1.10.4)
+      nokogiri
       optimist
       parallel
       poltergeist
@@ -34,7 +34,6 @@ PATH
       similar_text
       similarity
       sinatra
-      sqlite3 (~> 1.3, >= 1.3.11)
       wikipedia-client
 
 GEM
@@ -223,7 +222,6 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
-    sqlite3 (1.4.2)
     systemu (2.6.5)
     terminal-notifier-guard (1.7.0)
     thor (1.0.1)
@@ -254,7 +252,7 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print
-  data-wrangler!
+  data-scrapper!
   guard
   guard-minitest
   guard-rspec

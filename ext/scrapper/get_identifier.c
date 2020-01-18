@@ -1,7 +1,6 @@
 /*
  * call-seq:
- *  attribute_type
- *
+ * attribute_type
  * The attribute_type for this AttributeDecl
  */
 #include <stdlib.h>

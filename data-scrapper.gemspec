@@ -18,7 +18,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('wikipedia-client')
   gem.add_dependency('bio-isoelectric_point')
   gem.add_dependency('savon', '~> 2.5.1')
-  gem.add_dependency('nokogiri',">= 1.10.4")
+  gem.add_dependency('nokogiri')
   gem.add_dependency('require_all', '~> 1.3.1')
   gem.add_dependency('dalli', '~> 2.6.0')
   gem.add_dependency("libxml-ruby", "~> 2.7.0")
@@ -61,7 +61,3 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rake-compiler')
   
 end
-
-  # metbuilder is wishart gem. basically, you install the gem at local first, then add the gem to gemspec
-  # so your gem can include this gem's functionalities
-  # gem.add_dependency('metbuilder')

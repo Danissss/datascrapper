@@ -27,11 +27,11 @@ module DataScrapper
 
       private
 
+      # create and return the Compound object.
       def self.annotate_by_inchikey(inchikey)
+        Scrapper.call_get_ids()   # this just for testing the c extension works
         # compound = DataScrapper::Model::Compound.new
         # compound.annotate_by_inchikey(inchikey)
-        # puts compound
-        Scrapper.call_get_ids()
       end
     
     end

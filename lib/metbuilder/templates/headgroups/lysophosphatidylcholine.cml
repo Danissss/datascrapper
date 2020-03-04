@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<cml xmlns="http://www.xml-cml.org/schema" xmlns:convention="http://www.xml-cml.org/convention" convention="convention:molecular" >
+
+	<molecule id="m1">
+		<atomArray>
+			<atom id="a1" elementType="P" x2="43.613582436560710" y2="-12.209432974624278"/>
+			<atom id="a2" elementType="O" formalCharge="-1" x2="43.613582436560720" y2="-13.749432974624273"/>
+			<atom id="a3" elementType="O" x2="45.153582436560704" y2="-12.209432974624283"/>
+			<atom id="a4" elementType="C" x2="46.487261558388740" y2="-11.439432974624282"/>
+			<atom id="a5" elementType="C" x2="47.820940680216770" y2="-12.209432974624283"/>
+			<atom id="a6" elementType="N" formalCharge="1" x2="49.154619802044806" y2="-11.439432974624282"/>
+			<atom id="a7" elementType="C" x2="50.488298923872850" y2="-10.669432974624282"/>
+			<atom id="a8" elementType="C" x2="49.924619802044810" y2="-12.773112096452317"/>
+			<atom id="a9" elementType="C" x2="48.384619802044810" y2="-10.105753852796246"/>
+			<atom id="a10" elementType="O" x2="42.302416619021710" y2="-12.187155134685375"/>
+			<atom id="a11" elementType="O" formalCharge="-1" x2="43.613582436560710" y2="-10.669432974624279"/>
+			<atom id="a12" elementType="C" x2="40.968737497193680" y2="-11.417155134685375"/>
+			<atom id="a13" elementType="C" x2="39.635058375365645" y2="-12.187155134685375"/>
+			<atom id="a14" elementType="C" x2="38.301379253537604" y2="-11.417155134685375"/>
+			<atom id="a15" elementType="O" x2="36.967700131709570" y2="-12.187155134685375"/>
+			<atom id="R1" elementType="R1:down" x2="35.634021009881536" y2="-11.417155134685375"/>
+			<atom id="a17" elementType="O" x2="39.635058375365645" y2="-13.727155134685376"/>
+			<atom id="R2" elementType="R2:UP" x2="38.301379253537610" y2="-14.497155134685375"/>
+			
+		</atomArray>
+		<bondArray>
+			<bond id="b1" atomRefs2="a1 a2" order="2"/>
+			<bond id="b2" atomRefs2="a1 a3" order="1"/>
+			<bond id="b3" atomRefs2="a3 a4" order="1"/>
+			<bond id="b4" atomRefs2="a4 a5" order="1"/>
+			<bond id="b5" atomRefs2="a5 a6" order="1"/>
+			<bond id="b6" atomRefs2="a6 a7" order="1"/>
+			<bond id="b7" atomRefs2="a6 a8" order="1"/>
+			<bond id="b8" atomRefs2="a6 a9" order="1"/>
+			<bond id="b9" atomRefs2="a1 a10" order="1"/>
+			<bond id="b10" atomRefs2="a1 a11" order="1"/>
+			<bond id="b11" atomRefs2="a12 a13" order="1"/>
+			<bond id="b12" atomRefs2="a13 a14" order="1"/>
+			<bond id="b13" atomRefs2="a14 a15" order="1"/>
+			<bond id="b14" atomRefs2="a15 R1" order="1"/>
+			<bond id="b15" atomRefs2="a10 a12" order="1"/>
+			<bond id="b16" atomRefs2="a13 a17" order="1"/>
+			<bond id="b17" atomRefs2="a17 R2" order="1"/>
+			
+		</bondArray>
+	</molecule>
+</cml>

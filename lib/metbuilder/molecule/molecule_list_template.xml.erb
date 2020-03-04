@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml xmlns="http://www.xml-cml.org/schema" xmlns:convention="http://www.xml-cml.org/convention/" convention="convention:molecular">
+<% molecule_list.each.with_index do |molecule,index| -%>
+<%= molecule.to_cml_partial("m#{index}") -%>
+<% end -%>
+</cml>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="MacRoman"?>
+<cml xmlns="http://www.xml-cml.org/schema" xmlns:convention="http://www.xml-cml.org/convention" convention="convention:molecular" >
+
+	<molecule id="m1">
+		<atomArray>
+			<atom id="a1" elementType="O" x2="17.162874161580888" y2="-8.363871527037164"/>
+			<atom id="a2" elementType="O" x2="18.687022284555690" y2="-6.808181166061532"/>
+			<atom id="a3" elementType="O" x2="18.718564522556488" y2="-9.888019650011941"/>
+			<atom id="a4" elementType="O" x2="20.242712645531324" y2="-8.332329289036302"/>
+			<atom id="a5" elementType="P" x2="18.702793403556086" y2="-8.348100408036718"/>
+			<atom id="a6" elementType="C" x2="15.644706524343738" y2="-7.508817730939431"/>
+			<atom id="a7" elementType="C" x2="14.319316579574489" y2="-8.292999785251162"/>
+			<atom id="a8" elementType="C" x2="12.977500026964039" y2="-7.537269450316405"/>
+			<atom id="a9" elementType="O" x2="11.652110082194788" y2="-8.321451504628136"/>
+			<atom id="a10" elementType="O" x2="14.335743187415690" y2="-9.832912174497650"/>
+			<atom id="R1" elementType="R1:down" x2="10.310293529584337" y2="-7.5657211696933775"/>
+			<atom id="R2" elementType="R2:up" x2="13.010353242646442" y2="-10.617094228809382"/>
+					
+		</atomArray>
+		<bondArray>
+			<bond id="b1" atomRefs2="a5 a1" order="1"/>
+			<bond id="b2" atomRefs2="a5 a2" order="1"/>
+			<bond id="b3" atomRefs2="a5 a3" order="2"/>
+			<bond id="b4" atomRefs2="a5 a4" order="1"/>
+			<bond id="b5" atomRefs2="a1 a6" order="1"/>
+			<bond id="b6" atomRefs2="a6 a7" order="1"/>
+			<bond id="b7" atomRefs2="a7 a8" order="1"/>
+			<bond id="b8" atomRefs2="a8 a9" order="1"/>
+			<bond id="b9" atomRefs2="a7 a10" order="1"/>
+			<bond id="b10" atomRefs2="a9 R1" order="1"/>
+			<bond id="b11" atomRefs2="a10 R2" order="1"/>
+					
+		</bondArray>
+	</molecule>
+</cml>

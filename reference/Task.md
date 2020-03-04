@@ -2,7 +2,7 @@
 
 @compound_name = Array.new
 @iupac_name = String.new 
-@identifiers = Hash.new                
+@identifiers = Hash.new                        
 @structures = Hash.new                 
 @properties = Hash.new                 
 @spectra = Array.new

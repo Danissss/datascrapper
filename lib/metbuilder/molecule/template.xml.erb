@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml xmlns="http://www.xml-cml.org/schema" xmlns:convention="http://www.xml-cml.org/convention/" convention="convention:molecular">
+  <% if properties[:title] -%>
+  <molecule id="m1" title="<%= properties[:title] %>" >
+  <% else -%>
+  <molecule id="m1" >
+  <% end -%>
+  <% if properties[:definition] -%>
+  <propertyList><property dictRef="definition" title="definition"><scalar><![CDATA[<%= properties[:definition] %>]]></scalar></property></propertyList>
+  <% end -%>
+  <% if properties[:systematic_name] -%>
+  <propertyList><property dictRef="systematic_name" title="systematic_name"><scalar><![CDATA[<%= properties[:systematic_name] %>]]></scalar></property></propertyList>
+  <% end -%>
+  <% if properties[:synonyms] -%>
+  <propertyList><property dictRef="synonyms" title="synonyms"><scalar><![CDATA[<%= properties[:synonyms] %>]]></scalar></property></propertyList>
+  <% end -%>
+    <atomArray>
+    <% atoms.each do |atom| -%>
+      <atom id="<%= atom.id %>" elementType="<%= atom.type %>" x2="<%= atom.x %>" y2="<%= atom.y %>"></atom>
+    <% end -%>
+    </atomArray>
+    <bondArray>
+    <% bonds.each do |bond| -%>
+      <bond atomRefs2="<%= bond.atom_refs %>" order="<%= bond.order %>"><%= "<bondStereo>#{bond.stereo}</bondStereo>" unless bond.stereo.nil? %></bond>
+    <% end -%>
+    </bondArray>
+  </molecule>
+</cml>

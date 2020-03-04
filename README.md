@@ -1,6 +1,10 @@
 # DataWrangler
 
-TODO: Write a gem description
+TODO: 
+1.Write a gem description
+2.Write automate script that update data/
+
+
 
 # File structure
 `lib` contains the ruby code 

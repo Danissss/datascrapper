@@ -1,7 +1,5 @@
 require 'builder'
 require 'json'
-require 'chemoSummarizer'
-require 'metbuilder'
 require 'csv'
 
 # -*- coding: utf-8 -*- 
@@ -38,7 +36,7 @@ require 'csv'
         @structures = StructureModel.new
         @properties = PropertyModel.new
         @spectra = Array.new
-				@cs_descriptions = DataModel.new("","ChemoSummarizer","Descriptions")
+				# @cs_descriptions = DataModel.new("","ChemoSummarizer","Descriptions")
         @cs_hash = Hash.new
         @image = ''
 				@msds = nil
@@ -152,10 +150,6 @@ require 'csv'
         return self if compound.nil?
         raise ArgumentError unless compound.is_a? Compound
         options[:include_synonyms] = true if options[:include_synonyms].nil?
-
-        #if self.identifiers.name.blank? or self.identifiers.name == UNKNOWN or self.identifiers.name == "Unknown"
-         # self.identifiers.name = SynonymCleaner.capitalize(compound.identifiers.name) if compound.identifiers.name.present?
-        #end
 
         if options[:include_synonyms]
           compound.synonyms.each { |syn| add_synonym_model(syn) }
@@ -516,7 +510,6 @@ require 'csv'
 
         hmdb_syn.each { |s| add_synonym(s.name, "HMDB") }
         mesh_syn.each { |s| add_synonym(s.name, "MeSH") }
-        #metbuilder_syn.each { |s| add_synonym(s.name, "MetBuilder") }
       end
 
       def discard_improper_syn(syn)
@@ -611,11 +604,6 @@ require 'csv'
         self.spectra = mona.getSpectra_by_key(self.structures.inchikey)
       end
 
-      def get_CS_descriptions
-       place_missing_species
-       descriptions = ChemoSummarizer.get_descriptions(self)
-       self.cs_descriptions = descriptions
-      end
 
       def get_species
         species = {}
@@ -669,35 +657,35 @@ require 'csv'
       end
 
 
-      def get_MetBuilder_synonyms
-        metbuilder_lipid = false
-        if self.classifications.any?
-          if self.classifications[0].klass.present? && self.classifications[0].superklass.present?
-            if ['Cardiolipins', 'Sphingolipids', 'Cholesteryl esters',
-                'Acyl carnitines', 'Acyl glycines', 'Glycerolipids', 'Glycerophospholipids'].include?(self.classifications[0].klass.name) &&
-                ['Lipids and lipid-like molecules'].include?(self.classifications[0].superklass.name)
-              metbuilder_lipid = true
-            end
-          end
-        end
-        if metbuilder_lipid
-          begin
-            mb_synonyms = Metbuilder::GetSynonyms::Compound.new(self)
-            hash = mb_synonyms.write
-            mb_synonyms_text = hash.text
-            begin
-              mb_synonyms_array = mb_synonyms_text.split("\n")
-              mb_synonyms_array.each do |syn|
-                add_synonym(syn, "MetBuilder")
-              end
-            rescue => e
-              $stderr.puts "WARNING DataWrangler compound.get_MetBuilder_synonyms #{self.identifiers.name} is not a metbuilder compound #{e.backtrace}"
-            end
-          rescue => e
-            $stderr.puts "WARNING DataWrangler compound.get_MetBuilder_synonyms #{e.message} #{e.backtrace}"
-          end
-        end
-      end
+      # def get_MetBuilder_synonyms
+      #   metbuilder_lipid = false
+      #   if self.classifications.any?
+      #     if self.classifications[0].klass.present? && self.classifications[0].superklass.present?
+      #       if ['Cardiolipins', 'Sphingolipids', 'Cholesteryl esters',
+      #           'Acyl carnitines', 'Acyl glycines', 'Glycerolipids', 'Glycerophospholipids'].include?(self.classifications[0].klass.name) &&
+      #           ['Lipids and lipid-like molecules'].include?(self.classifications[0].superklass.name)
+      #         metbuilder_lipid = true
+      #       end
+      #     end
+      #   end
+      #   if metbuilder_lipid
+      #     begin
+      #       mb_synonyms = Metbuilder::GetSynonyms::Compound.new(self)
+      #       hash = mb_synonyms.write
+      #       mb_synonyms_text = hash.text
+      #       begin
+      #         mb_synonyms_array = mb_synonyms_text.split("\n")
+      #         mb_synonyms_array.each do |syn|
+      #           add_synonym(syn, "MetBuilder")
+      #         end
+      #       rescue => e
+      #         $stderr.puts "WARNING DataWrangler compound.get_MetBuilder_synonyms #{self.identifiers.name} is not a metbuilder compound #{e.backtrace}"
+      #       end
+      #     rescue => e
+      #       $stderr.puts "WARNING DataWrangler compound.get_MetBuilder_synonyms #{e.message} #{e.backtrace}"
+      #     end
+      #   end
+      # end
     end
   end
 end

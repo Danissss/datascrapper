@@ -130,9 +130,8 @@
           compound.getPubMedCitations("#{compound.identifiers.iupac_name}{[Title/Abstract]")
         end
         compound.getSpectra
-        compound.get_MetBuilder_synonyms
+        # compound.get_MetBuilder_synonyms
         compound.place_missing_species
-        compound.get_CS_descriptions()
         compound
       end
 
@@ -175,9 +174,8 @@
         compound.pick_reliable_syn(name)
         compound.getPubMedCitations("#{name}{[Title/Abstract]")
         compound.getSpectra
-        compound.get_MetBuilder_synonyms
+        # compound.get_MetBuilder_synonyms
         compound.place_missing_species
-        compound.get_CS_descriptions()
         compound
       end
 

@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metabolite>
+  <version>1.0</version>
+  <creation_date>2016-09-30 22:20:21 UTC</creation_date>
+  <update_date>2020-02-24 21:57:21 UTC</update_date>
+  <accession>BMDB00161</accession>
+  <secondary_accessions>
+  </secondary_accessions>
+  <name>L-Alanine</name>
+  <description>L-Alanine, also known as (S)-alanine or L-alpha-alanine, belongs to the class of organic compounds known as alanine and derivatives. Alanine and derivatives are compounds containing alanine or a derivative thereof resulting from reaction of alanine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom. L-Alanine is a drug which is used for protein synthesis. L-Alanine exists as a solid, possibly soluble (in water), and a very strong basic compound (based on its pKa) molecule. L-Alanine exists in all living species, ranging from bacteria to humans. L-Alanine is a potentially toxic compound. L-Alanine has been found to be associated with several diseases known as eosinophilic esophagitis, late-onset preeclampsia, autism, and perillyl alcohol administration for cancer treatment; also l-alanine has been linked to the inborn metabolic disorders including glucagon deficiency.</description>
+  <synonyms>
+    <synonym>(2S)-2-Aminopropanoic acid</synonym>
+    <synonym>(S)-2-Aminopropanoic acid</synonym>
+    <synonym>(S)-Alanine</synonym>
+    <synonym>A</synonym>
+    <synonym>Ala</synonym>
+    <synonym>ALANINE</synonym>
+    <synonym>L-2-Aminopropionic acid</synonym>
+    <synonym>L-Alanin</synonym>
+    <synonym>L-alpha-Alanine</synonym>
+    <synonym>(2S)-2-Aminopropanoate</synonym>
+    <synonym>(S)-2-Aminopropanoate</synonym>
+    <synonym>L-2-Aminopropionate</synonym>
+    <synonym>L-a-Alanine</synonym>
+    <synonym>L-Α-alanine</synonym>
+    <synonym>(S)-(+)-Alanine</synonym>
+    <synonym>(S)-2-Amino-propanoate</synonym>
+    <synonym>(S)-2-Amino-propanoic acid</synonym>
+    <synonym>2-Aminopropanoate</synonym>
+    <synonym>2-Aminopropanoic acid</synonym>
+    <synonym>2-Aminopropionate</synonym>
+    <synonym>2-Aminopropionic acid</synonym>
+    <synonym>2-Ammoniopropanoate</synonym>
+    <synonym>2-Ammoniopropanoic acid</synonym>
+    <synonym>a-Alanine</synonym>
+    <synonym>a-Aminopropionate</synonym>
+    <synonym>a-Aminopropionic acid</synonym>
+    <synonym>alpha-Alanine</synonym>
+    <synonym>alpha-Aminopropanoate</synonym>
+    <synonym>alpha-Aminopropanoic acid</synonym>
+    <synonym>alpha-Aminopropionate</synonym>
+    <synonym>alpha-Aminopropionic acid</synonym>
+    <synonym>L-(+)-Alanine</synonym>
+    <synonym>L-2-Aminopropanoate</synonym>
+    <synonym>L-2-Aminopropanoic acid</synonym>
+    <synonym>L-a-Aminopropionate</synonym>
+    <synonym>L-a-Aminopropionic acid</synonym>
+    <synonym>L-alpha-Aminopropionate</synonym>
+    <synonym>L-alpha-Aminopropionic acid</synonym>
+    <synonym>Abufène</synonym>
+    <synonym>Alanine doms-adrian brand</synonym>
+    <synonym>Alanine, L-isomer</synonym>
+    <synonym>Doms-adrian brand OF alanine</synonym>
+    <synonym>Doms adrian brand OF alanine</synonym>
+    <synonym>L-Isomer alanine</synonym>
+    <synonym>Alanine, L isomer</synonym>
+    <synonym>L Alanine</synonym>
+  </synonyms>
+  <chemical_formula>C3H7NO2</chemical_formula>
+  <average_molecular_weight>89.0932</average_molecular_weight>
+  <monisotopic_moleculate_weight>89.047678473</monisotopic_moleculate_weight>
+  <iupac_name>(2S)-2-aminopropanoic acid</iupac_name>
+  <traditional_iupac>L-alanine</traditional_iupac>
+  <cas_registry_number>56-41-7</cas_registry_number>
+  <smiles>C[C@H](N)C(O)=O</smiles>
+  <inchi>InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1</inchi>
+  <inchikey>QNAYBMKLOCPYGJ-REOHCLBHSA-N</inchikey>
+  <taxonomy>
+    <description> belongs to the class of organic compounds known as alanine and derivatives. Alanine and derivatives are compounds containing alanine or a derivative thereof resulting from reaction of alanine at the amino group or the carboxy group, or from the replacement of any hydrogen of glycine by a heteroatom.</description>
+    <kingdom>Organic compounds</kingdom>
+    <super_class>Organic acids and derivatives</super_class>
+    <class>Carboxylic acids and derivatives</class>
+    <sub_class>Amino acids, peptides, and analogues</sub_class>
+    <direct_parent>Alanine and derivatives</direct_parent>
+    <alternative_parents>
+      <alternative_parent>Amino acids</alternative_parent>
+      <alternative_parent>Carbonyl compounds</alternative_parent>
+      <alternative_parent>Carboxylic acids</alternative_parent>
+      <alternative_parent>Hydrocarbon derivatives</alternative_parent>
+      <alternative_parent>L-alpha-amino acids</alternative_parent>
+      <alternative_parent>Monoalkylamines</alternative_parent>
+      <alternative_parent>Monocarboxylic acids and derivatives</alternative_parent>
+      <alternative_parent>Organic oxides</alternative_parent>
+      <alternative_parent>Organopnictogen compounds</alternative_parent>
+    </alternative_parents>
+    <substituents>
+      <substituent>Alanine or derivatives</substituent>
+      <substituent>Aliphatic acyclic compound</substituent>
+      <substituent>Alpha-amino acid</substituent>
+      <substituent>Amine</substituent>
+      <substituent>Amino acid</substituent>
+      <substituent>Carbonyl group</substituent>
+      <substituent>Carboxylic acid</substituent>
+      <substituent>Hydrocarbon derivative</substituent>
+      <substituent>L-alpha-amino acid</substituent>
+      <substituent>Monocarboxylic acid or derivatives</substituent>
+      <substituent>Organic nitrogen compound</substituent>
+      <substituent>Organic oxide</substituent>
+      <substituent>Organic oxygen compound</substituent>
+      <substituent>Organonitrogen compound</substituent>
+      <substituent>Organooxygen compound</substituent>
+      <substituent>Organopnictogen compound</substituent>
+      <substituent>Primary aliphatic amine</substituent>
+      <substituent>Primary amine</substituent>
+    </substituents>
+    <molecular_framework>Aliphatic acyclic compounds</molecular_framework>
+    <external_descriptors>
+      <external_descriptor>Common amino acids</external_descriptor>
+      <external_descriptor>L-alpha-amino acid</external_descriptor>
+      <external_descriptor>alanine</external_descriptor>
+      <external_descriptor>proteinogenic amino acid</external_descriptor>
+      <external_descriptor>pyruvate family amino acid</external_descriptor>
+    </external_descriptors>
+  </taxonomy>
+  <experimental_properties>
+    <state>Solid</state>
+    <property>
+      <kind>melting_point</kind>
+      <value>300 °C</value>
+      <source/>
+    </property>
+    <property>
+      <kind>water_solubility</kind>
+      <value>204 mg/mL</value>
+      <source>Human Metabolome Project</source>
+    </property>
+    <property>
+      <kind>logp</kind>
+      <value>-2.85</value>
+      <source>SANGSTER (1994)</source>
+    </property>
+  </experimental_properties>
+  <predicted_properties>
+    <property>
+      <kind>logp</kind>
+      <value>-3.05</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logs</kind>
+      <value>0.70</value>
+      <source>ALOGPS</source>
+    </property>
+    <property>
+      <kind>logp</kind>
+      <value>-2.8</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pka_strongest_acidic</kind>
+      <value>2.47</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>pka_strongest_basic</kind>
+      <value>9.48</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>iupac</kind>
+      <value>(2S)-2-aminopropanoic acid</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>average_mass</kind>
+      <value>89.0932</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>mono_mass</kind>
+      <value>89.047678473</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>smiles</kind>
+      <value>C[C@H](N)C(O)=O</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>formula</kind>
+      <value>C3H7NO2</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>inchi</kind>
+      <value>InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>inchikey</kind>
+      <value>QNAYBMKLOCPYGJ-REOHCLBHSA-N</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>polar_surface_area</kind>
+      <value>63.32</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>refractivity</kind>
+      <value>20.5</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>polarizability</kind>
+      <value>8.49</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>rotatable_bond_count</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>acceptor_count</kind>
+      <value>3</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>donor_count</kind>
+      <value>2</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>physiological_charge</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>formal_charge</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>number_of_rings</kind>
+      <value>0</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>bioavailability</kind>
+      <value>1</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>rule_of_five</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>ghose_filter</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>veber_rule</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+    <property>
+      <kind>mddr_like_rule</kind>
+      <value>Yes</value>
+      <source>ChemAxon</source>
+    </property>
+  </predicted_properties>
+  <pathways>
+    <pathway>
+      <name>Alanine Metabolism</name>
+      <smpdb_id>SMP0087164</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Glucose-Alanine Cycle</name>
+      <smpdb_id>SMP0087221</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Glutamate Metabolism</name>
+      <smpdb_id>SMP0087169</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Glutathione Metabolism</name>
+      <smpdb_id>SMP0087167</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Glycine and Serine Metabolism</name>
+      <smpdb_id>SMP0087245</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Protein Synthesis: Alanine</name>
+      <smpdb_id>SMP0119369</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Selenoamino Acid Metabolism</name>
+      <smpdb_id>SMP0087161</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Tryptophan Metabolism</name>
+      <smpdb_id>SMP0087237</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+    <pathway>
+      <name>Urea Cycle</name>
+      <smpdb_id>SMP0087224</smpdb_id>
+      <kegg_map_id/>
+    </pathway>
+  </pathways>
+  <spectra>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>392</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>393</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>394</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>914</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>2826</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>28767</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30040</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30043</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30364</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30475</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30723</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>30788</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>31034</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::CMs</type>
+      <spectrum_id>37330</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrOneD</type>
+      <spectrum_id>1120</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrOneD</type>
+      <spectrum_id>1178</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>251</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>252</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>253</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3220</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3221</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3222</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3223</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3224</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3225</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3226</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3227</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3228</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>3232</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>178938</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>178939</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>178940</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>181263</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>181264</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>181265</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>437096</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>437097</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>437098</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>445526</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>445527</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::MsMs</type>
+      <spectrum_id>445528</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrTwoD</type>
+      <spectrum_id>976</spectrum_id>
+    </spectrum>
+    <spectrum>
+      <type>Specdb::NmrTwoD</type>
+      <spectrum_id>1178</spectrum_id>
+    </spectrum>
+  </spectra>
+  <normal_concentrations>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR. Samples have been collected from 24 male 17-22-month-old Charolais beef cattles.</comment>
+      <references>
+        <reference>
+          <reference_text>Graham SF, Ruiz-Aracama A, Lommen A, Cannizzo FT, Biolatti B, Elliott CT, Mooney MH: Use of NMR metabolomic plasma profiling methodologies to identify illicit growth-promoting administrations. Anal Bioanal Chem. 2012 Apr;403(2):573-82. doi: 10.1007/s00216-012-5815-z. Epub 2012 Feb 28.</reference_text>
+          <pubmed_id>22370585</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>188.9</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by GC/MS</comment>
+      <references>
+        <reference>
+          <reference_text>Allison GG, Horton RA, Rees Stevens P, Jackman R, Moorby JM: Changes in plasma metabolites and muscle glycogen are correlated to bovine spongiform encephalopathy in infected dairy cattle. Res Vet Sci. 2007 Aug;83(1):40-6. doi: 10.1016/j.rvsc.2006.11.008. Epub 2007 Jan  2.</reference_text>
+          <pubmed_id>17197001</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>1343 +/- 402</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Abdullah BASOGLU, Nuri BASPINAR, Alparslan COSKUN. NMR-based metabolomic evaluation in dairy cows with displaced abomasum. Turk J Vet Anim Sci (2014) 38(3):325-330</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR in multiparous-early lactation Holstein cows.</comment>
+      <references>
+        <reference>
+          <reference_text>Sun LW, Zhang HY, Wu L, Shu S, Xia C, Xu C, Zheng JS: (1)H-Nuclear magnetic resonance-based plasma metabolic profiling of dairy cows with clinical and subclinical ketosis. J Dairy Sci. 2014 Mar;97(3):1552-62. doi: 10.3168/jds.2013-6757. Epub 2014 Jan 17.</reference_text>
+          <pubmed_id>24440255</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Samples collected from 54 Holstein cows</comment>
+      <references>
+        <reference>
+          <reference_text>Maher AD, Hayes B, Cocks B, Marett L, Wales WJ, Rochfort SJ: Latent biochemical relationships in the blood-milk metabolic axis of dairy cows revealed by statistical integration of 1H NMR spectroscopic data. J Proteome Res. 2013 Mar 1;12(3):1428-35. doi: 10.1021/pr301056q. Epub 2013 Feb 21.</reference_text>
+          <pubmed_id>23394630</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>162-179</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Ion exchange chromatography with fluorometric detection</comment>
+      <references>
+        <reference>
+          <reference_text>Greenwood RH, Titgemeyer EC, Stokka GL, Drouillard JS, Loest CA: Effects of L-carnitine on nitrogen retention and blood metabolites of growing steers and performance of finishing steers. J Anim Sci. 2001 Jan;79(1):254-60. doi: 10.2527/2001.791254x.</reference_text>
+          <pubmed_id>11204708</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>160.5</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <references>
+        <reference>
+          <reference_text>Wessels RH, Titgemeyer EC, St Jean G: Effect of amino acid supplementation on whole-body protein turnover in Holstein steers. J Anim Sci. 1997 Nov;75(11):3066-73.</reference_text>
+          <pubmed_id>9374324</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>151-222</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Chromatography with spectrophotometric detection</comment>
+      <references>
+        <reference>
+          <reference_text>Motyl T, Barej W: Plasma amino acid indices and urinary 3-methyl histidine excretion in dairy cows in early lactation. Ann Rech Vet. 1986;17(2):153-7.</reference_text>
+          <pubmed_id>3535614</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>162-212</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By LC-MS/MS</comment>
+      <references>
+        <reference>
+          <reference_text>Sadri H, von Soosten D, Meyer U, Kluess J, Danicke S, Saremi B, Sauerwein H: Plasma amino acids and metabolic profiling of dairy cows in response to a bolus duodenal infusion of leucine. PLoS One. 2017 Apr 28;12(4):e0176647. doi: 10.1371/journal.pone.0176647. eCollection 2017.</reference_text>
+          <pubmed_id>28453535</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>187-206</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By HPLC</comment>
+      <references>
+        <reference>
+          <reference_text>Zhou Z, Vailati-Riboni M, Luchini DN, Loor JJ: Methionine and Choline Supply during the Periparturient Period Alter Plasma Amino Acid and One-Carbon Metabolism Profiles to Various Extents: Potential Role in Hepatic Metabolism and Antioxidant Status. Nutrients. 2016 Dec 29;9(1). pii: nu9010010. doi: 10.3390/nu9010010.</reference_text>
+          <pubmed_id>28036059</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value>240+/-30</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR. Samples have been collected from 22 clinically normal, 6-12 month old Holstein–Friesian heifers and stored at -20 °C for between 2 and 15 years.</comment>
+      <references>
+        <reference>
+          <reference_text>Trabi M, Keller MD, Johnsson NN. NMR-based metabonomics of bovine blood: an investigation into the effects of long term storage on plasma samples. Metabolomics (2013) 9:1041-1047   doi: 10.1007/s11306-013-0520-2</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Blood</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>De Buck J, Shaykhutdinov R, Barkema HW, Vogel HJ: Metabolomic profiling in cattle experimentally infected with Mycobacterium avium subsp. paratuberculosis. PLoS One. 2014 Nov 5;9(11):e111872. doi: 10.1371/journal.pone.0111872. eCollection 2014.</reference_text>
+          <pubmed_id>25372282</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Colostrum</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Zanardi E, Caligiani A, Palla L, Mariani M, Ghidini S, Di Ciccio PA, Palla G, Ianieri A: Metabolic profiling by (1)H NMR of ground beef irradiated at different irradiation doses. Meat Sci. 2015 May;103:83-9. doi: 10.1016/j.meatsci.2015.01.005. Epub 2015 Jan 15.</reference_text>
+          <pubmed_id>25637742</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Colostrum</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected after TiO2 phosphopeptide enrichment and nano-HPLC-MS/MS analysis in longissimus dorsi muscle.</comment>
+      <references>
+        <reference>
+          <reference_text>D'Alessandro A, Rinalducci S, Marrocco C, Zolla V, Napolitano F, Zolla L: Love me tender: an Omics window on the bovine meat tenderness network. J Proteomics. 2012 Jul 19;75(14):4360-80. doi: 10.1016/j.jprot.2012.02.013. Epub  2012 Feb 21.</reference_text>
+          <pubmed_id>22361340</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Embryo</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by HPLC in bovine blastocysts</comment>
+      <references>
+        <reference>
+          <reference_text>Sturmey RG, Bermejo-Alvarez P, Gutierrez-Adan A, Rizos D, Leese HJ, Lonergan P: Amino acid metabolism of bovine blastocysts: a biomarker of sex and viability. Mol Reprod Dev. 2010 Mar;77(3):285-96. doi: 10.1002/mrd.21145.</reference_text>
+          <pubmed_id>20058302</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Embryo</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by HPLC in bovine expanded blastocysts</comment>
+      <references>
+        <reference>
+          <reference_text>Sturmey RG, Bermejo-Alvarez P, Gutierrez-Adan A, Rizos D, Leese HJ, Lonergan P: Amino acid metabolism of bovine blastocysts: a biomarker of sex and viability. Mol Reprod Dev. 2010 Mar;77(3):285-96. doi: 10.1002/mrd.21145.</reference_text>
+          <pubmed_id>20058302</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Liver</biospecimen>
+      <concentration_value>2366-3515</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By HPLC with fluorometric detection</comment>
+      <references>
+        <reference>
+          <reference_text>Miles ED, McBride BW, Jia Y, Liao SF, Boling JA, Bridges PJ, Matthews JC: Glutamine synthetase and alanine transaminase expression are decreased in livers of aged vs. young beef cows and GS can be upregulated by 17beta-estradiol implants. J Anim Sci. 2015 Sep;93(9):4500-9. doi: 10.2527/jas.2015-9294.</reference_text>
+          <pubmed_id>26440349</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Liver</biospecimen>
+      <concentration_value>1388+/-276</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>LT muscle</biospecimen>
+      <concentration_value>1465+/-272</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>29.20 +/- 5.91</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Raw milk metabolite measured during mid-lactation from cows fed diets consisting of total mixed ration (TMR), by 1H-NMR</comment>
+      <references>
+        <reference>
+          <reference_text>O'Callaghan TF, Vazquez-Fresno R, Serra-Cayuela A, Dong E, Mandal R, Hennessy D, McAuliffe S, Dillon P, Wishart DS, Stanton C, Ross RP: Pasture Feeding Changes the Bovine Rumen and Milk Metabolome. Metabolites. 2018 Apr 6;8(2). pii: metabo8020027. doi: 10.3390/metabo8020027.</reference_text>
+          <pubmed_id>29642378</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>29 - 78</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <references>
+        <reference>
+          <reference_text>Klein MS, Buttchereit N, Miemczyk SP, Immervoll AK, Louis C, Wiedemann S, Junge W, Thaller G, Oefner PJ, Gronwald W: NMR metabolomic analysis of dairy cows reveals milk glycerophosphocholine to phosphocholine ratio as prognostic biomarker for risk of ketosis. J Proteome Res. 2012 Feb 3;11(2):1373-81. doi: 10.1021/pr201017n. Epub 2011 Dec 9.</reference_text>
+          <pubmed_id>22098372</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>9 - 91</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <references>
+        <reference>
+          <reference_text>Klein MS, Almstetter MF, Schlamberger G, Nurnberger N, Dettmer K, Oefner PJ, Meyer HH, Wiedemann S, Gronwald W: Nuclear magnetic resonance and mass spectrometry-based milk metabolomics in dairy cows during early and late lactation. J Dairy Sci. 2010 Apr;93(4):1539-50. doi: 10.3168/jds.2009-2563.</reference_text>
+          <pubmed_id>20338431</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>13469.0414</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, partly skim, conventional (not organic), 1.5 % fat</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>13469.0414</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, partly skim, organic, 1.5 % fat</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>13469.0414</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Skim milk</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>13469.0414</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, skim, organic</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>12346.621</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, whole, 3.5, (UHT), % fat</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>12346.621</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, whole, conventional (not organic), 3.5 % fat</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>12346.621</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Milk, whole, organic, 3.5 % fat</comment>
+      <references>
+        <reference>
+          <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>29 +/- 2</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Commercial 1% milk by LC-HRMS</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>33 +/- 1</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Commercial 2% milk by LC-HRMS</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>31 +/- 1</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Commercial 3.25% milk by LC-HRMS</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>32 +/- 3</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>1% milk by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>31 +/- 3</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Commercial skim milk by LC-HRMS</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>33 +/- 2</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>2% milk by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>32 +/- 1</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>3.25% milk by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>34 +/- 3</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Skim milk by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Foroutan A, Guo AC, Vazquez-Fresno R, Lipfert M, Zhang L, Zheng J, Badran H, Budinski Z, Mandal R, Ametaj BN, Wishart DS: Chemical Composition of Commercial Cow's Milk. J Agric Food Chem. 2019 Apr 17. doi: 10.1021/acs.jafc.9b00204.</reference_text>
+          <pubmed_id>30994344</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>27.45 +/- 5.67</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Raw milk metabolite measured during mid-lactation from cows fed diets consisting of perennial ryegrass (GRS), by 1H-NMR</comment>
+      <references>
+        <reference>
+          <reference_text>O'Callaghan TF, Vazquez-Fresno R, Serra-Cayuela A, Dong E, Mandal R, Hennessy D, McAuliffe S, Dillon P, Wishart DS, Stanton C, Ross RP: Pasture Feeding Changes the Bovine Rumen and Milk Metabolome. Metabolites. 2018 Apr 6;8(2). pii: metabo8020027. doi: 10.3390/metabo8020027.</reference_text>
+          <pubmed_id>29642378</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value>23.82 +/- 5.36</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Raw milk metabolite measured during mid-lactation from cows fed diets consisting of perennial ryegrass and white clover (CLV), by 1H-NMR</comment>
+      <references>
+        <reference>
+          <reference_text>O'Callaghan TF, Vazquez-Fresno R, Serra-Cayuela A, Dong E, Mandal R, Hennessy D, McAuliffe S, Dillon P, Wishart DS, Stanton C, Ross RP: Pasture Feeding Changes the Bovine Rumen and Milk Metabolome. Metabolites. 2018 Apr 6;8(2). pii: metabo8020027. doi: 10.3390/metabo8020027.</reference_text>
+          <pubmed_id>29642378</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Milk from Friesuan Holstein cows (n=1035)</comment>
+      <references>
+        <reference>
+          <reference_text>Melzer N, Wittenburg D, Hartwig S, Jakubowski S, Kesting U, Willmitzer L, Lisec J, Reinsch N, Repsilber D: Investigating associations between milk metabolite profiles and milk traits of Holstein cows. J Dairy Sci. 2013 Mar;96(3):1521-34. doi: 10.3168/jds.2012-5743.</reference_text>
+          <pubmed_id>23438684</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Milk samples collected from 16 multiparous Holstein cows </comment>
+      <references>
+        <reference>
+          <reference_text>Sun HZ, Wang DM, Wang B, Wang JK, Liu HY, Guan le L, Liu JX: Metabolomics of four biofluids from dairy cows: potential biomarkers for milk production and quality. J Proteome Res. 2015 Feb 6;14(2):1287-98. doi: 10.1021/pr501305g. Epub 2015 Jan 28.</reference_text>
+          <pubmed_id>25599412</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Milk samples collected from 456 Danish Holstein cows </comment>
+      <references>
+        <reference>
+          <reference_text>Buitenhuis AJ, Sundekilde UK, Poulsen NA, Bertram HC, Larsen LB, Sorensen P: Estimation of genetic parameters and detection of quantitative trait loci for metabolites in Danish Holstein milk. J Dairy Sci. 2013 May;96(5):3285-95. doi: 10.3168/jds.2012-5914. Epub 2013 Mar 15.</reference_text>
+          <pubmed_id>23497994</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Milk samples from 20 healthy Holstein Friesian dairy cows </comment>
+      <references>
+        <reference>
+          <reference_text>Lu J, Antunes Fernandes E, Paez Cano AE, Vinitwatanakhun J, Boeren S, van Hooijdonk T, van Knegsel A, Vervoort J, Hettinga KA: Changes in milk proteome and metabolome associated with dry period length, energy balance, and lactation stage in postparturient dairy cows. J Proteome Res. 2013 Jul 5;12(7):3288-96. doi: 10.1021/pr4001306. Epub 2013 Jun 5.</reference_text>
+          <pubmed_id>23738862</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Whole milk  from markets</comment>
+      <references>
+        <reference>
+          <reference_text>Scano P, Murgia A, Pirisi FM, Caboni P: A gas chromatography-mass spectrometry-based metabolomic approach for the characterization of goat milk compared with cow milk. J Dairy Sci. 2014 Oct;97(10):6057-66. doi: 10.3168/jds.2014-8247. Epub 2014 Aug 6.</reference_text>
+          <pubmed_id>25108860</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Milk</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>407 Milk samples from Swedish Red cows</comment>
+      <references>
+        <reference>
+          <reference_text>Sundekilde UK, Gustavsson F, Poulsen NA, Glantz M, Paulsson M, Larsen LB, Bertram HC: Association between the bovine milk metabolome and rennet-induced coagulation properties of milk. J Dairy Sci. 2014 Oct;97(10):6076-84. doi: 10.3168/jds.2014-8304. Epub 2014 Jul 30.</reference_text>
+          <pubmed_id>25087032</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected after TiO2 phosphopeptide enrichment and nano-HPLC-MS/MS analysis in longissimus dorsi muscle.</comment>
+      <references>
+        <reference>
+          <reference_text>D'Alessandro A, Rinalducci S, Marrocco C, Zolla V, Napolitano F, Zolla L: Love me tender: an Omics window on the bovine meat tenderness network. J Proteomics. 2012 Jul 19;75(14):4360-80. doi: 10.1016/j.jprot.2012.02.013. Epub  2012 Feb 21.</reference_text>
+          <pubmed_id>22361340</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1087.79 +/- 32.71</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by NMR in New Zealand commercial beef sirloin.</comment>
+      <references>
+        <reference>
+          <reference_text>Jung Y, Lee J, Kwon J, Lee KS, Ryu DH, Hwang GS: Discrimination of the geographical origin of beef by (1)H NMR-based metabolomics. J Agric Food Chem. 2010 Oct 13;58(19):10458-66. doi: 10.1021/jf102194t.</reference_text>
+          <pubmed_id>20831251</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1147.17 +/- 64.08</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by NMR in US commercial beef sirloin</comment>
+      <references>
+        <reference>
+          <reference_text>Jung Y, Lee J, Kwon J, Lee KS, Ryu DH, Hwang GS: Discrimination of the geographical origin of beef by (1)H NMR-based metabolomics. J Agric Food Chem. 2010 Oct 13;58(19):10458-66. doi: 10.1021/jf102194t.</reference_text>
+          <pubmed_id>20831251</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1163.71 +/- 86.55</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by NMR in Korean commercial beef sirloin.</comment>
+      <references>
+        <reference>
+          <reference_text>Jung Y, Lee J, Kwon J, Lee KS, Ryu DH, Hwang GS: Discrimination of the geographical origin of beef by (1)H NMR-based metabolomics. J Agric Food Chem. 2010 Oct 13;58(19):10458-66. doi: 10.1021/jf102194t.</reference_text>
+          <pubmed_id>20831251</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1237.91 +/- 72.51</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Detected by NMR in Australian commercial beef sirloin.</comment>
+      <references>
+        <reference>
+          <reference_text>Jung Y, Lee J, Kwon J, Lee KS, Ryu DH, Hwang GS: Discrimination of the geographical origin of beef by (1)H NMR-based metabolomics. J Agric Food Chem. 2010 Oct 13;58(19):10458-66. doi: 10.1021/jf102194t.</reference_text>
+          <pubmed_id>20831251</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Zanardi E, Caligiani A, Palla L, Mariani M, Ghidini S, Di Ciccio PA, Palla G, Ianieri A: Metabolic profiling by (1)H NMR of ground beef irradiated at different irradiation doses. Meat Sci. 2015 May;103:83-9. doi: 10.1016/j.meatsci.2015.01.005. Epub 2015 Jan 15.</reference_text>
+          <pubmed_id>25637742</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1055-1310</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Jung Y, Lee J, Kwon J, Lee KS, Ryu DH, Hwang GS: Discrimination of the geographical origin of beef by (1)H NMR-based metabolomics. J Agric Food Chem. 2010 Oct 13;58(19):10458-66. doi: 10.1021/jf102194t.</reference_text>
+          <pubmed_id>20831251</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>22.79+/-1.78</concentration_value>
+      <concentration_units>umol/g tissue</concentration_units>
+      <comment>Detected by NMR in beef muscle (longissimus dorsi) matured for 14 days.</comment>
+      <references>
+        <reference>
+          <reference_text>S. F. Graham, T. Kennedy, O. Chevallier, A. Gordon, L. Farmer, C. Elliott, B. Moss. The application of NMR to study changes in polar metabolite concentrations in beef longissimus dorsi stored for different periods post mortem. Metabolomics (2010) 6:395-404   doi: 10.1007/s11306-010-0206-y</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>26.34+/-2.26</concentration_value>
+      <concentration_units>umol/g tissue</concentration_units>
+      <comment>Detected by NMR in beef muscle (longissimus dorsi) matured for 21 days.</comment>
+      <references>
+        <reference>
+          <reference_text>S. F. Graham, T. Kennedy, O. Chevallier, A. Gordon, L. Farmer, C. Elliott, B. Moss. The application of NMR to study changes in polar metabolite concentrations in beef longissimus dorsi stored for different periods post mortem. Metabolomics (2010) 6:395-404   doi: 10.1007/s11306-010-0206-y</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>16.28+/-2.20</concentration_value>
+      <concentration_units>umol/g tissue</concentration_units>
+      <comment>Detected by NMR in beef muscle (longissimus dorsi) matured for 3 days.</comment>
+      <references>
+        <reference>
+          <reference_text>S. F. Graham, T. Kennedy, O. Chevallier, A. Gordon, L. Farmer, C. Elliott, B. Moss. The application of NMR to study changes in polar metabolite concentrations in beef longissimus dorsi stored for different periods post mortem. Metabolomics (2010) 6:395-404   doi: 10.1007/s11306-010-0206-y</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>18.95+/-1.63</concentration_value>
+      <concentration_units>umol/g tissue</concentration_units>
+      <comment>Detected by NMR in beef muscle (longissimus dorsi) matured for 7 days.</comment>
+      <references>
+        <reference>
+          <reference_text>S. F. Graham, T. Kennedy, O. Chevallier, A. Gordon, L. Farmer, C. Elliott, B. Moss. The application of NMR to study changes in polar metabolite concentrations in beef longissimus dorsi stored for different periods post mortem. Metabolomics (2010) 6:395-404   doi: 10.1007/s11306-010-0206-y</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>2300</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Kim YH, Kemp R, Samuelsson LM: Effects of dry-aging on meat quality attributes and metabolite profiles of beef loins. Meat Sci. 2016 Jan;111:168-76. doi: 10.1016/j.meatsci.2015.09.008. Epub 2015 Sep  26.</reference_text>
+          <pubmed_id>26437054</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>167-239</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Kodani Y, Miyakawa T, Komatsu T, Tanokura M: NMR-based metabolomics for simultaneously evaluating multiple determinants of primary beef quality in Japanese Black cattle. Sci Rep. 2017 May 2;7(1):1297. doi: 10.1038/s41598-017-01272-8.</reference_text>
+          <pubmed_id>28465593</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Muscle</biospecimen>
+      <concentration_value>1916-3173</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By CE-TOFMS</comment>
+      <references>
+        <reference>
+          <reference_text>Muroya S, Oe M, Ojima K, Watanabe A: Metabolomic approach to key metabolites characterizing postmortem aged loin muscle of Japanese Black (Wagyu) cattle. Asian-Australas J Anim Sci. 2019 Aug;32(8):1172-1185. doi: 10.5713/ajas.18.0648.  Epub 2019 Jan 4.</reference_text>
+          <pubmed_id>30744349</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>244 +/- 40</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Samples have been collected from 8 healthy primiparous Holstein cow fed barley grains (15% of diet dry matter). </comment>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>314 +/- 84</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Samples have been collected from 8 healthy primiparous Holstein cow fed barley grains (30% of diet dry matter). </comment>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>441 +/- 74</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Samples have been collected from 8 healthy primiparous Holstein cow fed barley grains (45% of diet dry matter). </comment>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>220 +/- 51</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Samples have been collected from 8 healthy primiparous Holstein cow, no barley grains in diet.</comment>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>220 +/- 51</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>Samples have been collected from 8 healthy primiparous Holstein cow, no barley grains in diet. Metabolite measured by NMR and GC-MS</comment>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>83-799</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR</comment>
+      <references>
+        <reference>
+          <reference_text>Lee HJ, Jung JY, Oh YK, Lee SS, Madsen EL, Jeon CO: Comparative survey of rumen microbial communities and metabolites across one caprine and three bovine groups, using bar-coded pyrosequencing and (1)H nuclear magnetic resonance spectroscopy. Appl Environ Microbiol. 2012 Sep;78(17):5983-93. doi: 10.1128/AEM.00104-12. Epub  2012 Jun 15.</reference_text>
+          <pubmed_id>22706048</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Samples collected from 16 multiparous Holstein cows </comment>
+      <references>
+        <reference>
+          <reference_text>Sun HZ, Wang DM, Wang B, Wang JK, Liu HY, Guan le L, Liu JX: Metabolomics of four biofluids from dairy cows: potential biomarkers for milk production and quality. J Proteome Res. 2015 Feb 6;14(2):1287-98. doi: 10.1021/pr501305g. Epub 2015 Jan 28.</reference_text>
+          <pubmed_id>25599412</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>135-315</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR</comment>
+      <references>
+        <reference>
+          <reference_text>O'Callaghan TF, Vazquez-Fresno R, Serra-Cayuela A, Dong E, Mandal R, Hennessy D, McAuliffe S, Dillon P, Wishart DS, Stanton C, Ross RP: Pasture Feeding Changes the Bovine Rumen and Milk Metabolome. Metabolites. 2018 Apr 6;8(2). pii: metabo8020027. doi: 10.3390/metabo8020027.</reference_text>
+          <pubmed_id>29642378</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR in mid-lactating primiparous Holstein cows.</comment>
+      <references>
+        <reference>
+          <reference_text>Zhao S, Zhao J, Bu D, Sun P, Wang J, Dong Z: Metabolomics analysis reveals large effect of roughage types on rumen microbial metabolic profile in dairy cows. Lett Appl Microbiol. 2014 Jul;59(1):79-85. doi: 10.1111/lam.12247. Epub 2014 Apr  4.</reference_text>
+          <pubmed_id>24617926</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>212</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Primiparous Holstein cows fed barley grains (15% of diet dry matter)</comment>
+      <references>
+        <reference>
+          <reference_text>Burim NA, Qendrim Z, Fozia S, Psychogios N, Michael JL, Dunn SM, Jianguo X, Wishart DS. Metabolomics reveals unhealthy alterations in rumen metabolism with increased proportion of cereal grain in the diet of dairy cows. Metabolomics. 2010;6(4):583-594   doi: 10.1007/s11306-010-0227-6</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>397</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Primiparous Holstein cows fed barley grains (30% of diet dry matter)</comment>
+      <references>
+        <reference>
+          <reference_text>Burim NA, Qendrim Z, Fozia S, Psychogios N, Michael JL, Dunn SM, Jianguo X, Wishart DS. Metabolomics reveals unhealthy alterations in rumen metabolism with increased proportion of cereal grain in the diet of dairy cows. Metabolomics. 2010;6(4):583-594   doi: 10.1007/s11306-010-0227-6</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>415</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Primiparous Holstein cows fed barley grains (45% of diet dry matter)</comment>
+      <references>
+        <reference>
+          <reference_text>Burim NA, Qendrim Z, Fozia S, Psychogios N, Michael JL, Dunn SM, Jianguo X, Wishart DS. Metabolomics reveals unhealthy alterations in rumen metabolism with increased proportion of cereal grain in the diet of dairy cows. Metabolomics. 2010;6(4):583-594   doi: 10.1007/s11306-010-0227-6</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>197</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Primiparous Holstein cows, no barley grains in diet.</comment>
+      <references>
+        <reference>
+          <reference_text>Burim NA, Qendrim Z, Fozia S, Psychogios N, Michael JL, Dunn SM, Jianguo X, Wishart DS. Metabolomics reveals unhealthy alterations in rumen metabolism with increased proportion of cereal grain in the diet of dairy cows. Metabolomics. 2010;6(4):583-594   doi: 10.1007/s11306-010-0227-6</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR in bovines in growth and fattening stages.</comment>
+      <references>
+        <reference>
+          <reference_text>Lee HJ, Jung JY, Oh YK, Lee SS, Madsen EL, Jeon CO: Comparative survey of rumen microbial communities and metabolites across one caprine and three bovine groups, using bar-coded pyrosequencing and (1)H nuclear magnetic resonance spectroscopy. Appl Environ Microbiol. 2012 Sep;78(17):5983-93. doi: 10.1128/AEM.00104-12. Epub  2012 Jun 15.</reference_text>
+          <pubmed_id>22706048</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR in bovines in growth and fattening stages.</comment>
+      <references>
+        <reference>
+          <reference_text>Lee HJ, Jung JY, Oh YK, Lee SS, Madsen EL, Jeon CO: Comparative survey of rumen microbial communities and metabolites across one caprine and three bovine groups, using bar-coded pyrosequencing and (1)H nuclear magnetic resonance spectroscopy. Appl Environ Microbiol. 2012 Sep;78(17):5983-93. doi: 10.1128/AEM.00104-12. Epub  2012 Jun 15.</reference_text>
+          <pubmed_id>22706048</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR in bovines in growth and fattening stages.</comment>
+      <references>
+        <reference>
+          <reference_text>Lee HJ, Jung JY, Oh YK, Lee SS, Madsen EL, Jeon CO: Comparative survey of rumen microbial communities and metabolites across one caprine and three bovine groups, using bar-coded pyrosequencing and (1)H nuclear magnetic resonance spectroscopy. Appl Environ Microbiol. 2012 Sep;78(17):5983-93. doi: 10.1128/AEM.00104-12. Epub  2012 Jun 15.</reference_text>
+          <pubmed_id>22706048</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>234.9</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Daily cows fed barley grains (15% of diet dry matter) (n=8)</comment>
+      <references>
+        <reference>
+          <reference_text>Saleem F, Ametaj BN, Bouatra S, Mandal R, Zebeli Q, Dunn SM, Wishart DS: A metabolomics approach to uncover the effects of grain diets on rumen health in dairy cows. J Dairy Sci. 2012 Nov;95(11):6606-23. doi: 10.3168/jds.2012-5403. Epub 2012 Sep 7.</reference_text>
+          <pubmed_id>22959937</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>323.4</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Daily cows fed barley grains (30% of diet dry matter) (n=8)</comment>
+      <references>
+        <reference>
+          <reference_text>Saleem F, Ametaj BN, Bouatra S, Mandal R, Zebeli Q, Dunn SM, Wishart DS: A metabolomics approach to uncover the effects of grain diets on rumen health in dairy cows. J Dairy Sci. 2012 Nov;95(11):6606-23. doi: 10.3168/jds.2012-5403. Epub 2012 Sep 7.</reference_text>
+          <pubmed_id>22959937</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>1060+/-484</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>480.1</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. Daily cows fed barley grains (45% of diet dry matter) (n=8)</comment>
+      <references>
+        <reference>
+          <reference_text>Saleem F, Ametaj BN, Bouatra S, Mandal R, Zebeli Q, Dunn SM, Wishart DS: A metabolomics approach to uncover the effects of grain diets on rumen health in dairy cows. J Dairy Sci. 2012 Nov;95(11):6606-23. doi: 10.3168/jds.2012-5403. Epub 2012 Sep 7.</reference_text>
+          <pubmed_id>22959937</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>212.1</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <comment>By NMR. No barley grains in diet (n=8)</comment>
+      <references>
+        <reference>
+          <reference_text>Saleem F, Ametaj BN, Bouatra S, Mandal R, Zebeli Q, Dunn SM, Wishart DS: A metabolomics approach to uncover the effects of grain diets on rumen health in dairy cows. J Dairy Sci. 2012 Nov;95(11):6606-23. doi: 10.3168/jds.2012-5403. Epub 2012 Sep 7.</reference_text>
+          <pubmed_id>22959937</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Rumen</biospecimen>
+      <concentration_value>212.13 +/- 47.03</concentration_value>
+      <concentration_units>uM</concentration_units>
+      <references>
+        <reference>
+          <reference_text>Fozia Saleem, Souhaila Bouatra, An Chi Guo, Nikolaos Psychogios, Rupasri Mandal, Suzanna M. Dunn, Burim N. Ametaj, David S. Wishart. The Bovine Ruminal Fluid Metabolome. Metabolomics (2013) 9:360–378.</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>SM muscle</biospecimen>
+      <concentration_value>1472+/-278</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Testis</biospecimen>
+      <concentration_value>880-1200</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By paper chromatography with spectrophotometric detection</comment>
+      <references>
+        <reference>
+          <reference_text>Brown-Woodman PD, White IG: Amino acid composition of semen and the secretions of the male reproductive tract. Aust J Biol Sci. 1974 Aug;27(4):415-22. doi: 10.1071/bi9740415.</reference_text>
+          <pubmed_id>4429492</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Testis</biospecimen>
+      <concentration_value>1400+/-294</concentration_value>
+      <concentration_units>nmol/g of tissue</concentration_units>
+      <comment>By LC-MS/MS &amp; NMR</comment>
+      <references>
+        <reference>
+          <reference_text>The Bovine Metabolome Database: Quantitative, Comprehensive Metabolite Data for Multiple Bovine Biofluids and Tissues (in preparation)</reference_text>
+          <pubmed_id/>
+        </reference>
+      </references>
+    </concentration>
+    <concentration>
+      <biospecimen>Urine</biospecimen>
+      <concentration_value/>
+      <concentration_units/>
+      <comment>Detected by NMR. Urine samples were from 32 Holstein cows that were fed crude protein.</comment>
+      <references>
+        <reference>
+          <reference_text>Bertram HC, Yde CC, Zhang X, Kristensen NB: Effect of dietary nitrogen content on the urine metabolite profile of dairy cows assessed by nuclear magnetic resonance (NMR)-based metabolomics. J Agric Food Chem. 2011 Dec 14;59(23):12499-505. doi: 10.1021/jf204201f. Epub 2011 Nov 17.</reference_text>
+          <pubmed_id>22059599</pubmed_id>
+        </reference>
+      </references>
+    </concentration>
+  </normal_concentrations>
+  <foodb_id>FDB000556</foodb_id>
+  <kegg_id>C00041</kegg_id>
+  <drugbank_id>DB00160</drugbank_id>
+  <pubchem_compound_id>5950</pubchem_compound_id>
+  <chemspider_id>5735</chemspider_id>
+  <pdbe_id/>
+  <chebi_id>16977</chebi_id>
+  <meta_cyc_id>ALPHA-ALANINE</meta_cyc_id>
+  <knapsack_id>C00001332</knapsack_id>
+  <phenol_explorer_compound_id/>
+  <bigg_id>33629</bigg_id>
+  <wikipedia_id>Alanine</wikipedia_id>
+  <metlin_id/>
+  <synthesis_reference>Chibata I; Kakimoto T; Kato J Enzymatic production of L-alanine by Pseudomonas dacunhae. Applied microbiology (1965), 13(5), 638-45.</synthesis_reference>
+  <general_references>
+    <reference>
+      <reference_text>Klein MS, Almstetter MF, Schlamberger G, Nurnberger N, Dettmer K, Oefner PJ, Meyer HH, Wiedemann S, Gronwald W: Nuclear magnetic resonance and mass spectrometry-based milk metabolomics in dairy cows during early and late lactation. J Dairy Sci. 2010 Apr;93(4):1539-50. doi: 10.3168/jds.2009-2563.</reference_text>
+      <pubmed_id>20338431</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Klein MS, Buttchereit N, Miemczyk SP, Immervoll AK, Louis C, Wiedemann S, Junge W, Thaller G, Oefner PJ, Gronwald W: NMR metabolomic analysis of dairy cows reveals milk glycerophosphocholine to phosphocholine ratio as prognostic biomarker for risk of ketosis. J Proteome Res. 2012 Feb 3;11(2):1373-81. doi: 10.1021/pr201017n. Epub 2011 Dec 9.</reference_text>
+      <pubmed_id>22098372</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Melzer N, Wittenburg D, Hartwig S, Jakubowski S, Kesting U, Willmitzer L, Lisec J, Reinsch N, Repsilber D: Investigating associations between milk metabolite profiles and milk traits of Holstein cows. J Dairy Sci. 2013 Mar;96(3):1521-34. doi: 10.3168/jds.2012-5743.</reference_text>
+      <pubmed_id>23438684</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Sundekilde UK, Gustavsson F, Poulsen NA, Glantz M, Paulsson M, Larsen LB, Bertram HC: Association between the bovine milk metabolome and rennet-induced coagulation properties of milk. J Dairy Sci. 2014 Oct;97(10):6076-84. doi: 10.3168/jds.2014-8304. Epub 2014 Jul 30.</reference_text>
+      <pubmed_id>25087032</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Buitenhuis AJ, Sundekilde UK, Poulsen NA, Bertram HC, Larsen LB, Sorensen P: Estimation of genetic parameters and detection of quantitative trait loci for metabolites in Danish Holstein milk. J Dairy Sci. 2013 May;96(5):3285-95. doi: 10.3168/jds.2012-5914. Epub 2013 Mar 15.</reference_text>
+      <pubmed_id>23497994</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Scano P, Murgia A, Pirisi FM, Caboni P: A gas chromatography-mass spectrometry-based metabolomic approach for the characterization of goat milk compared with cow milk. J Dairy Sci. 2014 Oct;97(10):6057-66. doi: 10.3168/jds.2014-8247. Epub 2014 Aug 6.</reference_text>
+      <pubmed_id>25108860</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Lu J, Antunes Fernandes E, Paez Cano AE, Vinitwatanakhun J, Boeren S, van Hooijdonk T, van Knegsel A, Vervoort J, Hettinga KA: Changes in milk proteome and metabolome associated with dry period length, energy balance, and lactation stage in postparturient dairy cows. J Proteome Res. 2013 Jul 5;12(7):3288-96. doi: 10.1021/pr4001306. Epub 2013 Jun 5.</reference_text>
+      <pubmed_id>23738862</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Sun HZ, Wang DM, Wang B, Wang JK, Liu HY, Guan le L, Liu JX: Metabolomics of four biofluids from dairy cows: potential biomarkers for milk production and quality. J Proteome Res. 2015 Feb 6;14(2):1287-98. doi: 10.1021/pr501305g. Epub 2015 Jan 28.</reference_text>
+      <pubmed_id>25599412</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Mung D, Li L: Development of Chemical Isotope Labeling LC-MS for Milk Metabolomics: Comprehensive and Quantitative Profiling of the Amine/Phenol Submetabolome. Anal Chem. 2017 Apr 18;89(8):4435-4443. doi: 10.1021/acs.analchem.6b03737. Epub 2017 Mar 28.</reference_text>
+      <pubmed_id>28306241</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>O'Callaghan TF, Vazquez-Fresno R, Serra-Cayuela A, Dong E, Mandal R, Hennessy D, McAuliffe S, Dillon P, Wishart DS, Stanton C, Ross RP: Pasture Feeding Changes the Bovine Rumen and Milk Metabolome. Metabolites. 2018 Apr 6;8(2). pii: metabo8020027. doi: 10.3390/metabo8020027.</reference_text>
+      <pubmed_id>29642378</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>Mung D, Li L: Applying quantitative metabolomics based on chemical isotope labeling LC-MS for detecting potential milk adulterant in human milk. Anal Chim Acta. 2018 Feb 25;1001:78-85. doi: 10.1016/j.aca.2017.11.019. Epub 2017 Nov 14.</reference_text>
+      <pubmed_id>29291809</pubmed_id>
+    </reference>
+    <reference>
+      <reference_text>A. Foroutan et al. The Chemical Composition of Commercial Cow's Milk (in preparation)</reference_text>
+    </reference>
+    <reference>
+      <reference_text>Fooddata+, The Technical University of Denmark (DTU): https://frida.fooddata.dk/QueryFood.php?fn=milk&amp;lang=en</reference_text>
+    </reference>
+  </general_references>
+  <protein_associations>
+    <protein>
+      <protein_accession>BMDBP00539</protein_accession>
+      <name>Selenocysteine lyase</name>
+      <uniprot_id>A2VDS1</uniprot_id>
+      <gene_name>SCLY</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+    <protein>
+      <protein_accession>BMDBP00793</protein_accession>
+      <name>Alanine--glyoxylate aminotransferase 2, mitochondrial</name>
+      <uniprot_id>Q17QF0</uniprot_id>
+      <gene_name>AGXT2</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+    <protein>
+      <protein_accession>BMDBP00858</protein_accession>
+      <name>Alanine aminotransferase 1</name>
+      <uniprot_id>A4IFH5</uniprot_id>
+      <gene_name>GPT</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+    <protein>
+      <protein_accession>BMDBP00911</protein_accession>
+      <name>Nuclear inhibitor of protein phosphatase 1</name>
+      <uniprot_id>Q28147</uniprot_id>
+      <gene_name>PPP1R8</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+    <protein>
+      <protein_accession>BMDBP02092</protein_accession>
+      <name>Sodium-coupled neutral amino acid transporter 5</name>
+      <uniprot_id>Q5E9S9</uniprot_id>
+      <gene_name>SLC38A5</gene_name>
+      <protein_type>Enzyme</protein_type>
+    </protein>
+  </protein_associations>
+</metabolite>

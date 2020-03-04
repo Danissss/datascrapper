@@ -15,10 +15,10 @@ describe DataWrangler::Annotate do
       c.identifiers.chebi_id.should eq("16977")
       c.identifiers.cas.should eq("56-41-7")
     end
-
+    # rspec ./spec/annotate_spec.rb:19
     it "Should annotate by inchi" do
       c = DataWrangler::Annotate::Compound.by_inchi("InChI=1S/C3H7NO2/c1-2(4)3(5)6/h2H,4H2,1H3,(H,5,6)/t2-/m0/s1")
-      c.identifiers.name.should eq("L-alanine")
+      c.identifiers.name.should eq("L-Alanine")
       synonyms = Array.new
       c.synonyms.each do |syn|
         synonyms.push(syn.name)

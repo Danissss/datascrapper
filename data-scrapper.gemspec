@@ -47,6 +47,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency('faker')
   gem.add_dependency('progress_bar')
   gem.add_dependency('rb-gsl', '>=1.16.0')
+  gem.add_dependency('trollop')
   gem.add_development_dependency('rspec')
   gem.add_development_dependency('rake')
   gem.add_development_dependency('pry')
